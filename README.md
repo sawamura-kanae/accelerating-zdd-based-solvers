@@ -1,0 +1,62 @@
+# Accelerating ZDD-Based Solvers for Independent Set Reconfiguration via Path Decomposition
+
+This repository contains code used for the paper.
+
+Each directory contains a short `README.md` describing how to run the programs.
+To run all programs in this repository, Java, C++, Go, Racket, and Python are
+needed.
+
+## Programs
+
+All programs used are found in:
+
+To solve ISRP:
+
+- `./pathwidth_opt/` and `./pathwidth_heur/`: computes optimal and heuristic
+  path decomposition, run by scripts in `./run_pathwidth_opt/` and
+  `./run_pathwidth_heur/`.
+- [junkawahara/ddreconf](https://github.com/junkawahara/ddreconf/tree/c4c36fe3cbdc258c0e86f17a6c7aeccecc34e12f):
+  ddreconf (commit `c4c36fe`), run by scripts in `./run_ddreconf/`.
+
+Other programs dealing with input graphs:
+
+- `./make_associated_pathwidth/`: compute associated pathwidth described in
+  Lemma 2 in <https://doi.org/10.48550/arXiv.2010.02388>.
+- `./parse_pathwidth_logs/`: generate opt and heur graphs.
+
+Parsing and serializing:
+
+- `./make_masterdb/`: list all instances from CoRe Challenge 2023.
+- `./parse_ddreconf_logs/`: parse log files from ddreconf. The output is used
+  by `./plot/` to generate final CSV files and plots.
+
+## Graphs and Instances
+
+All graphs and instances are found in:
+
+- [core-challenge/2023result](https://github.com/core-challenge/2023result/tree/c1cef80ad721c57ad2181d30fb5fdd0e4cef6dcd):
+  CoRe Challenge 2023, orig graphs and all instances.
+- `./parse_pathwidth_logs/{pw.col,pwwt.col}/`: opt and heur graphs generated
+  from orig graphs and corresponding path decompositions.
+
+## Log files
+
+All log files are found in:
+
+- `./run_pathwidth_opt/output_1h.tar.gz`,
+  `./run_pathwidth_opt/old/output_1h.tar.gz`: log files from opt version of
+  Pathwidth.java (`./pathwidth_opt/`).
+- `./run_pathwidth_heur/output.tar.gz`: log files from heur version of
+  Pathwidth.java (`./pathwidth_heur/`).
+- `./run_ddreconf/opt_shortest/output.tar.gz`: log files from ddreconf on
+  opt-available graphs on the shortest variant.
+- `./run_ddreconf/heur/output_shortest.tar.gz`: log files from ddreconf on heur
+  and orig graphs on the shortest variant.
+- `./run_ddreconf/opt_farthest/output.tar.gz`: log files from ddreconf on
+  opt-available graphs on the farthest variant.
+- `./run_ddreconf/heur/output_farthest.tar.gz`: log files from ddreconf on heur
+  and orig graphs on the farthest variant.
+
+## Final results
+
+The final serialized data and plotting scripts are in `./plot/`.
