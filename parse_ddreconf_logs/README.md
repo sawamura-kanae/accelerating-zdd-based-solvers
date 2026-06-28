@@ -46,8 +46,8 @@ variants. In particular, specify these options:
 
 For example:
 
-```
-parse_ddreconf_logs -in ../run_ddreconf/opt_shortest/output,../run_ddreconf/heur/output_shortest -out shortest -mode shortest
+```bash
+./parse_ddreconf_logs -in ../run_ddreconf/opt_shortest/output,../run_ddreconf/heur/output_shortest -out shortest -mode shortest
 ```
 
 The above command reads from `../run_ddreconf/opt_shortest/output` and

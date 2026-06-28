@@ -17,6 +17,8 @@ To solve ISRP:
   `./run_pathwidth_heur/`.
 - [junkawahara/ddreconf](https://github.com/junkawahara/ddreconf/tree/c4c36fe3cbdc258c0e86f17a6c7aeccecc34e12f):
   ddreconf (commit `c4c36fe`), run by scripts in `./run_ddreconf/`.
+  - default configuration of programs in this project assumes the repository
+    exists at `./ddreconf/`, possibly by following a symbolic link.
 
 Other programs dealing with input graphs:
 
@@ -36,6 +38,8 @@ All graphs and instances are found in:
 
 - [core-challenge/2023result](https://github.com/core-challenge/2023result/tree/c1cef80ad721c57ad2181d30fb5fdd0e4cef6dcd):
   CoRe Challenge 2023, orig graphs and all instances.
+  - default configuration of programs in this project assumes the repository
+    exists at `./2023result/`, possibly by following a symbolic link.
 - `./parse_pathwidth_logs/{pw.col,pwwt.col}/`: opt and heur graphs generated
   from orig graphs and corresponding path decompositions.
 
@@ -45,9 +49,9 @@ All log files are found in:
 
 - `./run_pathwidth_opt/output_1h.tar.gz`,
   `./run_pathwidth_opt/old/output_1h.tar.gz`: log files from opt version of
-  Pathwidth.java (`./pathwidth_opt/`).
+  Pathwidth (`./pathwidth_opt/`).
 - `./run_pathwidth_heur/output.tar.gz`: log files from heur version of
-  Pathwidth.java (`./pathwidth_heur/`).
+  Pathwidth (`./pathwidth_heur/`).
 - `./run_ddreconf/opt_shortest/output.tar.gz`: log files from ddreconf on
   opt-available graphs on the shortest variant.
 - `./run_ddreconf/heur/output_shortest.tar.gz`: log files from ddreconf on heur
