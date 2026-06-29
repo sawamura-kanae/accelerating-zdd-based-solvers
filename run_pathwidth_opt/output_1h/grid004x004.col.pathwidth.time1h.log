@@ -1,0 +1,51 @@
+../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/grid/grid004x004.col
+16
+0, 1, 4, 2, 3, 5, 6, 7, 8, 9, 12, 10, 13, 11, 14, 15
+15
+0, 1, 4, 2, 3, 5, 6, 7, 8, 9, 12, 10, 13, 11, 14, 15
+14
+0, 1, 4, 2, 3, 5, 6, 7, 8, 9, 12, 10, 13, 11, 14, 15
+13
+0, 1, 4, 2, 3, 5, 6, 7, 8, 9, 12, 10, 13, 11, 14, 15
+12
+0, 1, 4, 2, 3, 5, 6, 7, 8, 9, 12, 10, 13, 11, 14, 15
+11
+0, 1, 4, 2, 3, 5, 6, 7, 8, 9, 12, 10, 13, 11, 14, 15
+10
+0, 1, 4, 2, 3, 5, 6, 7, 8, 9, 12, 10, 13, 11, 14, 15
+9
+0, 1, 4, 2, 3, 5, 6, 7, 8, 9, 12, 10, 13, 11, 14, 15
+8
+0, 1, 4, 2, 3, 5, 6, 7, 8, 9, 12, 10, 13, 11, 14, 15
+7
+0, 1, 4, 2, 3, 5, 6, 7, 8, 9, 12, 10, 13, 11, 14, 15
+6
+0, 1, 4, 2, 3, 5, 6, 7, 8, 9, 12, 10, 13, 11, 14, 15
+5
+0, 1, 4, 2, 3, 5, 6, 7, 8, 9, 12, 10, 13, 11, 14, 15
+4
+0, 1, 4, 2, 3, 5, 6, 7, 8, 9, 12, 10, 13, 11, 14, 15
+../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/grid/grid004x004.col	16	24	4	3
+	Command being timed: "timeout 1h java -Xms1024g -Xmx1024g -Xss134m -cp ../src/pathwidth.jar Pathwidth ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/grid/grid004x004.col"
+	User time (seconds): 0.43
+	System time (seconds): 1.41
+	Percent of CPU this job got: 102%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.80
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4786372
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 129833
+	Voluntary context switches: 2018
+	Involuntary context switches: 7
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

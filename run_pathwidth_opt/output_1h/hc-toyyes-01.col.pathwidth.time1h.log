@@ -1,0 +1,37 @@
+../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/handcrafted/hc-toyyes-01.col
+7
+6, 1, 0, 2, 3, 4, 5
+6
+6, 1, 0, 2, 3, 4, 5
+5
+6, 1, 0, 2, 3, 4, 5
+4
+6, 1, 0, 2, 3, 4, 5
+3
+6, 1, 0, 2, 3, 4, 5
+2
+6, 1, 0, 2, 3, 4, 5
+../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/handcrafted/hc-toyyes-01.col	7	7	2	1
+	Command being timed: "timeout 1h java -Xms1024g -Xmx1024g -Xss134m -cp ../src/pathwidth.jar Pathwidth ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/handcrafted/hc-toyyes-01.col"
+	User time (seconds): 0.41
+	System time (seconds): 1.40
+	Percent of CPU this job got: 102%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.77
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4786452
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 130350
+	Voluntary context switches: 1993
+	Involuntary context switches: 5
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

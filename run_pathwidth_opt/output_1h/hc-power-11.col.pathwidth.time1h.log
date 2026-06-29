@@ -1,0 +1,61 @@
+../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/handcrafted/hc-power-11.col
+21
+1, 2, 3, 4, 5, 0, 6, 9, 10, 15, 16, 7, 11, 12, 17, 18, 8, 13, 14, 19, 20
+20
+1, 2, 3, 4, 5, 0, 6, 9, 10, 15, 16, 7, 11, 12, 17, 18, 8, 13, 14, 19, 20
+19
+1, 2, 3, 4, 5, 0, 6, 9, 10, 15, 16, 7, 11, 12, 17, 18, 8, 13, 14, 19, 20
+18
+1, 2, 3, 4, 5, 0, 6, 9, 10, 15, 16, 7, 11, 12, 17, 18, 8, 13, 14, 19, 20
+17
+1, 2, 3, 4, 5, 0, 6, 9, 10, 15, 16, 7, 11, 12, 17, 18, 8, 13, 14, 19, 20
+16
+1, 2, 3, 4, 5, 0, 6, 9, 10, 15, 16, 7, 11, 12, 17, 18, 8, 13, 14, 19, 20
+15
+1, 2, 3, 4, 5, 0, 6, 9, 10, 15, 16, 7, 11, 12, 17, 18, 8, 13, 14, 19, 20
+14
+1, 2, 3, 4, 5, 0, 6, 9, 10, 15, 16, 7, 11, 12, 17, 18, 8, 13, 14, 19, 20
+13
+1, 2, 3, 4, 5, 0, 6, 9, 10, 15, 16, 7, 11, 12, 17, 18, 8, 13, 14, 19, 20
+12
+1, 2, 3, 4, 5, 0, 6, 9, 10, 15, 16, 7, 11, 12, 17, 18, 8, 13, 14, 19, 20
+11
+1, 2, 3, 4, 5, 0, 6, 9, 10, 15, 16, 7, 11, 12, 17, 18, 8, 13, 14, 19, 20
+10
+1, 2, 3, 4, 5, 0, 6, 9, 10, 15, 16, 7, 11, 12, 17, 18, 8, 13, 14, 19, 20
+9
+1, 2, 3, 4, 5, 0, 6, 9, 10, 15, 16, 7, 11, 12, 17, 18, 8, 13, 14, 19, 20
+8
+1, 2, 3, 4, 5, 0, 6, 9, 10, 15, 16, 7, 11, 12, 17, 18, 8, 13, 14, 19, 20
+7
+1, 2, 3, 4, 5, 0, 6, 9, 10, 15, 16, 7, 11, 12, 17, 18, 8, 13, 14, 19, 20
+6
+1, 2, 3, 4, 5, 0, 6, 9, 10, 15, 16, 7, 11, 12, 17, 18, 8, 13, 14, 19, 20
+5
+1, 2, 3, 4, 5, 0, 6, 9, 10, 15, 16, 7, 11, 12, 17, 18, 8, 13, 14, 19, 20
+4
+1, 2, 3, 4, 5, 0, 6, 9, 10, 15, 16, 7, 11, 12, 17, 18, 8, 13, 14, 19, 20
+../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/handcrafted/hc-power-11.col	21	28	4	5
+	Command being timed: "timeout 1h java -Xms1024g -Xmx1024g -Xss134m -cp ../src/pathwidth.jar Pathwidth ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/handcrafted/hc-power-11.col"
+	User time (seconds): 0.41
+	System time (seconds): 1.45
+	Percent of CPU this job got: 102%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.82
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4788248
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 128804
+	Voluntary context switches: 2082
+	Involuntary context switches: 30
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
