@@ -1,0 +1,58 @@
+Input graph file parsed. # of vertices = 125, # of edges = 6961
+s 30 90 125
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 6.480987
+Solution space ZDD size = 912
+# of elements in the solution space = 1250
+Start searching the longest reconfiguration sequence
+Step 1 time = 0.000114, # ZDD nodes = 10, # elems = 7
+Step 2 time = 0.000268, # ZDD nodes = 14, # elems = 6
+Step 3 time = 0.000361, # ZDD nodes = 13, # elems = 7
+Step 4 time = 0.000494, # ZDD nodes = 30, # elems = 14
+Step 5 time = 0.001140, # ZDD nodes = 48, # elems = 24
+Step 6 time = 0.001775, # ZDD nodes = 83, # elems = 41
+Step 7 time = 0.004545, # ZDD nodes = 112, # elems = 54
+Step 8 time = 0.025427, # ZDD nodes = 126, # elems = 60
+Step 9 time = 0.015780, # ZDD nodes = 105, # elems = 50
+Step 10 time = 0.011396, # ZDD nodes = 68, # elems = 31
+Step 11 time = 0.002314, # ZDD nodes = 40, # elems = 15
+Step 12 time = 0.001004, # ZDD nodes = 5, # elems = 2
+Step 13 time = 0.000083, # ZDD nodes = 0, # elems = 0
+a 30 90 125
+a 43 90 125
+a 43 84 125
+a 72 84 125
+a 72 84 115
+a 19 84 115
+a 12 19 115
+a 12 19 86
+a 12 86 113
+a 75 86 113
+a 68 75 86
+a 46 68 75
+a 46 56 75
+Reconfiguration time = 0.068766
+	Command being timed: "timeout 20m ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/DSJC125.9.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/DSJC125.9_02.dat --tj --indset --longest"
+	User time (seconds): 6.26
+	System time (seconds): 0.32
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 595280
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 34083
+	Voluntary context switches: 3
+	Involuntary context switches: 3
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

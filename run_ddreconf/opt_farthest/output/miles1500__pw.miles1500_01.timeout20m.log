@@ -1,0 +1,40 @@
+Input graph file parsed. # of vertices = 128, # of edges = 5198
+s 17 112 51 106 22
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 2.008257
+Solution space ZDD size = 310
+# of elements in the solution space = 14030
+Start searching the longest reconfiguration sequence
+Step 1 time = 0.000124, # ZDD nodes = 13, # elems = 5
+Step 2 time = 0.001428, # ZDD nodes = 14, # elems = 5
+Step 3 time = 0.000194, # ZDD nodes = 5, # elems = 1
+Step 4 time = 0.000047, # ZDD nodes = 0, # elems = 0
+a 17 22 51 106 112
+a 17 51 106 112 118
+a 17 97 106 112 118
+a 85 97 106 112 118
+Reconfiguration time = 0.004761
+	Command being timed: "timeout 20m ../ddreconf/ddreconf ../instances_pw_col/miles1500.pw.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/miles1500_01.dat --tj --indset --longest"
+	User time (seconds): 1.91
+	System time (seconds): 0.12
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 273228
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 9806
+	Voluntary context switches: 10
+	Involuntary context switches: 3
+	Swaps: 0
+	File system inputs: 104
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

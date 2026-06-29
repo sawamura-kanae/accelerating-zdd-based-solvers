@@ -1,0 +1,1160 @@
+Input graph file parsed. # of vertices = 228, # of edges = 786
+s 4 8 12 18 22 28 32 38 42 48 52 58 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 0.130173
+Solution space ZDD size = 572
+# of elements in the solution space = 2940675728764944971284823499545
+Start searching the longest reconfiguration sequence
+Step 1 time = 0.000728, # ZDD nodes = 163, # elems = 70
+Step 2 time = 0.000940, # ZDD nodes = 280, # elems = 2379
+Step 3 time = 0.001330, # ZDD nodes = 389, # elems = 52324
+Step 4 time = 0.000976, # ZDD nodes = 498, # elems = 837609
+Step 5 time = 0.000992, # ZDD nodes = 606, # elems = 10406674
+Step 6 time = 0.000824, # ZDD nodes = 709, # elems = 104496891
+Step 7 time = 0.000852, # ZDD nodes = 806, # elems = 871974904
+Step 8 time = 0.001078, # ZDD nodes = 895, # elems = 6170389519
+Step 9 time = 0.000906, # ZDD nodes = 979, # elems = 37601093202
+Step 10 time = 0.000725, # ZDD nodes = 1062, # elems = 199701178821
+Step 11 time = 0.000802, # ZDD nodes = 1149, # elems = 933297630068
+Step 12 time = 0.001045, # ZDD nodes = 1240, # elems = 3868196747919
+Step 13 time = 0.001070, # ZDD nodes = 1331, # elems = 14310007880198
+Step 14 time = 0.001081, # ZDD nodes = 1416, # elems = 47505225774557
+Step 15 time = 0.001090, # ZDD nodes = 1493, # elems = 142156842530784
+Step 16 time = 0.001054, # ZDD nodes = 1564, # elems = 384922212352122
+Step 17 time = 0.001004, # ZDD nodes = 1631, # elems = 946167617087212
+Step 18 time = 0.001167, # ZDD nodes = 1697, # elems = 2117246926461262
+Step 19 time = 0.001038, # ZDD nodes = 1761, # elems = 4323719550624200
+Step 20 time = 0.000979, # ZDD nodes = 1824, # elems = 8076246742850778
+Step 21 time = 0.001058, # ZDD nodes = 1885, # elems = 13828896650058708
+Step 22 time = 0.001067, # ZDD nodes = 1950, # elems = 21758104232123534
+Step 23 time = 0.001299, # ZDD nodes = 2014, # elems = 31546256761462224
+Step 24 time = 0.001362, # ZDD nodes = 2074, # elems = 42307805741059102
+Step 25 time = 0.001295, # ZDD nodes = 2133, # elems = 52772251645186756
+Step 26 time = 0.001340, # ZDD nodes = 2190, # elems = 61712181995477194
+Step 27 time = 0.001347, # ZDD nodes = 2241, # elems = 68432492289521224
+Step 28 time = 0.001326, # ZDD nodes = 2290, # elems = 73041951361752894
+Step 29 time = 0.001279, # ZDD nodes = 2337, # elems = 76310298811594476
+Step 30 time = 0.001369, # ZDD nodes = 2382, # elems = 79153185938944474
+Step 31 time = 0.001419, # ZDD nodes = 2423, # elems = 82034449589468704
+Step 32 time = 0.001285, # ZDD nodes = 2460, # elems = 84655768300558757
+Step 33 time = 0.001227, # ZDD nodes = 2498, # elems = 86151168867989086
+Step 34 time = 0.001484, # ZDD nodes = 2534, # elems = 85709017642989367
+Step 35 time = 0.001438, # ZDD nodes = 2564, # elems = 83285374610364052
+Step 36 time = 0.001501, # ZDD nodes = 2594, # elems = 79996073024771693
+Step 37 time = 0.001446, # ZDD nodes = 2627, # elems = 77917907360654202
+Step 38 time = 0.001555, # ZDD nodes = 2662, # elems = 79318709345721415
+Step 39 time = 0.001667, # ZDD nodes = 2694, # elems = 85633999171836920
+Step 40 time = 0.001754, # ZDD nodes = 2722, # elems = 96670652142998051
+Step 41 time = 0.001716, # ZDD nodes = 2750, # elems = 110454560536048138
+Step 42 time = 0.001627, # ZDD nodes = 2776, # elems = 123858390757562977
+Step 43 time = 0.001667, # ZDD nodes = 2795, # elems = 133768577645958212
+Step 44 time = 0.001631, # ZDD nodes = 2807, # elems = 138268012943750595
+Step 45 time = 0.001678, # ZDD nodes = 2807, # elems = 137287550885182062
+Step 46 time = 0.001623, # ZDD nodes = 2794, # elems = 132452247391604601
+Step 47 time = 0.001729, # ZDD nodes = 2781, # elems = 126278498694777664
+Step 48 time = 0.001724, # ZDD nodes = 2782, # elems = 121211442701208720
+Step 49 time = 0.001515, # ZDD nodes = 2781, # elems = 119013272030959952
+Step 50 time = 0.001509, # ZDD nodes = 2778, # elems = 120705472925998912
+Step 51 time = 0.001472, # ZDD nodes = 2777, # elems = 126848251723219520
+Step 52 time = 0.001402, # ZDD nodes = 2786, # elems = 137719430190286400
+Step 53 time = 0.001479, # ZDD nodes = 2796, # elems = 153106607637631552
+Step 54 time = 0.001612, # ZDD nodes = 2812, # elems = 171838944327913728
+Step 55 time = 0.001658, # ZDD nodes = 2840, # elems = 191527419313045760
+Step 56 time = 0.001712, # ZDD nodes = 2882, # elems = 208953986648526592
+Step 57 time = 0.001980, # ZDD nodes = 2929, # elems = 221128706450914816
+Step 58 time = 0.002173, # ZDD nodes = 2978, # elems = 226517220921501184
+Step 59 time = 0.001989, # ZDD nodes = 3027, # elems = 225725975321754368
+Step 60 time = 0.002343, # ZDD nodes = 3069, # elems = 221202493903169280
+Step 61 time = 0.002348, # ZDD nodes = 3108, # elems = 216084884707788800
+Step 62 time = 0.002288, # ZDD nodes = 3145, # elems = 212823248110103552
+Step 63 time = 0.002049, # ZDD nodes = 3184, # elems = 212290018166858752
+Step 64 time = 0.002118, # ZDD nodes = 3212, # elems = 213787384477154304
+Step 65 time = 0.002101, # ZDD nodes = 3236, # elems = 215886742737895424
+Step 66 time = 0.001925, # ZDD nodes = 3257, # elems = 217663463618037760
+Step 67 time = 0.001980, # ZDD nodes = 3268, # elems = 219740353058902016
+Step 68 time = 0.001803, # ZDD nodes = 3274, # elems = 224608463485893632
+Step 69 time = 0.001868, # ZDD nodes = 3284, # elems = 235919541482786816
+Step 70 time = 0.002033, # ZDD nodes = 3304, # elems = 256839202763923456
+Step 71 time = 0.002129, # ZDD nodes = 3322, # elems = 288056846590836736
+Step 72 time = 0.002234, # ZDD nodes = 3340, # elems = 326442620131364864
+Step 73 time = 0.001945, # ZDD nodes = 3358, # elems = 365290789089202176
+Step 74 time = 0.001836, # ZDD nodes = 3376, # elems = 396421456794021888
+Step 75 time = 0.002008, # ZDD nodes = 3404, # elems = 413378731150114816
+Step 76 time = 0.002119, # ZDD nodes = 3430, # elems = 414186892118507520
+Step 77 time = 0.002071, # ZDD nodes = 3453, # elems = 402191512804913152
+Step 78 time = 0.002102, # ZDD nodes = 3478, # elems = 384489656336056320
+Step 79 time = 0.002229, # ZDD nodes = 3517, # elems = 368774715764248576
+Step 80 time = 0.002097, # ZDD nodes = 3562, # elems = 360255363901751296
+Step 81 time = 0.002390, # ZDD nodes = 3607, # elems = 360147706050822144
+Step 82 time = 0.002588, # ZDD nodes = 3652, # elems = 366245504578650112
+Step 83 time = 0.002278, # ZDD nodes = 3692, # elems = 374917754582351872
+Step 84 time = 0.002316, # ZDD nodes = 3728, # elems = 383258345840623616
+Step 85 time = 0.002374, # ZDD nodes = 3758, # elems = 390296601201836032
+Step 86 time = 0.002612, # ZDD nodes = 3776, # elems = 396933023831605248
+Step 87 time = 0.002510, # ZDD nodes = 3782, # elems = 405060019102679040
+Step 88 time = 0.002448, # ZDD nodes = 3786, # elems = 416678472878522368
+Step 89 time = 0.002693, # ZDD nodes = 3788, # elems = 433561551904374784
+Step 90 time = 0.002624, # ZDD nodes = 3800, # elems = 457383241775104000
+Step 91 time = 0.002670, # ZDD nodes = 3816, # elems = 489716234301489152
+Step 92 time = 0.002413, # ZDD nodes = 3840, # elems = 531343011587096576
+Step 93 time = 0.002850, # ZDD nodes = 3878, # elems = 580952155308883968
+Step 94 time = 0.003027, # ZDD nodes = 3916, # elems = 634058071971528704
+Step 95 time = 0.002585, # ZDD nodes = 3955, # elems = 683232876515885056
+Step 96 time = 0.002915, # ZDD nodes = 3992, # elems = 720133687141793792
+Step 97 time = 0.002665, # ZDD nodes = 4029, # elems = 738659146850435072
+Step 98 time = 0.002574, # ZDD nodes = 4065, # elems = 737670391663689728
+Step 99 time = 0.002749, # ZDD nodes = 4091, # elems = 721750729132539904
+Step 100 time = 0.002840, # ZDD nodes = 4113, # elems = 699494783913623552
+Step 101 time = 0.002535, # ZDD nodes = 4142, # elems = 680161023004901376
+Step 102 time = 0.002332, # ZDD nodes = 4174, # elems = 670335126612410368
+Step 103 time = 0.006736, # ZDD nodes = 4206, # elems = 672091236224008192
+Step 104 time = 0.003241, # ZDD nodes = 4236, # elems = 683229691498921984
+Step 105 time = 0.003194, # ZDD nodes = 4250, # elems = 699144298814570496
+Step 106 time = 0.003403, # ZDD nodes = 4264, # elems = 715267854309195776
+Step 107 time = 0.003695, # ZDD nodes = 4284, # elems = 729014574119649280
+Step 108 time = 0.003993, # ZDD nodes = 4302, # elems = 740517170220105728
+Step 109 time = 0.003735, # ZDD nodes = 4320, # elems = 752000721255923712
+Step 110 time = 0.003314, # ZDD nodes = 4334, # elems = 766179121196433408
+Step 111 time = 0.004081, # ZDD nodes = 4360, # elems = 784496356123738112
+Step 112 time = 0.003711, # ZDD nodes = 4392, # elems = 806215069575413760
+Step 113 time = 0.003781, # ZDD nodes = 4430, # elems = 829076341250326528
+Step 114 time = 0.003835, # ZDD nodes = 4464, # elems = 851441180589424640
+Step 115 time = 0.003859, # ZDD nodes = 4488, # elems = 874765011990609920
+Step 116 time = 0.003258, # ZDD nodes = 4507, # elems = 904612913590304768
+Step 117 time = 0.003791, # ZDD nodes = 4524, # elems = 948852520291926016
+Step 118 time = 0.003912, # ZDD nodes = 4540, # elems = 1013248112408133632
+Step 119 time = 0.003787, # ZDD nodes = 4550, # elems = 1096623837943955456
+Step 120 time = 0.003618, # ZDD nodes = 4554, # elems = 1188711528423227392
+Step 121 time = 0.003661, # ZDD nodes = 4563, # elems = 1272769766727614464
+Step 122 time = 0.003897, # ZDD nodes = 4574, # elems = 1332355108571971584
+Step 123 time = 0.003483, # ZDD nodes = 4589, # elems = 1358872538701103104
+Step 124 time = 0.004028, # ZDD nodes = 4616, # elems = 1355650265835896832
+Step 125 time = 0.003406, # ZDD nodes = 4644, # elems = 1336070174007099392
+Step 126 time = 0.003520, # ZDD nodes = 4678, # elems = 1316727602664177664
+Step 127 time = 0.003578, # ZDD nodes = 4708, # elems = 1309492015388426240
+Step 128 time = 0.003395, # ZDD nodes = 4730, # elems = 1316824417219641344
+Step 129 time = 0.003223, # ZDD nodes = 4748, # elems = 1332555285698445312
+Step 130 time = 0.003291, # ZDD nodes = 4764, # elems = 1347064493991002112
+Step 131 time = 0.003655, # ZDD nodes = 4776, # elems = 1353530426879115264
+Step 132 time = 0.003318, # ZDD nodes = 4788, # elems = 1351826332182380544
+Step 133 time = 0.003502, # ZDD nodes = 4808, # elems = 1348406099107119104
+Step 134 time = 0.004149, # ZDD nodes = 4830, # elems = 1352798335318097920
+Step 135 time = 0.003579, # ZDD nodes = 4852, # elems = 1372823336558526464
+Step 136 time = 0.003870, # ZDD nodes = 4882, # elems = 1410861507577643008
+Step 137 time = 0.004455, # ZDD nodes = 4924, # elems = 1462723081973792768
+Step 138 time = 0.004268, # ZDD nodes = 4967, # elems = 1519454212308598784
+Step 139 time = 0.004283, # ZDD nodes = 5010, # elems = 1571187026009522176
+Step 140 time = 0.004608, # ZDD nodes = 5051, # elems = 1611251287278485504
+Step 141 time = 0.004539, # ZDD nodes = 5090, # elems = 1638641122770157568
+Step 142 time = 0.004344, # ZDD nodes = 5121, # elems = 1657828110730526720
+Step 143 time = 0.004270, # ZDD nodes = 5152, # elems = 1676456334247067648
+Step 144 time = 0.004188, # ZDD nodes = 5178, # elems = 1702636873316302848
+Step 145 time = 0.004541, # ZDD nodes = 5198, # elems = 1743437630080548864
+Step 146 time = 0.004323, # ZDD nodes = 5232, # elems = 1804743838154096640
+Step 147 time = 0.004862, # ZDD nodes = 5282, # elems = 1891119579002830848
+Step 148 time = 0.004337, # ZDD nodes = 5333, # elems = 2004127990505537536
+Step 149 time = 0.004367, # ZDD nodes = 5380, # elems = 2139195745863991296
+Step 150 time = 0.003914, # ZDD nodes = 5425, # elems = 2283255623820771328
+Step 151 time = 0.003975, # ZDD nodes = 5458, # elems = 2416034819549954048
+Step 152 time = 0.004324, # ZDD nodes = 5486, # elems = 2516011267932553216
+Step 153 time = 0.004360, # ZDD nodes = 5510, # elems = 2568834993312759808
+Step 154 time = 0.003944, # ZDD nodes = 5528, # elems = 2573798855409664000
+Step 155 time = 0.004772, # ZDD nodes = 5534, # elems = 2544551318274441216
+Step 156 time = 0.004237, # ZDD nodes = 5538, # elems = 2503433610342694912
+Step 157 time = 0.004344, # ZDD nodes = 5554, # elems = 2472430505421701120
+Step 158 time = 0.004259, # ZDD nodes = 5568, # elems = 2465331592587902976
+Step 159 time = 0.004049, # ZDD nodes = 5572, # elems = 2484492521325985792
+Step 160 time = 0.004283, # ZDD nodes = 5558, # elems = 2522766115021520896
+Step 161 time = 0.004912, # ZDD nodes = 5534, # elems = 2568716830310924288
+Step 162 time = 0.004745, # ZDD nodes = 5508, # elems = 2612331042249375744
+Step 163 time = 0.005564, # ZDD nodes = 5485, # elems = 2648977434862419968
+Step 164 time = 0.004511, # ZDD nodes = 5474, # elems = 2680523169562886144
+Step 165 time = 0.004178, # ZDD nodes = 5474, # elems = 2713592808370864128
+Step 166 time = 0.005944, # ZDD nodes = 5470, # elems = 2755832823414784000
+Step 167 time = 0.004988, # ZDD nodes = 5462, # elems = 2811792175300345856
+Step 168 time = 0.005241, # ZDD nodes = 5464, # elems = 2880386818711224320
+Step 169 time = 0.004430, # ZDD nodes = 5466, # elems = 2955352093528948736
+Step 170 time = 0.004746, # ZDD nodes = 5470, # elems = 3028541587140378624
+Step 171 time = 0.005141, # ZDD nodes = 5492, # elems = 3094222209879638016
+Step 172 time = 0.004734, # ZDD nodes = 5540, # elems = 3151786263401463808
+Step 173 time = 0.005456, # ZDD nodes = 5594, # elems = 3205144762088685568
+Step 174 time = 0.005328, # ZDD nodes = 5650, # elems = 3259141526285975552
+Step 175 time = 0.004928, # ZDD nodes = 5714, # elems = 3315493252106289152
+Step 176 time = 0.004917, # ZDD nodes = 5782, # elems = 3371553395029573632
+Step 177 time = 0.005295, # ZDD nodes = 5852, # elems = 3423705257467707392
+Step 178 time = 0.030725, # ZDD nodes = 5924, # elems = 3473918322444075008
+Step 179 time = 0.007077, # ZDD nodes = 5987, # elems = 3534910967777329152
+Step 180 time = 0.006930, # ZDD nodes = 6048, # elems = 3628822189832142848
+Step 181 time = 0.007280, # ZDD nodes = 6107, # elems = 3777502991058206720
+Step 182 time = 0.006083, # ZDD nodes = 6164, # elems = 3988230134208397312
+Step 183 time = 0.006529, # ZDD nodes = 6218, # elems = 4243187802897907712
+Step 184 time = 0.005521, # ZDD nodes = 6270, # elems = 4500677220204806144
+Step 185 time = 0.007017, # ZDD nodes = 6322, # elems = 4709927599667675136
+Step 186 time = 0.006215, # ZDD nodes = 6372, # elems = 4833043245229408256
+Step 187 time = 0.006793, # ZDD nodes = 6416, # elems = 4862514842931560448
+Step 188 time = 0.006130, # ZDD nodes = 6452, # elems = 4824488521987260416
+Step 189 time = 0.006150, # ZDD nodes = 6485, # elems = 4765832180871987200
+Step 190 time = 0.005687, # ZDD nodes = 6508, # elems = 4732138275714629632
+Step 191 time = 0.005902, # ZDD nodes = 6515, # elems = 4748462994092982272
+Step 192 time = 0.006321, # ZDD nodes = 6516, # elems = 4812193841551507456
+Step 193 time = 0.005226, # ZDD nodes = 6501, # elems = 4900072692197097472
+Step 194 time = 0.005488, # ZDD nodes = 6480, # elems = 4983951206142443520
+Step 195 time = 0.005479, # ZDD nodes = 6460, # elems = 5046326345831809024
+Step 196 time = 0.005953, # ZDD nodes = 6430, # elems = 5088135274404249600
+Step 197 time = 0.005366, # ZDD nodes = 6402, # elems = 5126066641943134208
+Step 198 time = 0.005431, # ZDD nodes = 6376, # elems = 5181980035749249024
+Step 199 time = 0.005645, # ZDD nodes = 6346, # elems = 5270456479017598976
+Step 200 time = 0.005312, # ZDD nodes = 6326, # elems = 5390859571210223616
+Step 201 time = 0.005495, # ZDD nodes = 6310, # elems = 5527757777830674432
+Step 202 time = 0.005728, # ZDD nodes = 6290, # elems = 5659263837627482112
+Step 203 time = 0.005110, # ZDD nodes = 6282, # elems = 5768652571350663168
+Step 204 time = 0.005114, # ZDD nodes = 6278, # elems = 5852782081842610176
+Step 205 time = 0.005610, # ZDD nodes = 6278, # elems = 5922681087728812032
+Step 206 time = 0.006517, # ZDD nodes = 6288, # elems = 5996214955173478400
+Step 207 time = 0.005264, # ZDD nodes = 6306, # elems = 6087262671143436288
+Step 208 time = 0.005814, # ZDD nodes = 6328, # elems = 6197761858795995136
+Step 209 time = 0.006574, # ZDD nodes = 6360, # elems = 6317311065587712000
+Step 210 time = 0.006881, # ZDD nodes = 6408, # elems = 6430568150323953664
+Step 211 time = 0.006722, # ZDD nodes = 6480, # elems = 6527858654408867840
+Step 212 time = 0.005971, # ZDD nodes = 6570, # elems = 6612268587006558208
+Step 213 time = 0.006059, # ZDD nodes = 6662, # elems = 6698725785827540992
+Step 214 time = 0.007126, # ZDD nodes = 6743, # elems = 6805921158538461184
+Step 215 time = 0.006884, # ZDD nodes = 6816, # elems = 6946821888937033728
+Step 216 time = 0.007403, # ZDD nodes = 6877, # elems = 7124424600401739776
+Step 217 time = 0.006966, # ZDD nodes = 6928, # elems = 7335208640057442304
+Step 218 time = 0.007087, # ZDD nodes = 6993, # elems = 7576262411456348160
+Step 219 time = 0.006641, # ZDD nodes = 7068, # elems = 7848606732761694208
+Step 220 time = 0.008574, # ZDD nodes = 7140, # elems = 8152337508445716480
+Step 221 time = 0.006932, # ZDD nodes = 7194, # elems = 8476739157761196032
+Step 222 time = 0.008375, # ZDD nodes = 7230, # elems = 8794115248287121408
+Step 223 time = 0.008597, # ZDD nodes = 7262, # elems = 9064747924193280000
+Step 224 time = 0.008005, # ZDD nodes = 7284, # elems = 9252726481002430464
+Step 225 time = 0.007382, # ZDD nodes = 7290, # elems = 9343994177949532160
+Step 226 time = 0.007952, # ZDD nodes = 7284, # elems = 9355297332502986752
+Step 227 time = 0.007120, # ZDD nodes = 7272, # elems = 9328118314523688960
+Step 228 time = 0.006500, # ZDD nodes = 7252, # elems = 9311129679563849728
+Step 229 time = 0.006567, # ZDD nodes = 7224, # elems = 9341068251880226816
+Step 230 time = 0.006447, # ZDD nodes = 7192, # elems = 9431237785013977088
+Step 231 time = 0.007479, # ZDD nodes = 7158, # elems = 9571206148879548416
+Step 232 time = 0.007479, # ZDD nodes = 7124, # elems = 9735550755594567680
+Step 233 time = 0.006653, # ZDD nodes = 7100, # elems = 9896708943252553728
+Step 234 time = 0.008285, # ZDD nodes = 7086, # elems = 10036959863084417024
+Step 235 time = 0.006182, # ZDD nodes = 7072, # elems = 10155695367048396800
+Step 236 time = 0.006235, # ZDD nodes = 7060, # elems = 10269370131985465344
+Step 237 time = 0.006228, # ZDD nodes = 7062, # elems = 10403330600034369536
+Step 238 time = 0.007776, # ZDD nodes = 7080, # elems = 10578093333630943232
+Step 239 time = 0.006760, # ZDD nodes = 7108, # elems = 10796567712482983936
+Step 240 time = 0.006744, # ZDD nodes = 7152, # elems = 11039800391658110976
+Step 241 time = 0.007097, # ZDD nodes = 7200, # elems = 11274794238006525952
+Step 242 time = 0.006897, # ZDD nodes = 7250, # elems = 11470859209453600768
+Step 243 time = 0.006871, # ZDD nodes = 7302, # elems = 11615577522606964736
+Step 244 time = 0.008147, # ZDD nodes = 7354, # elems = 11721334379237081088
+Step 245 time = 0.007749, # ZDD nodes = 7396, # elems = 11818684238964719616
+Step 246 time = 0.008294, # ZDD nodes = 7438, # elems = 11940615633193926656
+Step 247 time = 0.008142, # ZDD nodes = 7472, # elems = 12107114936686084096
+Step 248 time = 0.009323, # ZDD nodes = 7497, # elems = 12318552394949459968
+Step 249 time = 0.008837, # ZDD nodes = 7514, # elems = 12560190809107857408
+Step 250 time = 0.008657, # ZDD nodes = 7543, # elems = 12813372094976884736
+Step 251 time = 0.009792, # ZDD nodes = 7588, # elems = 13065890999178362880
+Step 252 time = 0.007436, # ZDD nodes = 7637, # elems = 13315579354575536128
+Step 253 time = 0.007220, # ZDD nodes = 7696, # elems = 13565750423494590464
+Step 254 time = 0.008829, # ZDD nodes = 7768, # elems = 13816500696670797824
+Step 255 time = 0.009230, # ZDD nodes = 7832, # elems = 14059012964875239424
+Step 256 time = 0.008205, # ZDD nodes = 7904, # elems = 14278895411174309888
+Step 257 time = 0.007999, # ZDD nodes = 7982, # elems = 14469531809173471232
+Step 258 time = 0.008978, # ZDD nodes = 8046, # elems = 14649539003854880768
+Step 259 time = 0.007914, # ZDD nodes = 8100, # elems = 14872734503100481536
+Step 260 time = 0.009172, # ZDD nodes = 8142, # elems = 15218679877755469824
+Step 261 time = 0.007916, # ZDD nodes = 8160, # elems = 15760296488099381248
+Step 262 time = 0.009225, # ZDD nodes = 8174, # elems = 16520043497659564032
+Step 263 time = 0.009804, # ZDD nodes = 8182, # elems = 17438380470596272128
+Step 264 time = 0.011201, # ZDD nodes = 8174, # elems = 18377629764924997632
+Step 265 time = 0.012564, # ZDD nodes = 8176, # elems = 19168136367112716288
+Step 266 time = 0.007910, # ZDD nodes = 8180, # elems = 19679155806533582848
+Step 267 time = 0.008389, # ZDD nodes = 8190, # elems = 19878634905466306560
+Step 268 time = 0.009216, # ZDD nodes = 8190, # elems = 19847782939903393792
+Step 269 time = 0.009802, # ZDD nodes = 8180, # elems = 19740469033074425856
+Step 270 time = 0.009495, # ZDD nodes = 8180, # elems = 19709648592571465728
+Step 271 time = 0.007947, # ZDD nodes = 8182, # elems = 19841513524601815040
+Step 272 time = 0.009899, # ZDD nodes = 8184, # elems = 20131040766128553984
+Step 273 time = 0.009577, # ZDD nodes = 8196, # elems = 20506444658968100864
+Step 274 time = 0.010295, # ZDD nodes = 8220, # elems = 20882351690046504960
+Step 275 time = 0.008954, # ZDD nodes = 8246, # elems = 21208776523166777344
+Step 276 time = 0.008119, # ZDD nodes = 8276, # elems = 21490900761493635072
+Step 277 time = 0.009699, # ZDD nodes = 8310, # elems = 21775350862050230272
+Step 278 time = 0.009599, # ZDD nodes = 8336, # elems = 22117107139279323136
+Step 279 time = 0.008905, # ZDD nodes = 8352, # elems = 22547380759743692800
+Step 280 time = 0.011477, # ZDD nodes = 8354, # elems = 23057762297736855552
+Step 281 time = 0.011226, # ZDD nodes = 8349, # elems = 23605968908331253760
+Step 282 time = 0.009131, # ZDD nodes = 8340, # elems = 24138411743408816128
+Step 283 time = 0.008627, # ZDD nodes = 8330, # elems = 24617596696253169664
+Step 284 time = 0.008909, # ZDD nodes = 8316, # elems = 25040610413238026240
+Step 285 time = 0.012852, # ZDD nodes = 8310, # elems = 25439137331962445824
+Step 286 time = 0.008906, # ZDD nodes = 8308, # elems = 25859960289208827904
+Step 287 time = 0.008671, # ZDD nodes = 8306, # elems = 26335397883087421440
+Step 288 time = 0.008197, # ZDD nodes = 8320, # elems = 26861165815000989696
+Step 289 time = 0.058330, # ZDD nodes = 8350, # elems = 27397600388388487168
+Step 290 time = 0.008951, # ZDD nodes = 8380, # elems = 27896305271808458752
+Step 291 time = 0.012004, # ZDD nodes = 8410, # elems = 28336425426921455616
+Step 292 time = 0.010327, # ZDD nodes = 8438, # elems = 28746534150161301504
+Step 293 time = 0.008728, # ZDD nodes = 8474, # elems = 29195880998832701440
+Step 294 time = 0.009159, # ZDD nodes = 8510, # elems = 29757426970394624000
+Step 295 time = 0.008715, # ZDD nodes = 8548, # elems = 30463456221614571520
+Step 296 time = 0.009949, # ZDD nodes = 8582, # elems = 31281215057015341056
+Step 297 time = 0.010179, # ZDD nodes = 8628, # elems = 32125181318999834624
+Step 298 time = 0.010708, # ZDD nodes = 8680, # elems = 32899915920808345600
+Step 299 time = 0.009304, # ZDD nodes = 8750, # elems = 33548442736825204736
+Step 300 time = 0.011648, # ZDD nodes = 8824, # elems = 34078725478230786048
+Step 301 time = 0.010209, # ZDD nodes = 8898, # elems = 34555501534242668544
+Step 302 time = 0.010612, # ZDD nodes = 8960, # elems = 35065798469970034688
+Step 303 time = 0.010022, # ZDD nodes = 9022, # elems = 35680408736704233472
+Step 304 time = 0.010902, # ZDD nodes = 9088, # elems = 36431217724974170112
+Step 305 time = 0.009994, # ZDD nodes = 9144, # elems = 37308971652862705664
+Step 306 time = 0.011306, # ZDD nodes = 9186, # elems = 38271738101823963136
+Step 307 time = 0.009654, # ZDD nodes = 9228, # elems = 39254603107944890368
+Step 308 time = 0.011730, # ZDD nodes = 9266, # elems = 40180656313898893312
+Step 309 time = 0.012408, # ZDD nodes = 9296, # elems = 40979140023269982208
+Step 310 time = 0.012482, # ZDD nodes = 9326, # elems = 41609225039991799808
+Step 311 time = 0.011305, # ZDD nodes = 9358, # elems = 42078190440277868544
+Step 312 time = 0.011378, # ZDD nodes = 9382, # elems = 42439546397035331584
+Step 313 time = 0.012984, # ZDD nodes = 9392, # elems = 42768407180987072512
+Step 314 time = 0.015297, # ZDD nodes = 9382, # elems = 43127173581702692864
+Step 315 time = 0.010939, # ZDD nodes = 9361, # elems = 43544427369586491392
+Step 316 time = 0.011623, # ZDD nodes = 9348, # elems = 44019149658136772608
+Step 317 time = 0.011962, # ZDD nodes = 9335, # elems = 44541890024653717504
+Step 318 time = 0.011198, # ZDD nodes = 9322, # elems = 45110624869526011904
+Step 319 time = 0.012330, # ZDD nodes = 9301, # elems = 45727811996378726400
+Step 320 time = 0.012455, # ZDD nodes = 9278, # elems = 46384601247141330944
+Step 321 time = 0.010103, # ZDD nodes = 9254, # elems = 47051270881189822464
+Step 322 time = 0.009847, # ZDD nodes = 9218, # elems = 47687332224644939776
+Step 323 time = 0.009893, # ZDD nodes = 9184, # elems = 48267179747639820288
+Step 324 time = 0.010713, # ZDD nodes = 9154, # elems = 48801602373662277632
+Step 325 time = 0.010628, # ZDD nodes = 9118, # elems = 49336289363511738368
+Step 326 time = 0.012816, # ZDD nodes = 9084, # elems = 49925932933814681600
+Step 327 time = 0.010694, # ZDD nodes = 9070, # elems = 50601563948406800384
+Step 328 time = 0.009800, # ZDD nodes = 9074, # elems = 51352466412344967168
+Step 329 time = 0.012288, # ZDD nodes = 9098, # elems = 52131894605954154496
+Step 330 time = 0.009228, # ZDD nodes = 9134, # elems = 52880787987270467584
+Step 331 time = 0.011197, # ZDD nodes = 9160, # elems = 53555718733214777344
+Step 332 time = 0.010254, # ZDD nodes = 9186, # elems = 54147236953663209472
+Step 333 time = 0.010139, # ZDD nodes = 9202, # elems = 54680699104739196928
+Step 334 time = 0.009739, # ZDD nodes = 9218, # elems = 55200943270623444992
+Step 335 time = 0.010719, # ZDD nodes = 9236, # elems = 55749625755004305408
+Step 336 time = 0.011552, # ZDD nodes = 9278, # elems = 56345878953558278144
+Step 337 time = 0.010718, # ZDD nodes = 9328, # elems = 56978598073722732544
+Step 338 time = 0.009988, # ZDD nodes = 9380, # elems = 57614124384511852544
+Step 339 time = 0.012883, # ZDD nodes = 9434, # elems = 58215811644408201216
+Step 340 time = 0.010959, # ZDD nodes = 9486, # elems = 58764513782559408128
+Step 341 time = 0.012423, # ZDD nodes = 9538, # elems = 59268113816300290048
+Step 342 time = 0.010719, # ZDD nodes = 9592, # elems = 59755470283727699968
+Step 343 time = 0.010790, # ZDD nodes = 9662, # elems = 60259028192429342720
+Step 344 time = 0.010469, # ZDD nodes = 9740, # elems = 60795337735023886336
+Step 345 time = 0.009847, # ZDD nodes = 9810, # elems = 61353909089546010624
+Step 346 time = 0.012208, # ZDD nodes = 9868, # elems = 61901856756562132992
+Step 347 time = 0.011230, # ZDD nodes = 9918, # elems = 62402962891772788736
+Step 348 time = 0.010052, # ZDD nodes = 9956, # elems = 62839358713239699456
+Step 349 time = 0.012958, # ZDD nodes = 9972, # elems = 63221057404637544448
+Step 350 time = 0.009572, # ZDD nodes = 9966, # elems = 63576386852263821312
+Step 351 time = 0.012771, # ZDD nodes = 9958, # elems = 63929525248093847552
+Step 352 time = 0.009479, # ZDD nodes = 9947, # elems = 64280890612704608256
+Step 353 time = 0.010421, # ZDD nodes = 9922, # elems = 64605495994599079936
+Step 354 time = 0.009410, # ZDD nodes = 9884, # elems = 64871194972315975680
+Step 355 time = 0.009239, # ZDD nodes = 9844, # elems = 65062660834800435200
+Step 356 time = 0.010165, # ZDD nodes = 9800, # elems = 65192186053331517440
+Step 357 time = 0.008806, # ZDD nodes = 9756, # elems = 65290948379626438656
+Step 358 time = 0.008905, # ZDD nodes = 9712, # elems = 65390505309230858240
+Step 359 time = 0.008448, # ZDD nodes = 9674, # elems = 65509730852588748800
+Step 360 time = 0.008744, # ZDD nodes = 9638, # elems = 65654100852484341760
+Step 361 time = 0.008356, # ZDD nodes = 9598, # elems = 65823065759262179328
+Step 362 time = 0.009547, # ZDD nodes = 9556, # elems = 66015616564845346816
+Step 363 time = 0.008531, # ZDD nodes = 9516, # elems = 66228157660052586496
+Step 364 time = 0.008158, # ZDD nodes = 9472, # elems = 66448005834660118528
+Step 365 time = 0.014633, # ZDD nodes = 9428, # elems = 66651815982909095936
+Step 366 time = 0.008122, # ZDD nodes = 9408, # elems = 66813603346500288512
+Step 367 time = 0.008430, # ZDD nodes = 9392, # elems = 66916754579615907840
+Step 368 time = 0.008015, # ZDD nodes = 9376, # elems = 66960296614465372160
+Step 369 time = 0.008207, # ZDD nodes = 9362, # elems = 66956058546896109568
+Step 370 time = 0.010149, # ZDD nodes = 9348, # elems = 66921624591493234688
+Step 371 time = 0.007824, # ZDD nodes = 9348, # elems = 66875250214690619392
+Step 372 time = 0.008803, # ZDD nodes = 9364, # elems = 66833910226753683456
+Step 373 time = 0.011973, # ZDD nodes = 9386, # elems = 66811056877570359296
+Step 374 time = 0.007982, # ZDD nodes = 9410, # elems = 66811396351785435136
+Step 375 time = 0.008786, # ZDD nodes = 9434, # elems = 66825550914725609472
+Step 376 time = 0.010078, # ZDD nodes = 9462, # elems = 66831590532096983040
+Step 377 time = 0.011188, # ZDD nodes = 9496, # elems = 66806162951315128320
+Step 378 time = 0.010991, # ZDD nodes = 9532, # elems = 66737713404683747328
+Step 379 time = 0.007761, # ZDD nodes = 9570, # elems = 66630071216324476928
+Step 380 time = 0.007923, # ZDD nodes = 9610, # elems = 66492983007061737472
+Step 381 time = 0.009111, # ZDD nodes = 9646, # elems = 66328432020994129920
+Step 382 time = 0.007828, # ZDD nodes = 9688, # elems = 66125145515157880832
+Step 383 time = 0.007818, # ZDD nodes = 9742, # elems = 65866486504235204608
+Step 384 time = 0.007846, # ZDD nodes = 9794, # elems = 65546219108029169664
+Step 385 time = 0.009832, # ZDD nodes = 9840, # elems = 65179946770927452160
+Step 386 time = 0.009905, # ZDD nodes = 9876, # elems = 64801871451379466240
+Step 387 time = 0.008879, # ZDD nodes = 9900, # elems = 64446880378456637440
+Step 388 time = 0.008087, # ZDD nodes = 9908, # elems = 64129595957296758784
+Step 389 time = 0.008913, # ZDD nodes = 9894, # elems = 63834791876000481280
+Step 390 time = 0.008238, # ZDD nodes = 9857, # elems = 63525281826682699776
+Step 391 time = 0.010943, # ZDD nodes = 9812, # elems = 63161825063981809664
+Step 392 time = 0.009953, # ZDD nodes = 9757, # elems = 62723159232039878656
+Step 393 time = 0.007408, # ZDD nodes = 9700, # elems = 62215363255768973312
+Step 394 time = 0.007195, # ZDD nodes = 9635, # elems = 61666735540811071488
+Step 395 time = 0.006940, # ZDD nodes = 9568, # elems = 61113320552225832960
+Step 396 time = 0.006869, # ZDD nodes = 9506, # elems = 60584476349986504704
+Step 397 time = 0.008753, # ZDD nodes = 9442, # elems = 60094321762905358336
+Step 398 time = 0.006454, # ZDD nodes = 9382, # elems = 59638903771802632192
+Step 399 time = 0.006375, # ZDD nodes = 9334, # elems = 59197515823948234752
+Step 400 time = 0.009320, # ZDD nodes = 9282, # elems = 58738478515444776960
+Step 401 time = 0.006248, # ZDD nodes = 9236, # elems = 58229968681249538048
+Step 402 time = 0.008091, # ZDD nodes = 9202, # elems = 57653981818457686016
+Step 403 time = 0.005917, # ZDD nodes = 9162, # elems = 57017992407114842112
+Step 404 time = 0.006132, # ZDD nodes = 9124, # elems = 56356041327216951296
+Step 405 time = 0.005820, # ZDD nodes = 9090, # elems = 55713805590316711936
+Step 406 time = 0.007740, # ZDD nodes = 9050, # elems = 55123482195410288640
+Step 407 time = 0.005637, # ZDD nodes = 9024, # elems = 54585219576567431168
+Step 408 time = 0.005520, # ZDD nodes = 9008, # elems = 54068847134721966080
+Step 409 time = 0.005620, # ZDD nodes = 8992, # elems = 53533914936599642112
+Step 410 time = 0.005778, # ZDD nodes = 8978, # elems = 52953104516296736768
+Step 411 time = 0.007978, # ZDD nodes = 8964, # elems = 52324016739441442816
+Step 412 time = 0.005530, # ZDD nodes = 8950, # elems = 51663750111357304832
+Step 413 time = 0.005487, # ZDD nodes = 8934, # elems = 50992254171018690560
+Step 414 time = 0.005464, # ZDD nodes = 8932, # elems = 50317781852703686656
+Step 415 time = 0.006691, # ZDD nodes = 8930, # elems = 49634748736854818816
+Step 416 time = 0.005549, # ZDD nodes = 8930, # elems = 48932592914775670784
+Step 417 time = 0.007514, # ZDD nodes = 8928, # elems = 48206155477908717568
+Step 418 time = 0.005438, # ZDD nodes = 8936, # elems = 47460959273160278016
+Step 419 time = 0.005431, # ZDD nodes = 8948, # elems = 46712850462109859840
+Step 420 time = 0.005230, # ZDD nodes = 8966, # elems = 45982743954941018112
+Step 421 time = 0.007158, # ZDD nodes = 8986, # elems = 45287200595791314944
+Step 422 time = 0.006390, # ZDD nodes = 8988, # elems = 44628297362125619200
+Step 423 time = 0.007565, # ZDD nodes = 8986, # elems = 43987962680829804544
+Step 424 time = 0.005302, # ZDD nodes = 8978, # elems = 43330805471629017088
+Step 425 time = 0.007304, # ZDD nodes = 8958, # elems = 42617760086388375552
+Step 426 time = 0.005129, # ZDD nodes = 8918, # elems = 41827818156435963904
+Step 427 time = 0.005045, # ZDD nodes = 8868, # elems = 40975255740746825728
+Step 428 time = 0.007170, # ZDD nodes = 8806, # elems = 40106890044431663104
+Step 429 time = 0.005042, # ZDD nodes = 8740, # elems = 39277789007856009216
+Step 430 time = 0.004937, # ZDD nodes = 8668, # elems = 38521570199039115264
+Step 431 time = 0.004881, # ZDD nodes = 8591, # elems = 37833973010423349248
+Step 432 time = 0.007123, # ZDD nodes = 8512, # elems = 37177704206617804800
+Step 433 time = 0.004695, # ZDD nodes = 8434, # elems = 36505477091046719488
+Step 434 time = 0.004559, # ZDD nodes = 8356, # elems = 35789039712434388992
+Step 435 time = 0.004620, # ZDD nodes = 8278, # elems = 35035615862175301632
+Step 436 time = 0.004269, # ZDD nodes = 8208, # elems = 34279648841521168384
+Step 437 time = 0.004255, # ZDD nodes = 8146, # elems = 33557209228932808704
+Step 438 time = 0.004079, # ZDD nodes = 8082, # elems = 32883032679245676544
+Step 439 time = 0.003992, # ZDD nodes = 8018, # elems = 32243565512624177152
+Step 440 time = 0.003864, # ZDD nodes = 7954, # elems = 31606227000514052096
+Step 441 time = 0.003809, # ZDD nodes = 7898, # elems = 30938458404593598464
+Step 442 time = 0.003754, # ZDD nodes = 7844, # elems = 30226335509608660992
+Step 443 time = 0.003750, # ZDD nodes = 7786, # elems = 29480712694348644352
+Step 444 time = 0.004292, # ZDD nodes = 7724, # elems = 28727564821508128768
+Step 445 time = 0.003724, # ZDD nodes = 7658, # elems = 27992708424107294720
+Step 446 time = 0.003739, # ZDD nodes = 7590, # elems = 27291646616097783808
+Step 447 time = 0.003663, # ZDD nodes = 7520, # elems = 26625267802874839040
+Step 448 time = 0.003630, # ZDD nodes = 7454, # elems = 25979801700812193792
+Step 449 time = 0.003625, # ZDD nodes = 7394, # elems = 25333799037075193856
+Step 450 time = 0.003533, # ZDD nodes = 7346, # elems = 24671145369247154176
+Step 451 time = 0.003517, # ZDD nodes = 7302, # elems = 23991638387188563968
+Step 452 time = 0.003501, # ZDD nodes = 7276, # elems = 23313046198804283392
+Step 453 time = 0.003486, # ZDD nodes = 7252, # elems = 22664461881765265408
+Step 454 time = 0.003412, # ZDD nodes = 7216, # elems = 22070870738301091840
+Step 455 time = 0.003462, # ZDD nodes = 7178, # elems = 21533526211667427328
+Step 456 time = 0.003379, # ZDD nodes = 7134, # elems = 21022363255914364928
+Step 457 time = 0.003326, # ZDD nodes = 7078, # elems = 20492706514582110208
+Step 458 time = 0.003295, # ZDD nodes = 7010, # elems = 19914200670651023360
+Step 459 time = 0.003313, # ZDD nodes = 6940, # elems = 19287536217423347712
+Step 460 time = 0.003251, # ZDD nodes = 6868, # elems = 18640293304570216448
+Step 461 time = 0.005327, # ZDD nodes = 6798, # elems = 18010501840273145856
+Step 462 time = 0.007046, # ZDD nodes = 6740, # elems = 17427061388156600320
+Step 463 time = 0.003175, # ZDD nodes = 6684, # elems = 16895152847010660352
+Step 464 time = 0.003147, # ZDD nodes = 6628, # elems = 16397034497209532416
+Step 465 time = 0.003103, # ZDD nodes = 6572, # elems = 15908015705639878656
+Step 466 time = 0.003107, # ZDD nodes = 6516, # elems = 15411489448675770368
+Step 467 time = 0.003091, # ZDD nodes = 6460, # elems = 14901971362317860864
+Step 468 time = 0.003069, # ZDD nodes = 6400, # elems = 14383098631030833152
+Step 469 time = 0.003513, # ZDD nodes = 6338, # elems = 13867577211185266688
+Step 470 time = 0.003012, # ZDD nodes = 6266, # elems = 13373293957941821440
+Step 471 time = 0.003022, # ZDD nodes = 6196, # elems = 12912651362461810688
+Step 472 time = 0.002948, # ZDD nodes = 6122, # elems = 12484615883815124992
+Step 473 time = 0.002854, # ZDD nodes = 6041, # elems = 12075962596142874624
+Step 474 time = 0.003808, # ZDD nodes = 5972, # elems = 11667762307261267968
+Step 475 time = 0.002722, # ZDD nodes = 5908, # elems = 11245013280520929280
+Step 476 time = 0.002624, # ZDD nodes = 5854, # elems = 10809004143549612032
+Step 477 time = 0.002532, # ZDD nodes = 5788, # elems = 10381465644158681088
+Step 478 time = 0.002393, # ZDD nodes = 5726, # elems = 9990268203089002496
+Step 479 time = 0.002333, # ZDD nodes = 5670, # elems = 9648047407966978048
+Step 480 time = 0.002298, # ZDD nodes = 5610, # elems = 9343808142514847744
+Step 481 time = 0.002204, # ZDD nodes = 5538, # elems = 9049578830921990144
+Step 482 time = 0.003220, # ZDD nodes = 5452, # elems = 8732796336820191232
+Step 483 time = 0.002084, # ZDD nodes = 5354, # elems = 8372103746351529984
+Step 484 time = 0.003963, # ZDD nodes = 5264, # elems = 7972250949747998720
+Step 485 time = 0.001957, # ZDD nodes = 5184, # elems = 7563390953889726464
+Step 486 time = 0.001913, # ZDD nodes = 5106, # elems = 7181183119888744448
+Step 487 time = 0.001889, # ZDD nodes = 5032, # elems = 6846491780393730048
+Step 488 time = 0.001849, # ZDD nodes = 4958, # elems = 6559897477544148992
+Step 489 time = 0.001833, # ZDD nodes = 4874, # elems = 6306024640737181696
+Step 490 time = 0.001792, # ZDD nodes = 4790, # elems = 6061246964115177472
+Step 491 time = 0.001768, # ZDD nodes = 4704, # elems = 5806652847680389120
+Step 492 time = 0.001724, # ZDD nodes = 4620, # elems = 5539902530688909312
+Step 493 time = 0.001695, # ZDD nodes = 4546, # elems = 5272642040302141440
+Step 494 time = 0.002561, # ZDD nodes = 4472, # elems = 5017115538006999040
+Step 495 time = 0.001647, # ZDD nodes = 4390, # elems = 4779269182686494720
+Step 496 time = 0.001620, # ZDD nodes = 4310, # elems = 4560897377317158912
+Step 497 time = 0.001579, # ZDD nodes = 4234, # elems = 4359502031480684544
+Step 498 time = 0.001988, # ZDD nodes = 4162, # elems = 4166163906852552704
+Step 499 time = 0.001534, # ZDD nodes = 4104, # elems = 3970837865201401856
+Step 500 time = 0.001506, # ZDD nodes = 4066, # elems = 3771307291085635584
+Step 501 time = 0.001510, # ZDD nodes = 4030, # elems = 3574450729248620544
+Step 502 time = 0.001516, # ZDD nodes = 3994, # elems = 3390858675689095168
+Step 503 time = 0.001499, # ZDD nodes = 3958, # elems = 3229591106219933696
+Step 504 time = 0.001477, # ZDD nodes = 3916, # elems = 3091791512934023168
+Step 505 time = 0.001436, # ZDD nodes = 3858, # elems = 2964617600018939904
+Step 506 time = 0.001442, # ZDD nodes = 3786, # elems = 2826642084872585216
+Step 507 time = 0.001373, # ZDD nodes = 3712, # elems = 2665005079496491008
+Step 508 time = 0.001334, # ZDD nodes = 3644, # elems = 2486004586494558208
+Step 509 time = 0.001324, # ZDD nodes = 3586, # elems = 2308728127724978176
+Step 510 time = 0.001311, # ZDD nodes = 3524, # elems = 2152491923464519680
+Step 511 time = 0.001288, # ZDD nodes = 3452, # elems = 2028255905618853888
+Step 512 time = 0.001266, # ZDD nodes = 3366, # elems = 1932871072886030336
+Step 513 time = 0.001223, # ZDD nodes = 3270, # elems = 1849273004802965504
+Step 514 time = 0.001206, # ZDD nodes = 3166, # elems = 1758462140441690112
+Step 515 time = 0.001151, # ZDD nodes = 3056, # elems = 1653067353849593856
+Step 516 time = 0.001119, # ZDD nodes = 2952, # elems = 1537275585305247744
+Step 517 time = 0.001101, # ZDD nodes = 2854, # elems = 1418616290435661824
+Step 518 time = 0.003024, # ZDD nodes = 2757, # elems = 1305727232588644352
+Step 519 time = 0.000914, # ZDD nodes = 2654, # elems = 1209128539018756096
+Step 520 time = 0.000852, # ZDD nodes = 2552, # elems = 1136033006004207616
+Step 521 time = 0.000762, # ZDD nodes = 2448, # elems = 1084382347777802240
+Step 522 time = 0.000658, # ZDD nodes = 2358, # elems = 1044131426108178432
+Step 523 time = 0.000616, # ZDD nodes = 2274, # elems = 1002191654578290688
+Step 524 time = 0.000569, # ZDD nodes = 2192, # elems = 946459609189580800
+Step 525 time = 0.000547, # ZDD nodes = 2108, # elems = 871446527896190976
+Step 526 time = 0.000514, # ZDD nodes = 2018, # elems = 783696703906643968
+Step 527 time = 0.000491, # ZDD nodes = 1922, # elems = 698550523451670528
+Step 528 time = 0.000458, # ZDD nodes = 1816, # elems = 628955835459960832
+Step 529 time = 0.000434, # ZDD nodes = 1712, # elems = 578149602163687424
+Step 530 time = 0.000408, # ZDD nodes = 1614, # elems = 541346748958769152
+Step 531 time = 0.000390, # ZDD nodes = 1516, # elems = 510314132776419328
+Step 532 time = 0.000372, # ZDD nodes = 1434, # elems = 477240823012917248
+Step 533 time = 0.000356, # ZDD nodes = 1370, # elems = 439452807389511680
+Step 534 time = 0.000336, # ZDD nodes = 1318, # elems = 401735160510283776
+Step 535 time = 0.000332, # ZDD nodes = 1270, # elems = 371476600513888256
+Step 536 time = 0.000330, # ZDD nodes = 1218, # elems = 351351139679076352
+Step 537 time = 0.000312, # ZDD nodes = 1160, # elems = 337769972052787200
+Step 538 time = 0.000301, # ZDD nodes = 1114, # elems = 324188804426498048
+Step 539 time = 0.000286, # ZDD nodes = 1068, # elems = 304063343591686144
+Step 540 time = 0.000272, # ZDD nodes = 1022, # elems = 273804783595290624
+Step 541 time = 0.000263, # ZDD nodes = 980, # elems = 236157505460240384
+Step 542 time = 0.000250, # ZDD nodes = 934, # elems = 199073177278611456
+Step 543 time = 0.000252, # ZDD nodes = 886, # elems = 169447935979814912
+Step 544 time = 0.000242, # ZDD nodes = 834, # elems = 149463212633358336
+Step 545 time = 0.000233, # ZDD nodes = 784, # elems = 138626426029998080
+Step 546 time = 0.000219, # ZDD nodes = 746, # elems = 135248726309470208
+Step 547 time = 0.000209, # ZDD nodes = 716, # elems = 134967251332759552
+Step 548 time = 0.000213, # ZDD nodes = 698, # elems = 131659920356409344
+Step 549 time = 0.000203, # ZDD nodes = 678, # elems = 121526821194825728
+Step 550 time = 0.000202, # ZDD nodes = 674, # elems = 104849428824719360
+Step 551 time = 0.000205, # ZDD nodes = 672, # elems = 84864705478262784
+Step 552 time = 0.000202, # ZDD nodes = 664, # elems = 67131781945491456
+Step 553 time = 0.000196, # ZDD nodes = 648, # elems = 57632001481506816
+Step 554 time = 0.000186, # ZDD nodes = 628, # elems = 57913476458217472
+Step 555 time = 0.000185, # ZDD nodes = 600, # elems = 62909657294831616
+Step 556 time = 0.000175, # ZDD nodes = 568, # elems = 64950350875983872
+Step 557 time = 0.000160, # ZDD nodes = 524, # elems = 58969007620882432
+Step 558 time = 0.000150, # ZDD nodes = 482, # elems = 44824890041171968
+Step 559 time = 0.000140, # ZDD nodes = 432, # elems = 27162335252578304
+Step 560 time = 0.000125, # ZDD nodes = 366, # elems = 12384898975268864
+Step 561 time = 0.000110, # ZDD nodes = 284, # elems = 3940649673949184
+Step 562 time = 0.000091, # ZDD nodes = 192, # elems = 774056185954304
+Step 563 time = 0.000073, # ZDD nodes = 92, # elems = 70368744177664
+Step 564 time = 0.000023, # ZDD nodes = 0, # elems = 0
+a 4 8 12 18 22 28 32 38 42 48 52 58 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 8 12 18 22 28 32 38 42 48 52 58 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 12 18 22 28 32 38 42 48 52 58 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 32 38 42 48 52 58 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 16 22 28 32 38 42 48 52 58 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 14 16 22 28 32 38 42 48 52 58 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 8 14 16 22 28 32 38 42 48 52 58 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 22 28 32 38 42 48 52 58 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 28 32 38 42 48 52 58 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 32 38 42 48 52 58 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 52 58 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 36 42 48 52 58 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 34 36 42 48 52 58 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 28 34 36 42 48 52 58 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 22 28 34 36 42 48 52 58 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 8 14 16 22 28 34 36 42 48 52 58 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 14 16 22 28 34 36 42 48 52 58 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 16 22 28 34 36 42 48 52 58 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 42 48 52 58 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 48 52 58 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 52 58 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 56 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 54 56 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 48 54 56 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 42 48 54 56 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 16 22 28 34 36 42 48 54 56 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 14 16 22 28 34 36 42 48 54 56 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 8 14 16 22 28 34 36 42 48 54 56 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 22 28 34 36 42 48 54 56 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 28 34 36 42 48 54 56 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 34 36 42 48 54 56 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 36 42 48 54 56 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 62 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 68 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 72 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 76 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 74 76 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 68 74 76 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 62 68 74 76 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 36 42 48 54 56 62 68 74 76 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 34 36 42 48 54 56 62 68 74 76 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 28 34 36 42 48 54 56 62 68 74 76 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 8 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 42 48 54 56 62 68 74 76 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 48 54 56 62 68 74 76 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 54 56 62 68 74 76 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 56 62 68 74 76 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 82 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 88 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 92 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 96 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 94 96 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 88 94 96 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 82 88 94 96 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 56 62 68 74 76 82 88 94 96 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 54 56 62 68 74 76 82 88 94 96 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 48 54 56 62 68 74 76 82 88 94 96 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 8 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 62 68 74 76 82 88 94 96 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 68 74 76 82 88 94 96 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 74 76 82 88 94 96 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 76 82 88 94 96 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 102 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 108 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 112 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 116 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 114 116 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 108 114 116 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 102 108 114 116 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 76 82 88 94 96 102 108 114 116 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 74 76 82 88 94 96 102 108 114 116 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 68 74 76 82 88 94 96 102 108 114 116 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 8 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 82 88 94 96 102 108 114 116 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 88 94 96 102 108 114 116 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 94 96 102 108 114 116 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 96 102 108 114 116 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 122 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 128 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 132 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 136 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 134 136 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 128 134 136 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 122 128 134 136 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 96 102 108 114 116 122 128 134 136 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 94 96 102 108 114 116 122 128 134 136 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 88 94 96 102 108 114 116 122 128 134 136 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 8 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 102 108 114 116 122 128 134 136 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 108 114 116 122 128 134 136 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 114 116 122 128 134 136 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 116 122 128 134 136 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 142 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 148 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 152 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 158 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 142 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 116 122 128 134 136 142 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 114 116 122 128 134 136 142 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 108 114 116 122 128 134 136 142 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 8 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 122 128 134 136 142 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 128 134 136 142 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 134 136 142 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 136 142 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 162 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 168 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 166 172 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 166 170 178 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 166 170 176 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 166 174 176 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 136 142 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 134 136 142 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 128 134 136 142 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 2 6 10 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 2 6 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 2 8 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 142 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 148 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 154 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 156 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 158 162 168 174 176 182 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 158 162 168 174 176 180 188 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 158 162 168 174 176 180 186 192 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 158 162 168 174 176 180 186 190 198 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 158 162 168 174 176 180 186 190 196 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 158 162 168 174 176 180 186 194 196 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 158 162 168 174 176 180 188 194 196 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 158 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 4 8 14 16 20 26 30 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 4 8 14 16 20 26 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 4 8 14 16 20 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 4 8 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 2 8 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 2 6 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 2 6 10 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 162 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 168 174 176 182 188 194 196 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 166 174 176 182 188 194 196 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 166 170 176 182 188 194 196 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 166 170 178 182 188 194 196 202 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 166 170 178 182 188 194 196 200 208 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 166 170 178 182 188 194 196 200 206 212 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 166 170 178 182 188 194 196 200 206 210 218 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 166 170 178 182 188 194 196 200 206 210 215 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 166 170 178 182 188 194 196 200 206 214 215 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 166 170 178 182 188 194 196 200 208 214 215 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 166 170 178 182 188 194 196 202 208 214 215 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 166 170 176 182 188 194 196 202 208 214 215 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 166 174 176 182 188 194 196 202 208 214 215 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 2 6 10 18 22 28 34 36 40 46 50 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 2 6 10 18 22 28 34 36 40 46 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 2 6 10 18 22 28 34 36 40 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 2 6 10 18 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 2 6 10 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 2 6 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 2 8 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 4 8 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 4 8 14 16 20 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 4 8 14 16 20 26 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 4 8 14 16 20 26 30 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 154 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 156 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 158 162 168 174 176 182 188 194 196 202 208 214 215 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 158 162 168 174 176 180 188 194 196 202 208 214 215 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 158 162 168 174 176 180 186 194 196 202 208 214 215 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 158 162 168 174 176 180 186 190 196 202 208 214 215 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 158 162 168 174 176 180 186 190 198 202 208 214 215 222 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 158 162 168 174 176 180 186 190 198 202 208 214 215 220 228
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 158 162 168 174 176 180 186 190 198 202 208 214 215 220 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 158 162 168 174 176 180 186 190 198 202 208 214 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 158 162 168 174 176 180 186 190 196 202 208 214 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 158 162 168 174 176 180 186 194 196 202 208 214 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 158 162 168 174 176 180 188 194 196 202 208 214 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 158 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 4 8 14 16 20 26 30 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 4 8 14 16 20 26 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 4 8 14 16 20 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 4 8 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 2 8 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 2 6 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 2 6 10 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 2 6 10 18 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 2 6 10 18 22 28 34 36 40 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 128 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 134 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 136 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 162 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 168 174 176 182 188 194 196 202 208 214 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 166 174 176 182 188 194 196 202 208 214 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 166 170 176 182 188 194 196 202 208 214 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 166 170 178 182 188 194 196 202 208 214 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 166 170 178 182 188 194 196 200 208 214 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 166 170 178 182 188 194 196 200 205 214 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 166 170 178 182 188 194 196 200 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 166 170 178 182 188 194 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 166 170 175 182 188 194 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 166 174 175 182 188 194 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 136 142 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 134 136 142 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 128 134 136 142 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 2 6 10 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 2 6 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 2 8 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 4 8 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 4 8 14 16 20 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 114 116 122 128 134 136 142 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 116 122 128 134 136 142 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 142 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 148 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 154 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 156 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 158 162 168 174 175 182 188 194 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 158 162 168 174 175 180 188 194 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 158 162 168 174 175 180 185 194 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 158 162 168 174 175 180 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 158 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 150 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 146 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 142 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 116 122 128 134 136 142 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 114 116 122 128 134 136 142 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 2 8 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 94 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 96 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 122 128 134 136 142 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 128 134 136 142 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 134 136 142 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 136 142 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 162 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 168 174 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 165 174 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 160 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 138 142 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 130 136 142 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 134 136 142 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 128 134 136 142 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 122 128 134 136 142 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 96 102 108 114 116 122 128 134 136 142 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 94 96 102 108 114 116 122 128 134 136 142 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 8 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 74 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 76 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 102 108 114 116 122 128 134 136 142 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 108 114 116 122 128 134 136 142 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 114 116 122 128 134 136 142 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 116 122 128 134 136 142 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 142 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 148 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 145 154 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 140 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 118 122 128 134 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 110 116 122 128 134 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 106 114 116 122 128 134 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 108 114 116 122 128 134 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 102 108 114 116 122 128 134 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 76 82 88 94 96 102 108 114 116 122 128 134 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 74 76 82 88 94 96 102 108 114 116 122 128 134 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 8 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 54 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 56 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 82 88 94 96 102 108 114 116 122 128 134 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 88 94 96 102 108 114 116 122 128 134 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 94 96 102 108 114 116 122 128 134 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 96 102 108 114 116 122 128 134 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 122 128 134 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 128 134 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 134 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 120 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 98 102 108 114 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 90 96 102 108 114 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 86 94 96 102 108 114 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 80 88 94 96 102 108 114 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 76 82 88 94 96 102 108 114 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 56 62 68 74 76 82 88 94 96 102 108 114 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 54 56 62 68 74 76 82 88 94 96 102 108 114 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 8 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 22 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 28 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 34 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 36 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 62 68 74 76 82 88 94 96 102 108 114 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 68 74 76 82 88 94 96 102 108 114 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 74 76 82 88 94 96 102 108 114 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 76 82 88 94 96 102 108 114 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 102 108 114 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 108 114 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 105 114 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 100 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 78 82 88 94 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 75 82 88 94 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 74 75 82 88 94 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 68 74 75 82 88 94 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 62 68 74 75 82 88 94 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 36 42 48 54 56 62 68 74 75 82 88 94 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 34 36 42 48 54 56 62 68 74 75 82 88 94 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 28 34 36 42 48 54 56 62 68 74 75 82 88 94 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 22 28 34 36 42 48 54 56 62 68 74 75 82 88 94 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 8 14 16 22 28 34 36 42 48 54 56 62 68 74 75 82 88 94 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 14 16 22 28 34 36 42 48 54 56 62 68 74 75 82 88 94 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 16 22 28 34 36 42 48 54 56 62 68 74 75 82 88 94 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 42 48 54 56 62 68 74 75 82 88 94 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 48 54 56 62 68 74 75 82 88 94 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 54 56 62 68 74 75 82 88 94 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 56 62 68 74 75 82 88 94 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 75 82 88 94 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 75 80 88 94 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 75 80 85 94 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 75 80 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 58 62 68 74 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 50 56 62 68 74 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 46 54 56 62 68 74 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 40 48 54 56 62 68 74 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 36 42 48 54 56 62 68 74 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 16 22 28 34 36 42 48 54 56 62 68 74 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 14 16 22 28 34 36 42 48 54 56 62 68 74 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 8 14 16 22 28 34 36 42 48 54 56 62 68 74 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 22 28 34 36 42 48 54 56 62 68 74 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 28 34 36 42 48 54 56 62 68 74 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 34 36 42 48 54 56 62 68 74 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 36 42 48 54 56 62 68 74 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 62 68 74 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 68 74 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 74 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 60 66 70 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 38 42 48 54 56 64 66 70 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 35 42 48 54 56 64 66 70 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 34 35 42 48 54 56 64 66 70 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 28 34 35 42 48 54 56 64 66 70 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 22 28 34 35 42 48 54 56 64 66 70 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 8 14 16 22 28 34 35 42 48 54 56 64 66 70 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 14 16 22 28 34 35 42 48 54 56 64 66 70 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 16 22 28 34 35 42 48 54 56 64 66 70 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 35 42 48 54 56 64 66 70 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 35 40 48 54 56 64 66 70 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 35 40 46 54 56 64 66 70 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 35 40 46 49 56 64 66 70 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 18 22 28 34 35 44 46 49 56 64 66 70 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 10 16 22 28 34 35 44 46 49 56 64 66 70 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 14 16 22 28 34 35 44 46 49 56 64 66 70 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 8 14 16 22 28 34 35 44 46 49 56 64 66 70 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 22 28 34 35 44 46 49 56 64 66 70 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 28 34 35 44 46 49 56 64 66 70 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 34 35 44 46 49 56 64 66 70 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 20 26 30 35 44 46 49 56 64 66 70 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 4 8 14 16 24 26 30 35 44 46 49 56 64 66 70 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 8 14 16 24 26 30 35 44 46 49 56 64 66 70 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 14 16 24 26 30 35 44 46 49 56 64 66 70 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+a 2 6 9 16 24 26 30 35 44 46 49 56 64 66 70 75 84 85 90 96 104 105 110 116 124 126 129 136 143 145 149 156 163 165 169 175 183 185 190 196 204 205 209 215 223 226
+Reconfiguration time = 7.993832
+	Command being timed: "timeout 20m ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/hand_made_wide/square_wide/suzuki_instance_2_11_2_2.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/hand_made_wide/square_wide/suzuki_instance_2_11_2_2_01.dat --tj --indset --longest"
+	User time (seconds): 8.01
+	System time (seconds): 0.10
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.14
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 153580
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 23161
+	Voluntary context switches: 8
+	Involuntary context switches: 12
+	Swaps: 0
+	File system inputs: 16
+	File system outputs: 272
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

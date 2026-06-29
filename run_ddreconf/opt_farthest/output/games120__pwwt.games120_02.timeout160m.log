@@ -1,0 +1,112 @@
+Input graph file parsed. # of vertices = 120, # of edges = 638
+s 50 5 109 115 79 110 9 64 21 89 27 94 103 102 15 29 73 98 81 2 87
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 5327.948480
+Solution space ZDD size = 5409598
+# of elements in the solution space = 30467298966717
+Start searching the longest reconfiguration sequence
+Step 1 time = 0.000457, # ZDD nodes = 89, # elems = 46
+Step 2 time = 0.002056, # ZDD nodes = 367, # elems = 756
+Step 3 time = 0.009376, # ZDD nodes = 924, # elems = 6632
+Step 4 time = 0.026500, # ZDD nodes = 1802, # elems = 36519
+Step 5 time = 0.055508, # ZDD nodes = 3018, # elems = 137408
+Step 6 time = 0.098778, # ZDD nodes = 4580, # elems = 374194
+Step 7 time = 0.154898, # ZDD nodes = 6247, # elems = 776004
+Step 8 time = 0.202269, # ZDD nodes = 7672, # elems = 1292886
+Step 9 time = 0.234918, # ZDD nodes = 9024, # elems = 1822917
+Step 10 time = 0.352113, # ZDD nodes = 10229, # elems = 2265910
+Step 11 time = 0.312747, # ZDD nodes = 11826, # elems = 2606280
+Step 12 time = 0.384790, # ZDD nodes = 14190, # elems = 3020548
+Step 13 time = 0.483954, # ZDD nodes = 17639, # elems = 3658971
+Step 14 time = 0.624968, # ZDD nodes = 21921, # elems = 4251768
+Step 15 time = 0.810084, # ZDD nodes = 27781, # elems = 4372764
+Step 16 time = 3.888561, # ZDD nodes = 36778, # elems = 4005182
+Step 17 time = 1.792201, # ZDD nodes = 51109, # elems = 3877985
+Step 18 time = 3.134942, # ZDD nodes = 75622, # elems = 4710340
+Step 19 time = 6.963863, # ZDD nodes = 116262, # elems = 7127308
+Step 20 time = 10.268360, # ZDD nodes = 176245, # elems = 11729330
+Step 21 time = 16.614211, # ZDD nodes = 256171, # elems = 18664199
+Step 22 time = 27.358583, # ZDD nodes = 348947, # elems = 27049435
+Step 23 time = 58.182080, # ZDD nodes = 440004, # elems = 35317710
+Step 24 time = 47.116474, # ZDD nodes = 511818, # elems = 42064576
+Step 25 time = 51.117977, # ZDD nodes = 544852, # elems = 45238897
+Step 26 time = 51.981142, # ZDD nodes = 523958, # elems = 43167036
+Step 27 time = 49.620501, # ZDD nodes = 435380, # elems = 34705901
+Step 28 time = 34.077198, # ZDD nodes = 298212, # elems = 21286738
+Step 29 time = 29.809570, # ZDD nodes = 167121, # elems = 9359375
+Step 30 time = 8.302139, # ZDD nodes = 80075, # elems = 3679002
+Step 31 time = 2.979598, # ZDD nodes = 38101, # elems = 1994037
+Step 32 time = 0.942242, # ZDD nodes = 21881, # elems = 1471554
+Step 33 time = 0.394634, # ZDD nodes = 13489, # elems = 1133722
+Step 34 time = 0.182834, # ZDD nodes = 7953, # elems = 711833
+Step 35 time = 0.081752, # ZDD nodes = 3802, # elems = 327135
+Step 36 time = 0.032431, # ZDD nodes = 1365, # elems = 114911
+Step 37 time = 0.011804, # ZDD nodes = 340, # elems = 48083
+Step 38 time = 0.003606, # ZDD nodes = 123, # elems = 20956
+Step 39 time = 0.001368, # ZDD nodes = 54, # elems = 2704
+Step 40 time = 0.000176, # ZDD nodes = 0, # elems = 0
+a 2 5 9 15 21 27 29 50 64 73 79 81 87 89 94 98 102 103 109 110 115
+a 5 9 15 21 27 29 50 54 64 73 79 81 87 89 94 98 102 103 109 110 115
+a 5 9 15 21 27 29 50 54 55 64 73 79 81 89 94 98 102 103 109 110 115
+a 5 9 15 21 27 29 50 54 55 64 73 79 81 89 94 97 98 103 109 110 115
+a 5 9 15 21 27 29 50 54 55 64 73 79 81 89 93 97 98 103 109 110 115
+a 5 9 15 21 27 29 50 54 55 64 73 79 80 81 93 97 98 103 109 110 115
+a 5 15 21 27 29 50 54 55 57 64 73 79 80 81 93 97 98 103 109 110 115
+a 5 15 21 27 29 33 50 54 55 57 64 73 79 80 81 93 97 98 103 109 115
+a 5 15 21 27 29 33 50 54 55 57 64 73 79 80 81 93 97 98 101 103 109
+a 5 15 21 27 29 33 50 54 55 57 73 79 80 81 93 97 98 101 103 109 114
+a 5 15 21 27 29 33 50 54 55 57 70 73 80 81 93 97 98 101 103 109 114
+a 5 15 21 27 28 29 33 50 54 55 57 70 73 80 81 93 97 98 101 103 114
+a 5 15 21 27 28 29 33 54 55 57 70 73 78 80 81 93 97 98 101 103 114
+a 4 5 15 21 27 28 33 54 55 57 70 73 78 80 81 93 97 98 101 103 114
+a 4 5 21 27 28 33 54 55 57 70 73 78 80 81 93 97 98 101 103 112 114
+a 4 5 21 27 28 33 36 54 55 57 70 73 78 80 81 93 97 101 103 112 114
+a 4 5 21 27 28 33 36 52 54 55 57 70 78 80 81 93 97 101 103 112 114
+a 4 5 21 27 28 33 36 52 54 55 57 70 78 81 86 93 97 101 103 112 114
+a 4 5 21 27 28 33 36 52 54 55 57 67 70 78 81 86 93 97 101 112 114
+a 4 5 21 27 28 33 36 52 54 55 67 70 78 81 86 93 94 97 101 112 114
+a 4 5 21 27 33 36 52 54 55 67 70 78 81 86 89 93 94 97 101 112 114
+a 4 5 21 27 33 36 52 54 55 67 68 70 78 81 86 89 93 94 97 112 114
+a 4 5 17 21 27 36 52 54 55 67 68 70 78 81 86 89 93 94 97 112 114
+a 4 5 17 21 27 36 52 54 55 67 68 78 81 86 89 93 94 97 110 112 114
+a 4 5 9 21 27 36 52 54 55 67 68 78 81 86 89 93 94 97 110 112 114
+a 4 5 9 21 27 36 52 54 55 67 68 79 81 86 89 93 94 97 110 112 114
+a 4 5 9 21 27 36 52 54 55 67 79 81 86 89 93 94 97 109 110 112 114
+a 5 9 21 27 36 50 52 54 55 67 79 81 86 89 93 94 97 109 110 112 114
+a 5 9 12 21 27 36 50 52 54 55 67 79 81 86 89 93 94 109 110 112 114
+a 5 9 12 21 27 50 52 54 55 67 79 81 86 89 93 94 109 110 111 112 114
+a 5 9 12 21 27 50 52 54 55 64 67 79 81 86 89 93 94 109 110 111 112
+a 5 9 12 21 27 50 52 54 55 64 67 79 81 86 89 93 94 109 110 112 115
+a 5 9 12 21 27 46 50 52 54 55 64 67 79 86 89 93 94 109 110 112 115
+a 5 9 12 21 27 46 50 52 54 55 64 67 71 79 89 93 94 109 110 112 115
+a 5 9 12 21 27 42 46 50 52 54 55 64 71 79 89 93 94 109 110 112 115
+a 5 9 21 27 42 43 46 50 52 54 55 64 71 79 89 93 94 109 110 112 115
+a 5 9 27 42 43 46 48 50 52 54 55 64 71 79 89 93 94 109 110 112 115
+a 5 9 27 42 43 46 48 50 52 54 55 64 68 71 79 89 93 94 110 112 115
+a 4 5 9 27 42 43 46 48 52 54 55 64 68 71 79 89 93 94 110 112 115
+a 4 5 9 27 42 43 46 48 52 54 55 64 68 71 78 89 93 94 110 112 115
+Reconfiguration time = 409.737507
+	Command being timed: "timeout 160m ../ddreconf/ddreconf ../instances_pwwt_col/games120.pwwt.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/games120_02.dat --tj --indset --longest"
+	User time (seconds): 5576.85
+	System time (seconds): 152.02
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:35:41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 290974448
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 5751867
+	Voluntary context switches: 47
+	Involuntary context switches: 3249
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 136
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

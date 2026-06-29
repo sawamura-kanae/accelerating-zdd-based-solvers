@@ -1,0 +1,60 @@
+Input graph file parsed. # of vertices = 41, # of edges = 57
+s 1 3 8 11 14 17 20 23 24 26 28 30 32 34 36 38 40
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 0.003128
+Solution space ZDD size = 892
+# of elements in the solution space = 121582107
+Start searching the longest reconfiguration sequence
+Step 1 time = 0.000105, # ZDD nodes = 63, # elems = 14
+Step 2 time = 0.000218, # ZDD nodes = 151, # elems = 88
+Step 3 time = 0.000647, # ZDD nodes = 281, # elems = 331
+Step 4 time = 0.001384, # ZDD nodes = 447, # elems = 837
+Step 5 time = 0.002410, # ZDD nodes = 620, # elems = 1513
+Step 6 time = 0.003164, # ZDD nodes = 786, # elems = 2027
+Step 7 time = 0.003969, # ZDD nodes = 916, # elems = 2055
+Step 8 time = 0.003339, # ZDD nodes = 972, # elems = 1590
+Step 9 time = 0.002922, # ZDD nodes = 901, # elems = 935
+Step 10 time = 0.001591, # ZDD nodes = 695, # elems = 409
+Step 11 time = 0.000752, # ZDD nodes = 393, # elems = 126
+Step 12 time = 0.000214, # ZDD nodes = 137, # elems = 24
+Step 13 time = 0.000051, # ZDD nodes = 24, # elems = 2
+Step 14 time = 0.000012, # ZDD nodes = 0, # elems = 0
+a 1 3 8 11 14 17 20 23 24 26 28 30 32 34 36 38 40
+a 1 3 8 11 14 17 20 23 24 26 28 30 32 34 36 38 41
+a 1 3 8 11 14 17 20 23 24 26 28 30 32 34 36 39 41
+a 1 3 8 11 14 17 20 23 24 26 28 30 32 34 37 39 41
+a 1 3 8 10 14 17 20 23 24 26 28 30 32 34 37 39 41
+a 1 3 8 10 14 17 20 23 24 26 28 30 32 35 37 39 41
+a 1 3 8 10 14 17 20 23 24 26 28 30 33 35 37 39 41
+a 1 3 8 10 14 17 20 23 24 26 28 31 33 35 37 39 41
+a 1 3 8 10 14 17 20 23 24 26 29 31 33 35 37 39 41
+a 1 3 8 10 14 17 18 23 24 26 29 31 33 35 37 39 41
+a 1 3 8 10 14 17 18 23 24 27 29 31 33 35 37 39 41
+a 1 3 8 10 12 17 18 23 24 27 29 31 33 35 37 39 41
+a 1 3 8 10 12 17 18 23 25 27 29 31 33 35 37 39 41
+a 1 3 6 10 12 17 18 23 25 27 29 31 33 35 37 39 41
+Reconfiguration time = 0.025920
+	Command being timed: "timeout 20m ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/ph-isr/ph-03-02.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/ph-isr/ph-03-02_01.dat --tj --indset --longest"
+	User time (seconds): 0.03
+	System time (seconds): 0.00
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34040
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1303
+	Voluntary context switches: 4
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

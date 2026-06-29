@@ -1,0 +1,46 @@
+Input graph file parsed. # of vertices = 100, # of edges = 180
+s 1 3 5 7 9 12 14 18 20 21 23 25 27 29 32 34 36 38 40 41 43 45 47 49 52 54 56 58 60 61 63 65 67 69 72 74 76 78 80 81 83 85 89 92 94 96 98 100
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 0.030928
+Solution space ZDD size = 5614
+# of elements in the solution space = 2030049051145980050
+Start searching the longest reconfiguration sequence
+Step 1 time = 0.000328, # ZDD nodes = 168, # elems = 96
+Step 2 time = 0.000581, # ZDD nodes = 231, # elems = 1134
+Step 3 time = 0.000661, # ZDD nodes = 284, # elems = 106
+Step 4 time = 0.000925, # ZDD nodes = 168, # elems = 9
+Step 5 time = 0.000291, # ZDD nodes = 118, # elems = 4
+Step 6 time = 0.000153, # ZDD nodes = 90, # elems = 2
+Step 7 time = 0.000063, # ZDD nodes = 0, # elems = 0
+a 1 3 5 7 9 12 14 18 20 21 23 25 27 29 32 34 36 38 40 41 43 45 47 49 52 54 56 58 60 61 63 65 67 69 72 74 76 78 80 81 83 85 89 92 94 96 98 100
+a 1 3 5 7 9 12 14 18 20 21 23 25 27 29 32 34 36 38 40 41 43 45 47 49 52 54 56 58 60 61 63 65 67 69 72 74 76 78 80 81 83 85 87 89 92 96 98 100
+a 1 3 5 7 9 12 14 16 18 20 21 23 25 27 29 32 34 36 38 40 41 43 45 47 49 52 54 56 58 60 61 63 65 67 69 72 74 76 78 80 81 83 85 87 89 96 98 100
+a 1 3 5 7 9 12 14 16 18 20 21 23 25 27 29 32 34 36 38 40 41 43 45 47 49 52 54 56 58 60 61 63 65 67 69 72 74 76 78 80 81 85 87 89 93 96 98 100
+a 1 3 5 7 9 12 14 16 18 20 21 23 25 27 29 32 34 36 38 40 41 43 45 47 49 52 54 56 58 60 61 63 65 67 69 72 74 76 78 80 85 87 89 91 93 96 98 100
+a 1 3 5 7 9 12 14 16 18 20 21 23 25 27 29 32 34 36 38 40 41 43 45 47 49 52 54 56 58 60 61 63 65 67 69 74 76 78 80 82 85 87 89 91 93 96 98 100
+a 1 3 5 7 9 12 14 16 18 20 21 23 25 27 29 32 34 36 38 40 41 43 45 47 49 52 54 56 58 60 63 65 67 69 71 74 76 78 80 82 85 87 89 91 93 96 98 100
+Reconfiguration time = 0.025330
+	Command being timed: "timeout 20m ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/grid/grid010x010.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/grid/grid010x010_01_6141.dat --tj --indset --longest"
+	User time (seconds): 0.06
+	System time (seconds): 0.00
+	Percent of CPU this job got: 97%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.07
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34036
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1359
+	Voluntary context switches: 4
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 40
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

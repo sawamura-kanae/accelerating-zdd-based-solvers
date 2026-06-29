@@ -1,0 +1,68 @@
+Input graph file parsed. # of vertices = 64, # of edges = 728
+s 51 9 24 5 34 47 62
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 7.705996
+Solution space ZDD size = 16607
+# of elements in the solution space = 118969
+Start searching the longest reconfiguration sequence
+Step 1 time = 0.000067, # ZDD nodes = 18, # elems = 8
+Step 2 time = 0.000202, # ZDD nodes = 39, # elems = 9
+Step 3 time = 0.000548, # ZDD nodes = 79, # elems = 20
+Step 4 time = 0.005540, # ZDD nodes = 143, # elems = 34
+Step 5 time = 0.002357, # ZDD nodes = 245, # elems = 75
+Step 6 time = 0.004630, # ZDD nodes = 431, # elems = 141
+Step 7 time = 0.009437, # ZDD nodes = 673, # elems = 243
+Step 8 time = 0.025513, # ZDD nodes = 891, # elems = 326
+Step 9 time = 0.023342, # ZDD nodes = 1138, # elems = 413
+Step 10 time = 0.032384, # ZDD nodes = 1328, # elems = 522
+Step 11 time = 0.036661, # ZDD nodes = 1414, # elems = 595
+Step 12 time = 0.038822, # ZDD nodes = 1117, # elems = 463
+Step 13 time = 0.028501, # ZDD nodes = 655, # elems = 242
+Step 14 time = 0.013934, # ZDD nodes = 283, # elems = 74
+Step 15 time = 0.004082, # ZDD nodes = 74, # elems = 13
+Step 16 time = 0.000717, # ZDD nodes = 28, # elems = 4
+Step 17 time = 0.000275, # ZDD nodes = 7, # elems = 1
+Step 18 time = 0.000052, # ZDD nodes = 0, # elems = 0
+a 5 9 24 34 47 51 62
+a 5 9 24 28 47 51 62
+a 5 9 24 28 47 50 62
+a 3 9 24 28 47 50 62
+a 3 24 28 33 47 50 62
+a 3 16 28 33 47 50 62
+a 3 16 28 33 45 50 62
+a 3 23 28 33 45 50 62
+a 3 23 28 40 45 50 62
+a 3 23 25 40 45 50 62
+a 12 23 25 40 45 50 62
+a 6 12 23 25 40 45 50
+a 6 12 23 25 35 45 50
+a 6 12 23 25 35 45 56
+a 6 12 23 35 45 56 57
+a 6 10 23 35 45 56 57
+a 4 10 23 35 45 56 57
+a 4 10 30 35 45 56 57
+Reconfiguration time = 0.231764
+	Command being timed: "timeout 20m ../ddreconf/ddreconf ../instances_pwwt_col/queen8_8.pwwt.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/queen8_8_01.dat --tj --indset --longest"
+	User time (seconds): 7.68
+	System time (seconds): 0.26
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.96
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 559940
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 24009
+	Voluntary context switches: 4
+	Involuntary context switches: 13
+	Swaps: 0
+	File system inputs: 16
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

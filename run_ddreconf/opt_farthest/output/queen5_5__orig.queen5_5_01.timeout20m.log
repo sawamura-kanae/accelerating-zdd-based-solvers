@@ -1,0 +1,48 @@
+Input graph file parsed. # of vertices = 25, # of edges = 160
+s 4 6 13 20
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 0.008361
+Solution space ZDD size = 193
+# of elements in the solution space = 462
+Start searching the longest reconfiguration sequence
+Step 1 time = 0.000060, # ZDD nodes = 9, # elems = 5
+Step 2 time = 0.000031, # ZDD nodes = 11, # elems = 4
+Step 3 time = 0.000088, # ZDD nodes = 14, # elems = 4
+Step 4 time = 0.000043, # ZDD nodes = 15, # elems = 5
+Step 5 time = 0.000052, # ZDD nodes = 25, # elems = 9
+Step 6 time = 0.000076, # ZDD nodes = 26, # elems = 10
+Step 7 time = 0.000082, # ZDD nodes = 12, # elems = 3
+Step 8 time = 0.000027, # ZDD nodes = 0, # elems = 0
+a 4 6 13 20
+a 4 6 13 22
+a 4 6 15 22
+a 4 6 15 17
+a 4 6 17 25
+a 6 14 17 25
+a 3 6 14 25
+a 3 14 16 25
+Reconfiguration time = 0.001093
+	Command being timed: "timeout 20m ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/queen5_5.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/queen5_5_01.dat --tj --indset --longest"
+	User time (seconds): 0.01
+	System time (seconds): 0.01
+	Percent of CPU this job got: 95%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 33012
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1029
+	Voluntary context switches: 4
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

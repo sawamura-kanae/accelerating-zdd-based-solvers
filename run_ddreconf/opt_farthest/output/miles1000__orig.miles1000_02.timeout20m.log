@@ -1,0 +1,48 @@
+Input graph file parsed. # of vertices = 128, # of edges = 3216
+s 14 15 17 22 34 106 119
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 35.992422
+Solution space ZDD size = 59247
+# of elements in the solution space = 2500822
+Start searching the longest reconfiguration sequence
+Step 1 time = 0.000462, # ZDD nodes = 98, # elems = 55
+Step 2 time = 0.004581, # ZDD nodes = 808, # elems = 979
+Step 3 time = 0.042679, # ZDD nodes = 3542, # elems = 7272
+Step 4 time = 0.275485, # ZDD nodes = 8801, # elems = 24871
+Step 5 time = 0.829839, # ZDD nodes = 13073, # elems = 44603
+Step 6 time = 1.156097, # ZDD nodes = 10312, # elems = 36786
+Step 7 time = 0.666833, # ZDD nodes = 2408, # elems = 6003
+Step 8 time = 0.070515, # ZDD nodes = 0, # elems = 0
+a 14 15 17 22 34 106 119
+a 14 15 17 22 34 106 120
+a 14 15 17 22 35 106 120
+a 15 17 22 35 73 106 120
+a 15 17 35 73 106 118 120
+a 15 17 35 73 95 118 120
+a 17 35 54 73 95 118 120
+a 35 54 59 73 95 118 120
+Reconfiguration time = 3.059647
+	Command being timed: "timeout 20m ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/miles1000.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/miles1000_02.dat --tj --indset --longest"
+	User time (seconds): 36.89
+	System time (seconds): 2.13
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:39.12
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4262912
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 90692
+	Voluntary context switches: 15
+	Involuntary context switches: 53
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,27 @@
+Input graph file parsed. # of vertices = 475, # of edges = 1795
+s 461 463 465 467 469 471 472 468 464 462 466 470 473 435 437 439 441 443 445 446 442 438 436 440 444 447 409 411 413 415 417 419 420 416 412 410 414 418 421 396 398 400 402 404 406 407 403 399 397 401 405 408 422 424 426 428 430 432 433 429 425 423 427 431 434 448 450 452 454 456 458 459 455 451 449 453 457 460 474 303 305 307 309 311 313 314 310 306 304 308 312 315 277 279 281 283 285 287 288 284 280 278 282 286 289 251 253 255 257 259 261 262 258 254 252 256 260 263 238 240 242 244 246 248 249 245 241 239 243 247 250 264 266 268 270 272 274 275 267 265 269 273 276 290 292 294 296 298 300 301 297 293 291 295 299 302 316 145 147 149 151 153 155 156 152 148 146 150 154 157 158 132 134 136 138 140 142 143 139 135 133 137 141 144 119 121 123 125 127 129 130 126 122 120 124 128 131 106 108 110 112 114 116 117 113 109 107 111 115 118 80 93 81 94 82 95 83 96 84 97 85 98 86 99 87 100 88 101 89 92 102 105 90 91 103 104
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 160m ../ddreconf/ddreconf ../instances_pwwt_col/4-Insertions_4.pwwt.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/4-Insertions_4_02.dat --tj --indset --longest"
+	User time (seconds): 8477.84
+	System time (seconds): 1112.15
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:40:09
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 559026644
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 954204273
+	Voluntary context switches: 131
+	Involuntary context switches: 5643
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

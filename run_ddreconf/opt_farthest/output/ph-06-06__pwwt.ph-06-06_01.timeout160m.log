@@ -1,0 +1,60 @@
+Input graph file parsed. # of vertices = 329, # of edges = 546
+s 1 3 8 150 26 152 44 154 156 158 62 80 98 160 162 164 166 168 170 172 174 176 178 11 180 29 182 47 184 186 188 65 83 101 190 192 194 196 198 200 202 204 206 208 14 210 32 212 50 214 216 218 68 86 104 220 222 224 226 228 230 232 234 236 238 17 114 20 23 240 35 120 38 41 242 53 126 56 59 244 246 248 71 89 107 132 74 77 138 92 95 110 144 113 250 252 254 256 258 260 262 264 266 268 270 272 274 276 278 280 282 284 286 288 290 292 294 296 298 300 302 304 306 308 310 312 314 316 318 320 322 324 326 328
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 721.283714
+Solution space ZDD size = 8654645
+# of elements in the solution space = 712081938752035057893383624500702381356344163108636740161703247481
+Start searching the longest reconfiguration sequence
+Step 1 time = 0.001486, # ZDD nodes = 529, # elems = 156
+Step 2 time = 0.008216, # ZDD nodes = 3177, # elems = 12001
+Step 3 time = 0.054817, # ZDD nodes = 17009, # elems = 607096
+Step 4 time = 0.288401, # ZDD nodes = 66034, # elems = 22721481
+Step 5 time = 1.280041, # ZDD nodes = 187030, # elems = 671155361
+Step 6 time = 3.893695, # ZDD nodes = 405116, # elems = 16299856065
+Step 7 time = 8.908726, # ZDD nodes = 715118, # elems = 334803997479
+Step 8 time = 20.276671, # ZDD nodes = 1104012, # elems = 5937927097864
+Step 9 time = 26.901543, # ZDD nodes = 1567586, # elems = 92382781680369
+Step 10 time = 37.102258, # ZDD nodes = 2094246, # elems = 1276697568297249
+Step 11 time = 53.067023, # ZDD nodes = 2664856, # elems = 15831536798185950
+Step 12 time = 61.097623, # ZDD nodes = 3261596, # elems = 177636083095098821
+Step 13 time = 76.024826, # ZDD nodes = 3875992, # elems = 1816218605044235446
+Step 14 time = 91.962779, # ZDD nodes = 4509318, # elems = 17023110081884107411
+Step 15 time = 115.405525, # ZDD nodes = 5164205, # elems = 147024896200767022962
+Step 16 time = 148.823656, # ZDD nodes = 5841457, # elems = 1175391685607066959776
+Step 17 time = 181.518822, # ZDD nodes = 6538180, # elems = 8732450222088135215025
+Step 18 time = 261.238182, # ZDD nodes = 7248632, # elems = 60503025650785514023100
+Step 19 time = 200.886628, # ZDD nodes = 7968120, # elems = 392162854330800122325115
+Step 20 time = 239.483833, # ZDD nodes = 8695251, # elems = 2384654092866495742354689
+Step 21 time = 276.359794, # ZDD nodes = 9428976, # elems = 13638151923343045411317864
+Step 22 time = 322.214213, # ZDD nodes = 10167766, # elems = 73528434012090127585177184
+Step 23 time = 376.877957, # ZDD nodes = 10909603, # elems = 374484255703740302344475409
+Step 24 time = 483.427402, # ZDD nodes = 11652401, # elems = 1805180297908828645812414614
+Step 25 time = 640.083392, # ZDD nodes = 12394895, # elems = 8250449174519029205425312271
+Step 26 time = 941.868573, # ZDD nodes = 13136874, # elems = 35810022399744930405436407867
+Step 27 time = 1464.783916, # ZDD nodes = 13878124, # elems = 147824727413417622678990729988
+Step 28 time = 2091.096904, # ZDD nodes = 14618323, # elems = 581168159789312475450047457998
+Step 29 Command exited with non-zero status 124
+	Command being timed: "timeout 160m ../ddreconf/ddreconf ../instances_pwwt_col/ph-06-06.pwwt.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/ph-isr/ph-06-06_01.dat --tj --indset --longest"
+	User time (seconds): 9494.35
+	System time (seconds): 84.51
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:40:00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 147001368
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 10290732
+	Voluntary context switches: 115
+	Involuntary context switches: 6406
+	Swaps: 0
+	File system inputs: 16
+	File system outputs: 208
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

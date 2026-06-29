@@ -1,0 +1,48 @@
+Input graph file parsed. # of vertices = 128, # of edges = 3216
+s 17 15 34 119 106 14 22
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 1.129753
+Solution space ZDD size = 690
+# of elements in the solution space = 2500822
+Start searching the longest reconfiguration sequence
+Step 1 time = 0.000160, # ZDD nodes = 69, # elems = 55
+Step 2 time = 0.000916, # ZDD nodes = 285, # elems = 979
+Step 3 time = 0.005675, # ZDD nodes = 524, # elems = 7272
+Step 4 time = 0.014963, # ZDD nodes = 725, # elems = 24871
+Step 5 time = 0.026862, # ZDD nodes = 750, # elems = 44603
+Step 6 time = 0.023769, # ZDD nodes = 470, # elems = 36786
+Step 7 time = 0.010917, # ZDD nodes = 130, # elems = 6003
+Step 8 time = 0.001564, # ZDD nodes = 0, # elems = 0
+a 14 15 17 22 34 106 119
+a 14 15 17 22 35 106 119
+a 15 17 19 22 35 106 119
+a 15 17 19 35 46 106 119
+a 15 17 19 35 46 56 119
+a 15 17 19 35 46 56 98
+a 17 19 35 46 56 77 98
+a 19 35 46 56 77 85 98
+Reconfiguration time = 0.089476
+	Command being timed: "timeout 20m ../ddreconf/ddreconf ../instances_pwwt_col/miles1000.pwwt.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/miles1000_02.dat --tj --indset --longest"
+	User time (seconds): 1.18
+	System time (seconds): 0.05
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.24
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 153796
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 7049
+	Voluntary context switches: 3
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,40 @@
+Input graph file parsed. # of vertices = 6, # of edges = 5
+s 2 5 4
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 0.000084
+Solution space ZDD size = 6
+# of elements in the solution space = 21
+Start searching the longest reconfiguration sequence
+Step 1 time = 0.000010, # ZDD nodes = 3, # elems = 1
+Step 2 time = 0.000004, # ZDD nodes = 3, # elems = 1
+Step 3 time = 0.000006, # ZDD nodes = 3, # elems = 1
+Step 4 time = 0.000003, # ZDD nodes = 0, # elems = 0
+a 2 4 5
+a 2 3 5
+a 2 3 6
+a 1 3 6
+Reconfiguration time = 0.000177
+	Command being timed: "timeout 20m ../ddreconf/ddreconf ../instances_pwwt_col/SAT_exp_instance002.pwwt.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/exp_instance/SAT_exp_instance002_01.dat --tj --indset --longest"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 92%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 33012
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 821
+	Voluntary context switches: 4
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

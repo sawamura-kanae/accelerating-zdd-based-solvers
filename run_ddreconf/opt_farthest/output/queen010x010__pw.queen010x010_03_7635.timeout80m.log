@@ -1,0 +1,76 @@
+Input graph file parsed. # of vertices = 100, # of edges = 1470
+s 1 14 82 48 60 35 76 29 97
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 2569.722992
+Solution space ZDD size = 523184
+# of elements in the solution space = 7535369
+Start searching the longest reconfiguration sequence
+Step 1 time = 0.000319, # ZDD nodes = 26, # elems = 11
+Step 2 time = 0.000659, # ZDD nodes = 73, # elems = 15
+Step 3 time = 0.001726, # ZDD nodes = 171, # elems = 31
+Step 4 time = 0.003676, # ZDD nodes = 327, # elems = 80
+Step 5 time = 0.007785, # ZDD nodes = 575, # elems = 149
+Step 6 time = 0.015092, # ZDD nodes = 1091, # elems = 266
+Step 7 time = 0.029574, # ZDD nodes = 1792, # elems = 435
+Step 8 time = 0.055000, # ZDD nodes = 3054, # elems = 845
+Step 9 time = 0.110667, # ZDD nodes = 5049, # elems = 1540
+Step 10 time = 0.206014, # ZDD nodes = 8028, # elems = 2691
+Step 11 time = 0.380322, # ZDD nodes = 12407, # elems = 4480
+Step 12 time = 0.645984, # ZDD nodes = 17631, # elems = 6928
+Step 13 time = 1.017962, # ZDD nodes = 22020, # elems = 9201
+Step 14 time = 1.401405, # ZDD nodes = 24140, # elems = 10717
+Step 15 time = 1.632051, # ZDD nodes = 21997, # elems = 9908
+Step 16 time = 1.488976, # ZDD nodes = 15039, # elems = 6268
+Step 17 time = 0.896546, # ZDD nodes = 6960, # elems = 2201
+Step 18 time = 0.307538, # ZDD nodes = 2252, # elems = 507
+Step 19 time = 0.066443, # ZDD nodes = 665, # elems = 110
+Step 20 time = 0.013374, # ZDD nodes = 187, # elems = 27
+Step 21 time = 0.002756, # ZDD nodes = 36, # elems = 5
+Step 22 time = 0.000378, # ZDD nodes = 0, # elems = 0
+a 1 14 29 35 48 60 76 82 97
+a 1 14 29 35 48 60 63 76 82
+a 1 14 29 48 60 63 76 82 95
+a 14 29 31 48 60 63 76 82 95
+a 6 14 29 31 48 60 63 82 95
+a 6 14 29 31 48 60 67 82 95
+a 6 14 29 31 43 60 67 82 95
+a 6 14 29 31 43 60 67 88 95
+a 6 14 29 43 60 67 71 88 95
+a 2 14 29 43 60 67 71 88 95
+a 2 29 36 43 60 67 71 88 95
+a 2 19 36 43 60 67 71 88 95
+a 19 24 36 43 60 67 71 88 95
+a 19 24 36 43 60 67 71 88 92
+a 5 19 24 36 43 67 71 88 92
+a 5 24 36 43 59 67 71 88 92
+a 10 24 36 43 59 67 71 88 92
+a 10 24 36 43 59 67 75 88 92
+a 10 24 36 41 59 67 75 88 92
+a 10 13 36 41 59 67 75 88 92
+a 10 13 21 36 59 67 75 88 92
+a 10 13 21 36 44 59 67 75 92
+Reconfiguration time = 8.322731
+	Command being timed: "timeout 80m ../ddreconf/ddreconf ../instances_pw_col/queen010x010.pw.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/queen/queen010x010_03_7635.dat --tj --indset --longest"
+	User time (seconds): 2501.09
+	System time (seconds): 70.37
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 42:58.73
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 137420348
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1691757
+	Voluntary context switches: 62
+	Involuntary context switches: 1648
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,56 @@
+Input graph file parsed. # of vertices = 125, # of edges = 3891
+s 6 14 15 25 45 87 88 107 113
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 897.187428
+Solution space ZDD size = 115590
+# of elements in the solution space = 537509
+Start searching the longest reconfiguration sequence
+Step 1 time = 0.000295, # ZDD nodes = 18, # elems = 9
+Step 2 time = 0.000316, # ZDD nodes = 36, # elems = 5
+Step 3 time = 0.000696, # ZDD nodes = 50, # elems = 13
+Step 4 time = 0.000906, # ZDD nodes = 39, # elems = 6
+Step 5 time = 0.000632, # ZDD nodes = 23, # elems = 3
+Step 6 time = 0.000278, # ZDD nodes = 9, # elems = 1
+Step 7 time = 0.000115, # ZDD nodes = 9, # elems = 1
+Step 8 time = 0.000107, # ZDD nodes = 9, # elems = 1
+Step 9 time = 0.000092, # ZDD nodes = 22, # elems = 3
+Step 10 time = 0.000418, # ZDD nodes = 24, # elems = 3
+Step 11 time = 0.000360, # ZDD nodes = 9, # elems = 1
+Step 12 time = 0.000194, # ZDD nodes = 0, # elems = 0
+a 6 14 15 25 45 87 88 107 113
+a 6 14 15 25 76 87 88 107 113
+a 6 14 25 63 76 87 88 107 113
+a 6 14 25 33 63 76 87 107 113
+a 6 14 25 33 63 76 87 107 122
+a 6 14 25 33 63 69 76 107 122
+a 14 25 33 63 69 76 107 116 122
+a 25 33 63 69 76 107 116 120 122
+a 25 33 63 69 74 76 107 116 120
+a 25 33 63 69 74 75 107 116 120
+a 25 33 57 63 69 74 75 107 116
+a 5 25 33 57 63 69 74 75 116
+Reconfiguration time = 0.008421
+	Command being timed: "timeout 20m ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/DSJC125.5.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/DSJC125.5_01.dat --tj --indset --longest"
+	User time (seconds): 859.58
+	System time (seconds): 36.00
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 14:57.49
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 72016168
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 563384
+	Voluntary context switches: 94
+	Involuntary context switches: 859
+	Swaps: 0
+	File system inputs: 64
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

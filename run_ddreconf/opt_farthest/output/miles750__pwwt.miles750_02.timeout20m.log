@@ -1,0 +1,56 @@
+Input graph file parsed. # of vertices = 128, # of edges = 2113
+s 34 33 72 14 112 40 3 17 64 111 22
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 2.528436
+Solution space ZDD size = 10322
+# of elements in the solution space = 245547105
+Start searching the longest reconfiguration sequence
+Step 1 time = 0.000169, # ZDD nodes = 47, # elems = 31
+Step 2 time = 0.000741, # ZDD nodes = 199, # elems = 323
+Step 3 time = 0.003601, # ZDD nodes = 509, # elems = 1631
+Step 4 time = 0.017558, # ZDD nodes = 834, # elems = 5398
+Step 5 time = 0.019762, # ZDD nodes = 1044, # elems = 15519
+Step 6 time = 0.022283, # ZDD nodes = 1204, # elems = 32791
+Step 7 time = 0.021737, # ZDD nodes = 1208, # elems = 49000
+Step 8 time = 0.031280, # ZDD nodes = 1035, # elems = 51135
+Step 9 time = 0.010038, # ZDD nodes = 686, # elems = 31390
+Step 10 time = 0.004482, # ZDD nodes = 326, # elems = 9547
+Step 11 time = 0.000906, # ZDD nodes = 79, # elems = 1522
+Step 12 time = 0.000248, # ZDD nodes = 0, # elems = 0
+a 3 14 17 22 33 34 40 64 72 111 112
+a 3 14 17 33 34 40 64 72 95 111 112
+a 3 14 17 33 34 40 64 72 86 95 112
+a 3 14 17 33 34 40 72 86 95 107 112
+a 3 14 17 33 34 40 56 72 86 107 112
+a 3 14 17 33 34 40 56 86 107 112 119
+a 3 14 17 34 40 56 86 107 108 112 119
+a 5 14 17 34 40 56 86 107 108 112 119
+a 5 11 14 34 40 56 86 107 108 112 119
+a 5 11 14 26 34 56 86 107 108 112 119
+a 5 11 26 34 56 86 101 107 108 112 119
+a 5 11 26 56 86 101 107 108 112 119 121
+Reconfiguration time = 0.141230
+	Command being timed: "timeout 20m ../ddreconf/ddreconf ../instances_pwwt_col/miles750.pwwt.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/miles750_02.dat --tj --indset --longest"
+	User time (seconds): 2.55
+	System time (seconds): 0.13
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.69
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 275124
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11042
+	Voluntary context switches: 3
+	Involuntary context switches: 3
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
