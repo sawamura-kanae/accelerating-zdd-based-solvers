@@ -26,7 +26,8 @@ The above command selects log files with longest timeout from
 already filtered.
 
 This step might not be needed, but duplicates are simply dropped in the final
-CSV files.
+CSV and Parquet files. For correct analysis, all log files that are run shorter
+than the specified time limit must have succeeded.
 
 -----
 
@@ -57,3 +58,17 @@ parses as much as possible. Warnings are safe to ignore if the lines it reports
 actually indicate the runs did not succeed, for example `"Command exited with
 non-zero status 124"` (the run timed out). It gives up on unrecognized errors
 rather than keep going.
+
+-----
+
+The generated Parquet files from the previous steps are split into multiple
+files using `split_parquet.py`. It is a Python script with inline script
+metadata. For example, using uv:
+
+```bash
+uv run --script split_parquet.py
+```
+
+reads `./shortest.parquet` and `./farthest.parquet` and outputs files to
+`./shortest/` and `./farthest/`, which are included in the repository and used
+by `../plot/`.
