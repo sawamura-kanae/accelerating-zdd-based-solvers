@@ -64,3 +64,30 @@ All log files are found in:
 ## Final results
 
 The final serialized data and plotting scripts are in `./plot/`.
+
+## Directory layout
+
+- `pathwidth_opt/`: Java implementation for computing optimal path
+  decompositions.
+- `pathwidth_heur/`: Java implementation for computing heuristic path
+  decompositions.
+- `run_pathwidth_opt/`: scripts and logs for running `pathwidth_opt/` on the
+  benchmark graphs.
+- `run_pathwidth_heur/`: scripts and logs for running `pathwidth_heur/` on the
+  benchmark graphs.
+- `parse_pathwidth_logs/`: scripts for parsing Pathwidth logs and generated
+  graph files. The `pw.col/` and `pwwt.col/` subdirectories contain graphs
+  generated from optimal and heuristic path decompositions.
+- `run_ddreconf/`: scripts and logs for running ddreconf on original,
+  optimal-decomposition, and heuristic-decomposition graphs. Its subdirectories
+  separate the shortest and farthest variants and the opt-available and
+  heuristic/original graph sets.
+- `parse_ddreconf_logs/`: Go parser for ddreconf logs, together with
+  serialized intermediate results used by the plotting pipeline.
+- `make_masterdb/`: Racket script and CSV listing the CoRe Challenge 2023
+  instances used in the experiments.
+- `make_associated_pathwidth/`: C++ program and runner for computing associated
+  pathwidths of edge orderings.
+- `util/`: small shared Racket utilities used by the parsing scripts.
+- `plot/`: final result serialization and plotting scripts, when included in
+  the artifact.
