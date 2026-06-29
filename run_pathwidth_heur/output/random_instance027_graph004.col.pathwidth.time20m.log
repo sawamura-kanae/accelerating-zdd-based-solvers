@@ -1,0 +1,27 @@
+../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance027_graph004.col
+351
+98, 260, 10, 84, 126, 248, 206, 255, 339, 210, 6, 19, 93, 56, 57, 33, 69, 85, 89, 230, 92, 95, 8, 153, 34, 302, 42, 118, 165, 171, 174, 276, 281, 47, 306, 54, 105, 296, 161, 32, 63, 252, 40, 55, 172, 167, 181, 202, 299, 243, 320, 291, 257, 41, 226, 141, 114, 147, 232, 327, 35, 61, 104, 166, 208, 195, 75, 203, 212, 177, 273, 127, 125, 149, 312, 66, 88, 156, 314, 163, 135, 27, 16, 59, 196, 50, 154, 111, 23, 70, 117, 326, 120, 170, 346, 44, 132, 179, 11, 25, 36, 264, 331, 43, 249, 46, 228, 317, 321, 189, 14, 139, 96, 221, 21, 188, 233, 274, 90, 271, 211, 251, 205, 194, 162, 270, 45, 77, 231, 250, 86, 142, 115, 215, 225, 128, 152, 173, 213, 217, 227, 136, 323, 209, 237, 193, 201, 258, 262, 280, 67, 94, 256, 283, 336, 53, 79, 103, 83, 106, 344, 7, 133, 168, 313, 319, 330, 64, 91, 13, 82, 345, 12, 107, 300, 145, 30, 100, 119, 160, 17, 97, 129, 288, 157, 131, 223, 277, 143, 180, 244, 334, 176, 49, 301, 335, 58, 38, 343, 116, 72, 204, 279, 315, 349, 140, 183, 2, 3, 62, 60, 73, 192, 22, 9, 190, 191, 29, 184, 71, 253, 74, 51, 224, 76, 199, 4, 198, 108, 68, 110, 242, 298, 121, 148, 15, 48, 123, 24, 229, 311, 39, 239, 80, 122, 290, 329, 124, 235, 340, 0, 325, 52, 87, 65, 216, 338, 78, 102, 285, 305, 134, 207, 245, 265, 318, 347, 144, 158, 309, 146, 246, 254, 261, 20, 267, 289, 348, 150, 164, 287, 5, 272, 138, 200, 18, 322, 81, 151, 182, 197, 268, 294, 324, 332, 99, 308, 328, 31, 284, 101, 240, 247, 293, 316, 28, 187, 109, 130, 218, 113, 1, 169, 241, 297, 342, 37, 337, 137, 159, 178, 236, 295, 303, 333, 350, 155, 269, 278, 175, 259, 304, 26, 282, 286, 185, 186, 341, 112, 214, 234, 275, 219, 220, 238, 263, 266, 307, 222, 292, 310
+../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance027_graph004.col	351	1053	-1	68
+	Command being timed: "timeout 20m java -Xms1024g -Xmx1024g -Xss134m -cp pathwidth.jar Pathwidth ../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance027_graph004.col"
+	User time (seconds): 0.81
+	System time (seconds): 1.42
+	Percent of CPU this job got: 118%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.89
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4824256
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 135214
+	Voluntary context switches: 3250
+	Involuntary context switches: 11
+	Swaps: 0
+	File system inputs: 24
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,27 @@
+../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/queen9_9.col
+81
+0, 2, 20, 18, 6, 24, 8, 26, 10, 28, 15, 63, 64, 1, 11, 38, 42, 7, 16, 34, 70, 71, 36, 44, 4, 13, 22, 31, 40, 46, 52, 9, 19, 29, 5, 14, 23, 32, 50, 53, 68, 69, 17, 25, 27, 33, 37, 41, 47, 49, 54, 56, 58, 60, 61, 62, 3, 12, 21, 30, 35, 39, 43, 45, 48, 51, 55, 57, 59, 65, 66, 67, 72, 73, 74, 75, 76, 77, 78, 79, 80
+../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/queen9_9.col	81	1056	-1	30
+	Command being timed: "timeout 20m java -Xms1024g -Xmx1024g -Xss134m -cp pathwidth.jar Pathwidth ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/queen9_9.col"
+	User time (seconds): 0.62
+	System time (seconds): 1.43
+	Percent of CPU this job got: 111%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.85
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4805572
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 131977
+	Voluntary context switches: 3349
+	Involuntary context switches: 6
+	Swaps: 0
+	File system inputs: 24
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

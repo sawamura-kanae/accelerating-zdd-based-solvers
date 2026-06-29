@@ -1,0 +1,27 @@
+../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/school1.col
+385
+103, 135, 136, 314, 137, 283, 284, 315, 39, 313, 192, 184, 193, 187, 235, 240, 312, 378, 1, 85, 381, 382, 139, 140, 194, 56, 185, 380, 186, 12, 161, 308, 353, 361, 98, 104, 155, 43, 327, 360, 234, 21, 356, 167, 175, 8, 7, 6, 173, 171, 172, 174, 326, 52, 50, 321, 316, 9, 13, 10, 25, 32, 34, 97, 91, 54, 92, 96, 93, 95, 319, 322, 317, 324, 22, 41, 23, 51, 53, 33, 358, 204, 206, 47, 203, 205, 79, 88, 133, 81, 131, 132, 134, 42, 94, 46, 311, 55, 102, 38, 14, 11, 84, 89, 306, 304, 35, 145, 49, 302, 309, 45, 305, 307, 80, 90, 100, 303, 318, 325, 48, 101, 105, 106, 228, 320, 323, 359, 26, 83, 87, 180, 182, 221, 222, 223, 224, 225, 226, 229, 24, 31, 44, 82, 86, 301, 310, 337, 117, 118, 227, 163, 99, 37, 141, 170, 211, 3, 148, 149, 164, 168, 352, 354, 357, 4, 16, 18, 20, 147, 212, 214, 215, 254, 17, 166, 169, 249, 19, 27, 28, 30, 36, 40, 111, 112, 113, 114, 125, 126, 127, 128, 129, 130, 238, 239, 243, 246, 247, 250, 251, 252, 293, 294, 295, 297, 298, 299, 329, 339, 347, 348, 351, 355, 15, 162, 296, 300, 332, 346, 29, 165, 245, 331, 176, 248, 349, 213, 216, 244, 253, 291, 292, 333, 338, 350, 379, 0, 69, 70, 71, 72, 73, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 328, 330, 334, 335, 336, 115, 116, 138, 156, 376, 74, 75, 76, 77, 78, 152, 383, 189, 191, 146, 158, 160, 188, 190, 195, 196, 197, 199, 201, 241, 242, 200, 142, 144, 368, 377, 59, 154, 157, 178, 271, 277, 369, 372, 2, 5, 57, 58, 60, 61, 62, 63, 64, 65, 66, 67, 68, 107, 108, 109, 110, 119, 120, 121, 122, 123, 124, 143, 150, 151, 153, 159, 177, 179, 181, 183, 198, 202, 207, 208, 209, 210, 217, 218, 219, 220, 230, 231, 232, 233, 236, 237, 265, 266, 267, 268, 269, 270, 272, 273, 274, 275, 276, 278, 279, 280, 281, 282, 285, 286, 287, 288, 289, 290, 340, 341, 342, 343, 344, 345, 362, 363, 364, 365, 366, 367, 370, 371, 373, 374, 375, 384
+../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/school1.col	385	19095	-1	134
+	Command being timed: "timeout 20m java -Xms1024g -Xmx1024g -Xss134m -cp pathwidth.jar Pathwidth ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/school1.col"
+	User time (seconds): 1.47
+	System time (seconds): 1.48
+	Percent of CPU this job got: 146%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4894860
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 143115
+	Voluntary context switches: 4626
+	Involuntary context switches: 8
+	Swaps: 0
+	File system inputs: 360
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

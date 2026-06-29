@@ -1,0 +1,27 @@
+../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/DSJC250.1.col
+250
+184, 141, 66, 191, 46, 245, 67, 192, 8, 110, 25, 24, 108, 112, 169, 121, 41, 95, 193, 98, 148, 130, 113, 200, 21, 96, 63, 129, 37, 23, 107, 220, 38, 211, 22, 138, 157, 180, 156, 187, 3, 68, 0, 69, 10, 42, 90, 176, 13, 144, 15, 35, 44, 225, 2, 140, 52, 114, 47, 32, 71, 164, 175, 14, 230, 249, 49, 247, 58, 159, 182, 33, 120, 139, 203, 45, 57, 62, 172, 190, 20, 116, 142, 243, 12, 81, 92, 134, 151, 233, 238, 19, 34, 115, 149, 154, 173, 183, 188, 224, 5, 73, 76, 132, 150, 177, 7, 11, 59, 70, 100, 133, 147, 165, 227, 17, 84, 99, 101, 104, 106, 143, 146, 201, 204, 214, 223, 9, 29, 72, 170, 171, 221, 235, 6, 55, 89, 111, 128, 135, 137, 145, 153, 158, 167, 179, 197, 198, 222, 237, 28, 54, 82, 131, 160, 161, 208, 228, 244, 246, 16, 60, 77, 80, 97, 127, 152, 163, 210, 217, 241, 1, 4, 30, 43, 53, 64, 65, 79, 87, 93, 102, 119, 122, 126, 155, 166, 194, 195, 199, 202, 207, 213, 216, 242, 18, 50, 75, 86, 88, 94, 103, 109, 117, 124, 136, 162, 181, 189, 205, 218, 229, 234, 248, 26, 27, 31, 48, 56, 61, 78, 85, 105, 123, 125, 174, 178, 215, 231, 236, 36, 39, 40, 51, 74, 83, 91, 118, 168, 185, 186, 196, 206, 209, 212, 219, 226, 232, 239, 240
+../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/DSJC250.1.col	250	3218	-1	59
+	Command being timed: "timeout 20m java -Xms1024g -Xmx1024g -Xss134m -cp pathwidth.jar Pathwidth ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/DSJC250.1.col"
+	User time (seconds): 0.84
+	System time (seconds): 1.43
+	Percent of CPU this job got: 119%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.91
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4815988
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 133274
+	Voluntary context switches: 3921
+	Involuntary context switches: 36
+	Swaps: 0
+	File system inputs: 64
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

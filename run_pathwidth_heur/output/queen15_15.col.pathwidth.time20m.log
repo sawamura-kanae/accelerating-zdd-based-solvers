@@ -1,0 +1,27 @@
+../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/queen15_15.col
+225
+0, 2, 32, 30, 34, 4, 62, 64, 60, 36, 66, 6, 38, 8, 68, 40, 10, 70, 12, 42, 72, 19, 51, 23, 14, 44, 74, 179, 28, 58, 88, 148, 178, 118, 208, 21, 26, 56, 86, 116, 146, 176, 206, 149, 17, 49, 177, 209, 90, 92, 94, 96, 98, 100, 102, 104, 9, 24, 54, 84, 114, 144, 174, 204, 15, 47, 79, 207, 119, 147, 175, 7, 22, 37, 52, 82, 112, 142, 172, 202, 45, 77, 205, 89, 103, 117, 145, 173, 120, 122, 124, 126, 128, 130, 131, 132, 133, 134, 11, 25, 39, 53, 67, 81, 109, 75, 107, 203, 5, 20, 35, 50, 65, 80, 95, 110, 140, 170, 200, 59, 73, 87, 101, 115, 129, 143, 171, 105, 137, 150, 152, 154, 156, 157, 158, 159, 160, 161, 162, 163, 164, 201, 3, 18, 33, 48, 63, 78, 93, 108, 123, 135, 138, 168, 198, 199, 13, 27, 41, 55, 69, 83, 97, 111, 125, 139, 153, 165, 167, 180, 182, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 1, 16, 29, 31, 43, 46, 57, 61, 71, 76, 85, 91, 99, 106, 113, 121, 127, 136, 141, 151, 155, 166, 169, 181, 183, 195, 196, 197, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224
+../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/queen15_15.col	225	5180	-1	61
+	Command being timed: "timeout 20m java -Xms1024g -Xmx1024g -Xss134m -cp pathwidth.jar Pathwidth ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/queen15_15.col"
+	User time (seconds): 0.86
+	System time (seconds): 1.42
+	Percent of CPU this job got: 120%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.90
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4819044
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 134056
+	Voluntary context switches: 3991
+	Involuntary context switches: 9
+	Swaps: 0
+	File system inputs: 96
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

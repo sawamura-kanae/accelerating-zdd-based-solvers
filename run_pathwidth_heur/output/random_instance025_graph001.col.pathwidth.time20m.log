@@ -1,0 +1,27 @@
+../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance025_graph001.col
+325
+12, 26, 61, 127, 168, 194, 10, 22, 28, 36, 79, 58, 39, 88, 93, 95, 160, 107, 20, 108, 0, 99, 221, 233, 131, 235, 227, 117, 146, 207, 60, 63, 163, 106, 113, 156, 301, 65, 198, 3, 172, 314, 4, 112, 169, 181, 129, 248, 185, 220, 262, 246, 295, 171, 2, 247, 62, 309, 68, 240, 170, 101, 147, 214, 201, 225, 137, 37, 245, 157, 32, 8, 140, 18, 23, 14, 299, 33, 224, 97, 297, 35, 206, 96, 291, 24, 7, 34, 85, 38, 123, 176, 230, 153, 278, 13, 6, 195, 319, 324, 19, 217, 9, 253, 27, 281, 29, 56, 223, 294, 312, 139, 114, 83, 226, 120, 285, 261, 130, 104, 90, 184, 165, 186, 188, 196, 216, 121, 105, 59, 149, 49, 52, 102, 115, 159, 178, 192, 1, 228, 100, 66, 145, 118, 135, 150, 308, 21, 48, 91, 40, 81, 109, 5, 71, 54, 74, 75, 158, 151, 50, 167, 282, 162, 53, 16, 229, 111, 25, 265, 31, 73, 126, 77, 116, 288, 86, 15, 275, 92, 124, 76, 84, 255, 290, 47, 94, 242, 41, 98, 148, 293, 155, 128, 197, 276, 305, 179, 252, 268, 180, 42, 11, 67, 103, 177, 122, 193, 323, 44, 212, 132, 161, 263, 174, 243, 152, 267, 72, 236, 239, 258, 164, 321, 17, 138, 199, 205, 30, 257, 292, 304, 43, 191, 286, 87, 175, 187, 277, 182, 141, 203, 154, 251, 69, 271, 51, 200, 110, 231, 244, 264, 270, 279, 89, 232, 287, 318, 136, 190, 273, 300, 166, 234, 283, 142, 209, 269, 284, 307, 144, 259, 57, 183, 241, 249, 316, 317, 78, 238, 280, 143, 80, 189, 274, 298, 202, 254, 266, 310, 119, 322, 125, 211, 222, 134, 204, 256, 296, 311, 45, 215, 272, 133, 210, 219, 289, 173, 208, 237, 260, 302, 303, 46, 213, 306, 55, 64, 70, 315, 320, 82, 218, 250, 313
+../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance025_graph001.col	325	975	-1	65
+	Command being timed: "timeout 20m java -Xms1024g -Xmx1024g -Xss134m -cp pathwidth.jar Pathwidth ../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance025_graph001.col"
+	User time (seconds): 0.78
+	System time (seconds): 1.45
+	Percent of CPU this job got: 117%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.90
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4824172
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 135838
+	Voluntary context switches: 2830
+	Involuntary context switches: 44
+	Swaps: 0
+	File system inputs: 24
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

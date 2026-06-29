@@ -1,0 +1,27 @@
+../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance016_graph004.col
+208
+53, 12, 5, 85, 8, 15, 19, 30, 41, 58, 62, 66, 101, 11, 36, 139, 73, 28, 203, 164, 25, 39, 46, 50, 55, 78, 42, 64, 102, 137, 47, 126, 131, 141, 158, 79, 130, 133, 3, 89, 27, 93, 193, 14, 94, 33, 24, 67, 136, 6, 178, 13, 179, 192, 17, 54, 44, 107, 197, 40, 48, 82, 151, 117, 95, 170, 21, 108, 150, 186, 183, 202, 4, 83, 52, 81, 92, 77, 200, 128, 90, 32, 59, 38, 125, 162, 168, 181, 26, 70, 91, 111, 71, 177, 132, 154, 16, 18, 65, 119, 109, 74, 195, 61, 173, 37, 1, 114, 80, 84, 129, 86, 172, 189, 104, 166, 134, 163, 135, 96, 115, 76, 194, 35, 57, 165, 49, 146, 196, 204, 206, 43, 188, 10, 122, 0, 187, 23, 51, 72, 9, 31, 97, 7, 171, 60, 174, 191, 75, 29, 2, 99, 110, 156, 34, 118, 124, 149, 161, 198, 68, 106, 56, 138, 182, 69, 147, 45, 153, 180, 63, 88, 22, 123, 155, 169, 176, 201, 205, 87, 113, 144, 160, 190, 98, 127, 140, 103, 143, 159, 199, 20, 105, 148, 157, 207, 100, 152, 175, 185, 112, 120, 121, 145, 116, 142, 167, 184
+../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance016_graph004.col	208	624	-1	44
+	Command being timed: "timeout 20m java -Xms1024g -Xmx1024g -Xss134m -cp pathwidth.jar Pathwidth ../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance016_graph004.col"
+	User time (seconds): 0.71
+	System time (seconds): 1.42
+	Percent of CPU this job got: 114%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.86
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4806540
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 133111
+	Voluntary context switches: 3083
+	Involuntary context switches: 10
+	Swaps: 0
+	File system inputs: 16
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,27 @@
+../benchmark_instances/2023result/docs/solver/benchmark/exp_instance/SAT_exp_instance016.col
+216
+1, 32, 33, 3, 38, 36, 37, 39, 40, 41, 5, 34, 35, 7, 52, 50, 51, 53, 54, 55, 11, 43, 42, 75, 73, 74, 9, 44, 45, 46, 47, 48, 49, 70, 71, 72, 15, 57, 56, 101, 99, 100, 12, 124, 122, 123, 156, 154, 155, 24, 134, 135, 27, 194, 192, 193, 28, 172, 31, 173, 213, 214, 215, 19, 77, 76, 16, 131, 132, 133, 160, 161, 162, 198, 199, 200, 20, 102, 103, 23, 169, 170, 171, 204, 205, 206, 58, 59, 60, 61, 62, 63, 13, 64, 65, 66, 67, 68, 69, 96, 97, 98, 14, 125, 126, 127, 157, 158, 159, 195, 196, 197, 78, 79, 80, 0, 104, 105, 106, 136, 137, 138, 174, 175, 176, 81, 82, 83, 2, 107, 108, 109, 139, 140, 141, 177, 178, 179, 84, 85, 86, 4, 110, 111, 112, 142, 143, 144, 180, 181, 182, 87, 88, 89, 6, 113, 114, 115, 145, 146, 147, 183, 184, 185, 17, 90, 91, 92, 93, 94, 95, 18, 128, 129, 130, 163, 164, 165, 201, 202, 203, 8, 116, 117, 118, 21, 22, 119, 120, 121, 10, 148, 149, 150, 26, 151, 152, 153, 166, 167, 168, 25, 186, 187, 188, 189, 190, 191, 29, 207, 208, 209, 30, 210, 211, 212
+../benchmark_instances/2023result/docs/solver/benchmark/exp_instance/SAT_exp_instance016.col	216	376	-1	47
+	Command being timed: "timeout 20m java -Xms1024g -Xmx1024g -Xss134m -cp pathwidth.jar Pathwidth ../benchmark_instances/2023result/docs/solver/benchmark/exp_instance/SAT_exp_instance016.col"
+	User time (seconds): 0.68
+	System time (seconds): 1.43
+	Percent of CPU this job got: 112%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.87
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4807520
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 132650
+	Voluntary context switches: 2647
+	Involuntary context switches: 7
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

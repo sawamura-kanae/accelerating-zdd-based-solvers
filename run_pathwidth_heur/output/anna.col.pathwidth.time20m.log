@@ -1,0 +1,27 @@
+../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/anna.col
+138
+0, 4, 47, 65, 70, 124, 1, 2, 3, 10, 14, 22, 30, 38, 74, 79, 86, 87, 104, 106, 112, 113, 120, 7, 131, 12, 102, 26, 40, 41, 42, 43, 5, 49, 95, 55, 110, 23, 127, 24, 121, 37, 9, 97, 123, 21, 25, 27, 78, 34, 89, 36, 66, 39, 61, 51, 105, 62, 64, 118, 128, 13, 16, 28, 126, 29, 58, 68, 85, 8, 82, 18, 107, 15, 63, 32, 109, 111, 119, 20, 19, 45, 67, 129, 46, 83, 101, 53, 54, 91, 122, 77, 50, 75, 57, 88, 125, 52, 84, 133, 117, 6, 17, 80, 90, 98, 137, 59, 73, 116, 134, 81, 44, 135, 35, 92, 96, 114, 108, 136, 48, 115, 130, 132, 11, 103, 33, 60, 93, 94, 99, 31, 56, 69, 71, 72, 76, 100
+../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/anna.col	138	493	-1	36
+	Command being timed: "timeout 20m java -Xms1024g -Xmx1024g -Xss134m -cp pathwidth.jar Pathwidth ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/anna.col"
+	User time (seconds): 0.65
+	System time (seconds): 1.42
+	Percent of CPU this job got: 111%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.86
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4803508
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 131890
+	Voluntary context switches: 3435
+	Involuntary context switches: 10
+	Swaps: 0
+	File system inputs: 16
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,27 @@
+../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/myciel6.col
+95
+86, 88, 89, 87, 90, 81, 83, 84, 82, 85, 91, 75, 77, 78, 76, 79, 70, 72, 73, 71, 74, 80, 92, 63, 65, 66, 64, 67, 58, 60, 61, 59, 62, 68, 45, 28, 16, 18, 30, 19, 31, 17, 20, 29, 32, 39, 40, 41, 42, 43, 57, 11, 23, 13, 25, 14, 26, 10, 12, 15, 21, 24, 27, 33, 94, 34, 1, 36, 48, 3, 38, 50, 2, 35, 49, 0, 4, 37, 47, 51, 5, 6, 7, 8, 9, 22, 44, 46, 52, 53, 54, 55, 56, 69, 93
+../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/myciel6.col	95	755	-1	32
+	Command being timed: "timeout 20m java -Xms1024g -Xmx1024g -Xss134m -cp pathwidth.jar Pathwidth ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/myciel6.col"
+	User time (seconds): 0.63
+	System time (seconds): 1.44
+	Percent of CPU this job got: 111%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.86
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4802388
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 132278
+	Voluntary context switches: 3446
+	Involuntary context switches: 48
+	Swaps: 0
+	File system inputs: 16
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

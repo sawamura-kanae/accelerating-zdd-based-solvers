@@ -1,0 +1,27 @@
+../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance031_graph005.col
+403
+152, 250, 267, 29, 47, 181, 75, 232, 322, 62, 64, 72, 84, 95, 183, 103, 109, 192, 34, 118, 126, 222, 163, 188, 191, 173, 399, 195, 13, 143, 196, 129, 313, 33, 35, 49, 48, 90, 82, 92, 133, 212, 227, 257, 61, 271, 349, 69, 101, 165, 51, 131, 11, 365, 87, 155, 178, 185, 122, 170, 207, 298, 36, 148, 203, 292, 304, 58, 113, 381, 86, 240, 197, 388, 396, 351, 180, 325, 169, 282, 305, 124, 40, 96, 194, 107, 335, 4, 57, 91, 20, 19, 389, 31, 76, 80, 149, 164, 7, 186, 366, 15, 209, 32, 17, 65, 382, 201, 55, 89, 59, 1, 24, 26, 52, 340, 81, 215, 279, 348, 139, 108, 130, 25, 200, 88, 145, 171, 134, 221, 234, 238, 244, 120, 262, 314, 341, 23, 337, 311, 302, 179, 116, 216, 102, 245, 316, 319, 361, 346, 255, 374, 0, 286, 125, 387, 307, 160, 210, 345, 105, 336, 99, 237, 157, 247, 214, 317, 50, 233, 266, 270, 83, 132, 362, 54, 343, 320, 395, 10, 53, 115, 274, 208, 112, 223, 256, 277, 284, 291, 97, 236, 249, 269, 281, 294, 45, 166, 401, 93, 226, 303, 356, 70, 27, 138, 296, 205, 66, 9, 100, 41, 397, 219, 21, 144, 153, 16, 347, 368, 46, 114, 242, 378, 68, 375, 38, 278, 44, 71, 293, 127, 224, 154, 177, 189, 312, 151, 308, 176, 259, 8, 369, 6, 297, 140, 156, 324, 385, 167, 168, 332, 174, 202, 199, 300, 379, 204, 213, 260, 5, 30, 229, 363, 217, 218, 261, 383, 12, 220, 77, 85, 272, 98, 339, 74, 104, 135, 63, 146, 398, 119, 328, 350, 18, 321, 39, 56, 239, 309, 352, 353, 42, 299, 2, 310, 355, 67, 158, 359, 73, 136, 268, 394, 78, 111, 372, 121, 228, 334, 150, 37, 330, 94, 193, 263, 106, 258, 323, 371, 376, 393, 28, 60, 206, 283, 318, 79, 338, 400, 117, 162, 254, 287, 367, 384, 159, 231, 161, 289, 354, 147, 329, 123, 290, 175, 230, 295, 373, 22, 141, 251, 288, 358, 360, 43, 285, 142, 235, 344, 137, 172, 276, 280, 386, 14, 187, 252, 315, 370, 182, 243, 357, 184, 264, 3, 128, 377, 402, 190, 306, 391, 198, 241, 326, 331, 211, 275, 327, 225, 380, 246, 253, 301, 265, 333, 110, 248, 342, 364, 273, 390, 392
+../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance031_graph005.col	403	1209	-1	76
+	Command being timed: "timeout 20m java -Xms1024g -Xmx1024g -Xss134m -cp pathwidth.jar Pathwidth ../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance031_graph005.col"
+	User time (seconds): 0.83
+	System time (seconds): 1.42
+	Percent of CPU this job got: 119%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.90
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4837816
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 135787
+	Voluntary context switches: 3080
+	Involuntary context switches: 9
+	Swaps: 0
+	File system inputs: 24
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

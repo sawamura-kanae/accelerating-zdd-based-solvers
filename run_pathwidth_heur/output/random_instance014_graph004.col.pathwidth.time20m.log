@@ -1,0 +1,27 @@
+../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance014_graph004.col
+182
+41, 49, 52, 63, 181, 12, 68, 70, 73, 95, 160, 148, 98, 20, 87, 101, 5, 131, 55, 30, 78, 65, 118, 8, 24, 124, 35, 6, 97, 37, 61, 136, 0, 29, 159, 26, 57, 31, 21, 33, 173, 123, 4, 44, 156, 168, 27, 39, 43, 117, 14, 171, 102, 110, 16, 71, 58, 100, 108, 155, 1, 128, 130, 62, 7, 106, 129, 47, 140, 107, 153, 36, 172, 127, 115, 9, 81, 109, 105, 126, 17, 121, 25, 125, 82, 75, 116, 50, 38, 74, 142, 91, 158, 94, 104, 22, 114, 19, 11, 3, 15, 51, 56, 23, 48, 10, 40, 67, 112, 137, 34, 28, 151, 161, 177, 42, 45, 53, 80, 152, 54, 86, 113, 149, 60, 83, 147, 66, 175, 69, 96, 134, 178, 72, 76, 2, 132, 139, 32, 18, 79, 165, 166, 169, 77, 88, 13, 146, 167, 174, 59, 138, 150, 84, 111, 122, 176, 46, 64, 85, 120, 141, 157, 89, 133, 135, 154, 162, 180, 90, 93, 99, 170, 179, 92, 119, 143, 145, 103, 144, 163, 164
+../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance014_graph004.col	182	546	-1	40
+	Command being timed: "timeout 20m java -Xms1024g -Xmx1024g -Xss134m -cp pathwidth.jar Pathwidth ../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance014_graph004.col"
+	User time (seconds): 0.64
+	System time (seconds): 1.43
+	Percent of CPU this job got: 111%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.86
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4802416
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 131972
+	Voluntary context switches: 3097
+	Involuntary context switches: 12
+	Swaps: 0
+	File system inputs: 16
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

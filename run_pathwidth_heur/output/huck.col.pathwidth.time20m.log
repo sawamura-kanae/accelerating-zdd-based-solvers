@@ -1,0 +1,27 @@
+../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/huck.col
+74
+6, 69, 25, 60, 14, 53, 15, 64, 27, 29, 32, 36, 41, 23, 65, 9, 71, 62, 68, 31, 44, 70, 2, 52, 21, 35, 7, 8, 13, 17, 30, 37, 43, 51, 34, 47, 57, 45, 1, 50, 73, 11, 42, 46, 66, 61, 3, 18, 26, 40, 55, 56, 59, 67, 72, 5, 16, 19, 20, 22, 33, 38, 63, 0, 4, 10, 12, 24, 28, 39, 48, 49, 54, 58
+../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/huck.col	74	301	-1	25
+	Command being timed: "timeout 20m java -Xms1024g -Xmx1024g -Xss134m -cp pathwidth.jar Pathwidth ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/huck.col"
+	User time (seconds): 0.56
+	System time (seconds): 1.42
+	Percent of CPU this job got: 108%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.83
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4797160
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 131373
+	Voluntary context switches: 2629
+	Involuntary context switches: 5
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

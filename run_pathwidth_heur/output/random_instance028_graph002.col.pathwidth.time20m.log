@@ -1,0 +1,27 @@
+../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance028_graph002.col
+364
+118, 206, 315, 271, 303, 354, 43, 66, 69, 72, 17, 333, 89, 78, 82, 126, 58, 132, 73, 146, 131, 205, 22, 33, 329, 207, 71, 154, 360, 70, 128, 152, 275, 75, 32, 39, 77, 84, 186, 153, 172, 255, 309, 120, 183, 253, 269, 290, 308, 336, 359, 5, 292, 190, 193, 14, 74, 21, 155, 245, 257, 267, 356, 233, 104, 165, 328, 83, 203, 254, 212, 29, 81, 57, 67, 225, 285, 60, 100, 137, 204, 345, 52, 215, 23, 134, 8, 37, 286, 53, 111, 270, 18, 232, 19, 310, 339, 149, 223, 306, 11, 38, 50, 156, 242, 318, 323, 362, 28, 182, 349, 41, 91, 98, 135, 167, 238, 1, 25, 121, 287, 114, 277, 113, 299, 168, 300, 46, 184, 192, 136, 142, 361, 228, 231, 247, 68, 101, 124, 2, 97, 189, 116, 27, 63, 164, 219, 248, 93, 160, 211, 44, 196, 31, 145, 198, 117, 216, 95, 51, 86, 313, 169, 217, 304, 199, 162, 222, 227, 294, 243, 24, 138, 347, 42, 56, 311, 62, 344, 59, 92, 35, 45, 40, 102, 107, 115, 49, 108, 296, 3, 123, 140, 166, 13, 119, 158, 61, 350, 180, 181, 16, 177, 351, 197, 109, 262, 200, 0, 80, 236, 85, 130, 10, 30, 65, 355, 48, 15, 26, 226, 265, 79, 90, 268, 340, 122, 54, 240, 249, 321, 87, 280, 324, 331, 88, 334, 96, 127, 246, 258, 12, 195, 353, 4, 20, 263, 55, 252, 314, 106, 143, 214, 278, 279, 125, 178, 346, 133, 218, 229, 139, 210, 235, 288, 36, 220, 260, 141, 259, 282, 110, 202, 208, 276, 7, 273, 283, 326, 357, 147, 163, 320, 94, 237, 64, 103, 170, 337, 148, 244, 144, 161, 307, 112, 266, 284, 6, 173, 239, 302, 330, 341, 9, 325, 34, 171, 150, 221, 47, 312, 319, 343, 151, 298, 105, 99, 157, 234, 241, 250, 159, 272, 332, 175, 291, 297, 176, 256, 363, 129, 251, 174, 274, 289, 179, 188, 322, 338, 352, 185, 187, 209, 261, 295, 305, 327, 335, 76, 194, 224, 293, 191, 201, 213, 301, 342, 230, 281, 348, 358, 264, 316, 317
+../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance028_graph002.col	364	1092	-1	74
+	Command being timed: "timeout 20m java -Xms1024g -Xmx1024g -Xss134m -cp pathwidth.jar Pathwidth ../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance028_graph002.col"
+	User time (seconds): 0.86
+	System time (seconds): 1.42
+	Percent of CPU this job got: 119%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.90
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4828588
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 135073
+	Voluntary context switches: 3519
+	Involuntary context switches: 9
+	Swaps: 0
+	File system inputs: 24
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

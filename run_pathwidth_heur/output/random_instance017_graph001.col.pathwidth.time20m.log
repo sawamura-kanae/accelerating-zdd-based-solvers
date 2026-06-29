@@ -1,0 +1,27 @@
+../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance017_graph001.col
+221
+37, 135, 4, 58, 151, 63, 59, 69, 72, 80, 87, 29, 101, 159, 141, 76, 102, 108, 18, 193, 98, 13, 11, 154, 220, 42, 177, 106, 23, 186, 148, 127, 189, 114, 137, 165, 130, 185, 112, 194, 196, 109, 115, 144, 209, 213, 2, 84, 94, 55, 123, 21, 33, 25, 82, 176, 74, 216, 1, 3, 9, 158, 56, 124, 46, 142, 136, 75, 47, 70, 89, 97, 110, 152, 155, 184, 156, 192, 43, 111, 60, 117, 52, 120, 39, 79, 203, 122, 150, 85, 10, 218, 50, 19, 121, 95, 5, 68, 78, 27, 138, 143, 145, 51, 71, 125, 173, 6, 36, 38, 99, 17, 131, 191, 105, 16, 178, 35, 62, 30, 31, 86, 206, 22, 91, 81, 41, 8, 168, 49, 32, 12, 128, 53, 163, 190, 66, 61, 67, 147, 180, 73, 96, 210, 45, 48, 171, 201, 90, 202, 64, 65, 183, 212, 54, 88, 205, 83, 92, 161, 20, 214, 40, 107, 44, 160, 174, 197, 15, 134, 182, 7, 149, 157, 26, 93, 0, 119, 204, 77, 170, 188, 14, 129, 153, 167, 208, 28, 100, 198, 24, 175, 181, 219, 34, 104, 172, 217, 57, 118, 187, 199, 103, 126, 139, 166, 169, 113, 116, 132, 195, 215, 133, 164, 179, 200, 140, 146, 162, 207, 211
+../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance017_graph001.col	221	663	-1	46
+	Command being timed: "timeout 20m java -Xms1024g -Xmx1024g -Xss134m -cp pathwidth.jar Pathwidth ../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance017_graph001.col"
+	User time (seconds): 0.70
+	System time (seconds): 1.44
+	Percent of CPU this job got: 113%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.88
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4808796
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 133437
+	Voluntary context switches: 3340
+	Involuntary context switches: 29
+	Swaps: 0
+	File system inputs: 16
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,27 @@
+../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/school1_nsh.col
+352
+103, 135, 136, 314, 137, 283, 284, 315, 39, 313, 1, 85, 192, 184, 193, 187, 235, 240, 312, 308, 139, 140, 194, 56, 185, 186, 12, 161, 155, 98, 104, 43, 327, 234, 21, 167, 175, 8, 7, 6, 173, 171, 172, 174, 321, 316, 326, 52, 50, 23, 51, 53, 93, 317, 9, 54, 22, 13, 32, 91, 97, 324, 92, 96, 322, 41, 95, 319, 25, 10, 34, 33, 204, 206, 55, 79, 133, 81, 131, 132, 134, 203, 205, 42, 94, 102, 46, 311, 84, 89, 306, 35, 145, 90, 100, 303, 318, 325, 48, 101, 105, 106, 320, 323, 222, 223, 225, 226, 221, 224, 302, 309, 45, 228, 26, 83, 87, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 44, 301, 310, 337, 117, 118, 49, 86, 304, 11, 14, 82, 180, 182, 38, 47, 80, 88, 305, 307, 3, 148, 24, 31, 149, 170, 141, 163, 147, 215, 4, 164, 227, 229, 16, 254, 18, 168, 211, 212, 214, 176, 213, 216, 0, 338, 17, 166, 169, 19, 40, 111, 112, 125, 291, 292, 295, 348, 349, 20, 27, 28, 29, 30, 36, 37, 99, 113, 114, 126, 127, 128, 129, 130, 165, 238, 239, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 293, 294, 297, 298, 299, 329, 331, 333, 339, 347, 350, 351, 15, 162, 253, 296, 300, 332, 346, 328, 330, 334, 335, 336, 115, 116, 69, 70, 71, 72, 73, 138, 241, 242, 146, 156, 74, 75, 76, 77, 78, 152, 158, 160, 188, 189, 190, 191, 195, 196, 197, 199, 201, 200, 142, 144, 59, 154, 157, 178, 271, 277, 2, 5, 57, 58, 60, 61, 62, 63, 64, 65, 66, 67, 68, 107, 108, 109, 110, 119, 120, 121, 122, 123, 124, 143, 150, 151, 153, 159, 177, 179, 181, 183, 198, 202, 207, 208, 209, 210, 217, 218, 219, 220, 230, 231, 232, 233, 236, 237, 265, 266, 267, 268, 269, 270, 272, 273, 274, 275, 276, 278, 279, 280, 281, 282, 285, 286, 287, 288, 289, 290, 340, 341, 342, 343, 344, 345
+../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/school1_nsh.col	352	14612	-1	112
+	Command being timed: "timeout 20m java -Xms1024g -Xmx1024g -Xss134m -cp pathwidth.jar Pathwidth ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/school1_nsh.col"
+	User time (seconds): 1.42
+	System time (seconds): 1.47
+	Percent of CPU this job got: 146%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.98
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4878728
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 143502
+	Voluntary context switches: 4486
+	Involuntary context switches: 11
+	Swaps: 0
+	File system inputs: 272
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

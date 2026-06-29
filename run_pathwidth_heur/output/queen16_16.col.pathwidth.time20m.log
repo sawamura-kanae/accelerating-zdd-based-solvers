@@ -1,0 +1,27 @@
+../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/queen16_16.col
+256
+0, 2, 34, 32, 36, 4, 66, 68, 64, 38, 70, 6, 40, 72, 8, 42, 10, 74, 80, 114, 112, 81, 17, 24, 26, 49, 58, 97, 98, 100, 102, 104, 106, 96, 113, 146, 148, 22, 56, 31, 159, 95, 127, 145, 5, 21, 53, 85, 117, 149, 63, 144, 15, 90, 7, 23, 39, 55, 87, 119, 151, 19, 51, 83, 115, 147, 47, 128, 129, 130, 131, 132, 134, 136, 138, 79, 9, 25, 41, 57, 73, 89, 121, 153, 111, 160, 161, 162, 163, 164, 165, 166, 168, 170, 3, 20, 37, 54, 71, 88, 105, 122, 176, 177, 178, 179, 180, 181, 182, 183, 185, 191, 143, 11, 27, 43, 59, 75, 91, 107, 123, 139, 155, 187, 48, 65, 82, 99, 116, 133, 150, 167, 184, 12, 28, 44, 60, 76, 92, 108, 124, 140, 156, 172, 175, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 204, 1, 18, 35, 52, 69, 86, 103, 120, 137, 154, 171, 188, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 223, 13, 29, 45, 61, 77, 93, 109, 125, 141, 157, 173, 189, 205, 207, 221, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 14, 16, 30, 33, 46, 50, 62, 67, 78, 84, 94, 101, 110, 118, 126, 135, 142, 152, 158, 169, 174, 186, 190, 203, 206, 220, 222, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255
+../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/queen16_16.col	256	6320	-1	71
+	Command being timed: "timeout 20m java -Xms1024g -Xmx1024g -Xss134m -cp pathwidth.jar Pathwidth ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/queen16_16.col"
+	User time (seconds): 0.89
+	System time (seconds): 1.43
+	Percent of CPU this job got: 121%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.92
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4822664
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 133415
+	Voluntary context switches: 3949
+	Involuntary context switches: 46
+	Swaps: 0
+	File system inputs: 120
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,27 @@
+../benchmark_instances/2023result/docs/solver/benchmark/ph-isr/ph-05-05.col
+205
+0, 1, 2, 3, 7, 5, 105, 106, 22, 20, 107, 108, 6, 109, 110, 111, 112, 37, 35, 52, 50, 67, 65, 113, 114, 21, 115, 116, 117, 118, 36, 119, 120, 51, 121, 122, 66, 123, 124, 10, 8, 125, 126, 25, 23, 127, 128, 9, 129, 130, 131, 132, 40, 38, 55, 53, 70, 68, 133, 134, 24, 135, 136, 137, 138, 39, 139, 140, 54, 141, 142, 69, 143, 144, 13, 11, 80, 81, 82, 83, 84, 14, 16, 17, 19, 145, 146, 28, 26, 85, 86, 87, 88, 89, 29, 31, 32, 34, 147, 148, 12, 149, 150, 151, 152, 43, 41, 58, 56, 73, 71, 90, 91, 92, 93, 94, 44, 46, 47, 49, 95, 96, 97, 98, 99, 59, 61, 62, 64, 4, 76, 74, 100, 101, 102, 103, 104, 77, 79, 153, 154, 27, 155, 156, 157, 158, 42, 159, 160, 57, 161, 162, 72, 163, 164, 165, 166, 167, 168, 15, 169, 170, 171, 172, 173, 174, 30, 175, 176, 177, 178, 45, 179, 180, 60, 181, 182, 75, 183, 184, 185, 186, 187, 188, 18, 189, 190, 191, 192, 193, 194, 33, 195, 196, 197, 198, 48, 199, 200, 63, 201, 202, 78, 203, 204
+../benchmark_instances/2023result/docs/solver/benchmark/ph-isr/ph-05-05.col	205	331	-1	40
+	Command being timed: "timeout 20m java -Xms1024g -Xmx1024g -Xss134m -cp pathwidth.jar Pathwidth ../benchmark_instances/2023result/docs/solver/benchmark/ph-isr/ph-05-05.col"
+	User time (seconds): 0.65
+	System time (seconds): 1.43
+	Percent of CPU this job got: 112%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.85
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4803364
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 133441
+	Voluntary context switches: 2626
+	Involuntary context switches: 38
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,27 @@
+../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance021_graph004.col
+273
+161, 6, 38, 83, 155, 1, 237, 24, 32, 267, 4, 46, 101, 56, 27, 87, 99, 125, 104, 50, 71, 130, 93, 256, 31, 47, 30, 35, 10, 8, 52, 110, 60, 143, 183, 126, 184, 229, 200, 180, 232, 205, 223, 244, 81, 198, 189, 29, 131, 216, 260, 22, 40, 179, 100, 146, 62, 67, 26, 58, 241, 97, 113, 73, 251, 69, 43, 132, 188, 253, 13, 78, 95, 156, 211, 270, 181, 19, 220, 34, 2, 48, 148, 45, 165, 245, 187, 154, 225, 185, 0, 128, 246, 201, 121, 268, 248, 239, 36, 25, 42, 53, 150, 170, 172, 51, 210, 242, 168, 39, 190, 208, 94, 122, 14, 64, 88, 127, 135, 112, 70, 120, 141, 162, 173, 217, 28, 49, 55, 123, 84, 108, 76, 230, 136, 117, 219, 5, 15, 72, 259, 82, 134, 152, 250, 157, 66, 91, 247, 85, 160, 116, 61, 222, 269, 33, 191, 199, 54, 63, 21, 145, 92, 11, 193, 107, 240, 261, 106, 109, 114, 3, 37, 174, 194, 41, 212, 68, 197, 218, 262, 9, 59, 74, 153, 96, 147, 195, 204, 264, 80, 169, 16, 20, 105, 202, 257, 271, 7, 176, 102, 111, 65, 149, 151, 167, 243, 89, 266, 75, 90, 17, 118, 119, 236, 86, 209, 115, 255, 124, 138, 182, 207, 79, 226, 18, 133, 142, 44, 129, 164, 103, 235, 12, 214, 227, 228, 77, 158, 137, 196, 57, 159, 186, 249, 139, 163, 166, 177, 221, 238, 140, 144, 231, 233, 234, 175, 178, 272, 98, 265, 23, 206, 263, 171, 203, 215, 224, 252, 192, 213, 254, 258
+../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance021_graph004.col	273	819	-1	55
+	Command being timed: "timeout 20m java -Xms1024g -Xmx1024g -Xss134m -cp pathwidth.jar Pathwidth ../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance021_graph004.col"
+	User time (seconds): 0.73
+	System time (seconds): 1.45
+	Percent of CPU this job got: 115%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.89
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4812808
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 134081
+	Voluntary context switches: 3472
+	Involuntary context switches: 52
+	Swaps: 0
+	File system inputs: 16
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

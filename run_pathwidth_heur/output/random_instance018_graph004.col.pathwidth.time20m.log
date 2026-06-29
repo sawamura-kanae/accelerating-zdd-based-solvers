@@ -1,0 +1,27 @@
+../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance018_graph004.col
+234
+14, 5, 8, 28, 99, 184, 193, 217, 220, 42, 48, 213, 41, 11, 83, 32, 10, 225, 20, 223, 61, 79, 39, 19, 143, 22, 26, 162, 154, 180, 181, 172, 226, 194, 15, 94, 118, 228, 90, 96, 67, 188, 27, 110, 9, 144, 12, 45, 56, 77, 175, 106, 33, 69, 76, 87, 219, 30, 75, 145, 46, 63, 3, 100, 4, 25, 53, 65, 47, 66, 0, 123, 156, 23, 55, 136, 108, 88, 151, 89, 92, 221, 229, 7, 93, 126, 138, 60, 204, 161, 140, 195, 227, 102, 176, 38, 85, 149, 153, 6, 166, 117, 130, 129, 35, 40, 124, 18, 50, 78, 182, 97, 31, 34, 51, 62, 72, 81, 158, 17, 21, 105, 115, 44, 116, 122, 165, 36, 201, 43, 1, 49, 179, 54, 199, 73, 107, 207, 125, 127, 52, 59, 98, 16, 146, 64, 200, 74, 142, 191, 205, 84, 159, 111, 29, 113, 134, 224, 80, 137, 178, 197, 114, 206, 37, 160, 103, 192, 119, 135, 128, 202, 13, 152, 212, 58, 210, 215, 24, 141, 70, 211, 91, 131, 174, 230, 86, 167, 214, 216, 57, 163, 177, 101, 147, 148, 185, 189, 203, 95, 164, 168, 169, 218, 104, 155, 183, 190, 208, 231, 112, 171, 68, 133, 139, 150, 222, 71, 170, 187, 198, 232, 120, 157, 186, 2, 121, 173, 209, 82, 109, 132, 196, 233
+../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance018_graph004.col	234	702	-1	48
+	Command being timed: "timeout 20m java -Xms1024g -Xmx1024g -Xss134m -cp pathwidth.jar Pathwidth ../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance018_graph004.col"
+	User time (seconds): 0.69
+	System time (seconds): 1.46
+	Percent of CPU this job got: 113%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.89
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4811708
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 133228
+	Voluntary context switches: 3374
+	Involuntary context switches: 41
+	Swaps: 0
+	File system inputs: 16
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

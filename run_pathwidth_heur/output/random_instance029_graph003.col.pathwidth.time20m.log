@@ -1,0 +1,27 @@
+../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance029_graph003.col
+377
+246, 364, 50, 104, 212, 343, 11, 16, 61, 71, 77, 87, 90, 95, 18, 100, 102, 292, 12, 127, 58, 229, 20, 147, 2, 34, 188, 78, 157, 25, 35, 41, 260, 60, 68, 39, 14, 277, 74, 164, 275, 84, 59, 99, 153, 181, 119, 146, 291, 37, 175, 356, 224, 299, 67, 0, 130, 241, 120, 301, 323, 155, 126, 62, 202, 272, 65, 152, 258, 107, 53, 159, 40, 173, 101, 136, 137, 123, 133, 166, 182, 186, 169, 205, 32, 64, 10, 129, 148, 247, 33, 36, 209, 255, 372, 96, 156, 168, 213, 219, 52, 262, 330, 345, 352, 172, 191, 329, 29, 351, 69, 358, 8, 193, 24, 55, 228, 76, 244, 117, 269, 300, 325, 347, 349, 30, 81, 204, 207, 357, 286, 362, 211, 110, 375, 307, 142, 162, 254, 270, 332, 296, 360, 203, 92, 268, 239, 248, 161, 303, 195, 312, 1, 192, 13, 167, 189, 177, 226, 256, 333, 6, 63, 238, 144, 321, 140, 218, 339, 22, 86, 103, 134, 170, 222, 338, 235, 346, 253, 276, 57, 17, 344, 45, 3, 72, 187, 4, 121, 131, 210, 220, 214, 234, 240, 278, 75, 112, 165, 91, 184, 97, 15, 80, 315, 113, 28, 336, 158, 251, 114, 9, 176, 373, 179, 200, 290, 215, 295, 196, 141, 366, 109, 249, 94, 132, 83, 245, 47, 21, 231, 85, 370, 93, 116, 304, 365, 125, 89, 250, 82, 138, 154, 232, 242, 334, 341, 355, 143, 274, 145, 309, 368, 124, 369, 43, 271, 359, 51, 163, 284, 70, 273, 280, 374, 31, 180, 48, 197, 233, 324, 42, 79, 98, 285, 340, 111, 160, 266, 310, 66, 282, 305, 19, 139, 261, 314, 118, 128, 194, 216, 217, 264, 297, 327, 49, 243, 54, 281, 337, 135, 257, 367, 88, 208, 259, 283, 149, 198, 46, 223, 279, 26, 178, 293, 317, 23, 190, 237, 287, 331, 56, 199, 206, 354, 108, 335, 73, 174, 294, 319, 328, 27, 44, 150, 313, 371, 5, 221, 316, 122, 227, 318, 115, 320, 322, 353, 151, 183, 230, 263, 302, 326, 105, 201, 298, 311, 350, 171, 236, 376, 38, 306, 363, 185, 348, 7, 106, 225, 252, 267, 342, 265, 288, 289, 308, 361
+../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance029_graph003.col	377	1131	-1	72
+	Command being timed: "timeout 20m java -Xms1024g -Xmx1024g -Xss134m -cp pathwidth.jar Pathwidth ../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance029_graph003.col"
+	User time (seconds): 0.80
+	System time (seconds): 1.45
+	Percent of CPU this job got: 119%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.89
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4830260
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 135789
+	Voluntary context switches: 3043
+	Involuntary context switches: 10
+	Swaps: 0
+	File system inputs: 24
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
