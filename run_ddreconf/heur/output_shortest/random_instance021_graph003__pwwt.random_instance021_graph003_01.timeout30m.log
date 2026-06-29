@@ -1,0 +1,28 @@
+Input graph file parsed. # of vertices = 273, # of edges = 819
+s 157 195 213 23 32 37 38 51 69 70 126 267 75 215 114 3 190 200 80 120 182 199 78 91 85 273 88 58 98 168 19 256 186 264 90 205 143 176 183 225 235 13 175 24 73 97 20 48 270 255 84 104 83 203 56 193 50 72 44 112 251 265 148 59 127 241 52 239 170 233 154 95 257 212 228 252 132 147 144 229 63 218 237 223 173 234 240 245
+t 157 195 23 12 51 34 70 267 110 64 22 75 81 215 67 254 3 93 146 236 182 199 78 96 49 91 87 33 185 88 19 191 256 264 25 206 113 150 176 45 53 183 209 169 235 177 175 24 211 68 73 97 167 248 184 174 133 163 60 61 50 36 44 222 109 265 59 123 241 54 233 57 249 154 214 260 9 228 192 156 147 217 229 14 230 266 197 245
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 30m ../ddreconf/ddreconf ../instances_pwwt_from_heur_col/random_instance021_graph003.pwwt.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance021_graph003_01.dat --tj --indset --st"
+	User time (seconds): 1725.21
+	System time (seconds): 71.53
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 30:00.41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 140380708
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1485625
+	Voluntary context switches: 93
+	Involuntary context switches: 1282
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

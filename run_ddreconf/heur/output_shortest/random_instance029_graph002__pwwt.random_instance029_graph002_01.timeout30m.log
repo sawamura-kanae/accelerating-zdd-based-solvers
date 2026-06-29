@@ -1,0 +1,28 @@
+Input graph file parsed. # of vertices = 377, # of edges = 1131
+s 113 126 346 11 45 46 63 98 102 120 121 198 224 31 162 38 57 156 81 278 308 91 150 144 75 40 244 337 147 243 112 148 369 168 306 43 94 335 92 226 320 203 23 78 9 289 79 58 4 231 177 215 225 343 293 257 245 263 72 133 214 238 86 95 358 202 327 219 163 106 30 127 52 143 117 123 279 193 253 59 14 239 341 314 357 41 130 140 145 334 134 374 205 256 330 338 165 365 251 218 179 195 272 241 349 375 125 284 152 182 196 281 355 299 331 175 329 377 185 221 277 223 301 266 317
+t 113 126 11 45 46 63 102 120 121 201 31 38 156 81 200 60 25 166 308 87 236 28 13 75 40 244 337 147 228 243 112 85 306 43 5 335 226 161 274 233 78 135 79 58 231 296 215 225 230 157 15 359 257 366 263 133 214 86 95 344 64 174 37 202 219 163 21 30 26 109 141 279 190 66 32 104 77 239 341 74 53 270 140 261 89 183 83 137 374 80 264 96 303 256 290 189 251 206 218 227 178 362 179 195 254 272 240 375 10 355 155 299 170 265 285 331 313 185 221 220 309 56 372 371 317
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 30m ../ddreconf/ddreconf ../instances_pwwt_from_heur_col/random_instance029_graph002.pwwt.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance029_graph002_01.dat --tj --indset --st"
+	User time (seconds): 1726.50
+	System time (seconds): 70.12
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 30:00.42
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 140157836
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1315599
+	Voluntary context switches: 88
+	Involuntary context switches: 1232
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

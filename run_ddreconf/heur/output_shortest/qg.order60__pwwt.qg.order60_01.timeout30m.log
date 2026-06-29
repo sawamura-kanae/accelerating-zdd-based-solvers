@@ -1,0 +1,28 @@
+Input graph file parsed. # of vertices = 3600, # of edges = 212400
+s 186 665 493 795 77 974 1092 143 1341 264 1384 325 1568 1528 1630 570 1231 1292 1863 1936 1998 756 2119 1477 878 2249 459 2282 401 1842 2542 1064 2675 1787 2761 2847 2629 2913 1730 2980 2091 2752 3086 2213 3166 654 3225 2455 3288 2516 3334 3057 3371 1198 3427 959 3523 60 3549
+t 428 486 604 676 198 920 1159 1101 1214 1267 983 1330 324 1392 1048 1766 1877 1949 2042 2171 2138 2247 2305 820 2372 1841 2433 2555 2024 2617 1725 2641 2506 2713 1667 2794 588 169 2885 290 2949 3031 1612 3111 1553 3150 54 3195 895 3243 2876 777 3382 418 3463 1499 3522 3360 3576
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 30m ../ddreconf/ddreconf ../instances_pwwt_from_heur_col/qg.order60.pwwt.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/qg.order60_01.dat --tj --indset --st"
+	User time (seconds): 1723.51
+	System time (seconds): 73.59
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 30:00.97
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 146130164
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 5139235
+	Voluntary context switches: 66
+	Involuntary context switches: 2219
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

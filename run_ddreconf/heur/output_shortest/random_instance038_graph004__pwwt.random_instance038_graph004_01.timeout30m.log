@@ -1,0 +1,28 @@
+Input graph file parsed. # of vertices = 494, # of edges = 1482
+s 4 78 134 244 379 24 88 151 197 428 248 155 322 420 454 220 486 74 245 21 186 238 83 107 115 295 32 116 259 324 298 33 54 233 20 195 67 436 58 472 51 126 417 70 328 158 3 389 476 104 344 398 143 27 438 272 337 421 133 120 132 372 363 128 174 250 240 293 359 471 485 2 304 57 384 317 243 325 329 340 205 175 130 178 278 319 241 316 15 25 110 89 190 269 156 255 77 9 34 455 144 287 227 236 237 478 121 81 296 202 137 26 159 346 401 446 479 292 10 42 226 360 463 36 300 210 350 336 95 299 382 494 142 266 406 242 393 199 453 407 355 285 229 466 449 218 46 376 162 323 212 276 369 493 357 361 395 448 415 418 368 391
+t 11 39 4 78 134 211 244 24 55 69 80 88 105 447 138 404 151 197 388 428 474 170 155 322 30 16 486 17 21 186 107 225 349 115 295 32 375 416 324 288 1 291 209 233 201 96 149 472 51 417 106 488 3 40 475 389 476 104 398 143 348 148 258 283 272 421 90 363 240 470 423 485 2 99 492 342 57 92 390 100 243 109 65 189 130 318 192 207 241 311 25 110 206 190 203 254 180 9 160 358 455 179 213 144 287 251 72 121 352 386 280 333 187 198 136 371 309 374 341 119 182 292 480 93 360 459 463 41 36 300 28 49 473 252 422 82 393 188 307 48 285 229 303 313 46 411 376 464 490 234 276 378 493 356 357 331 91 364 439 332 368 381
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 30m ../ddreconf/ddreconf ../instances_pwwt_from_heur_col/random_instance038_graph004.pwwt.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance038_graph004_01.dat --tj --indset --st"
+	User time (seconds): 1735.00
+	System time (seconds): 61.64
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 30:00.40
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 129494620
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1086007
+	Voluntary context switches: 85
+	Involuntary context switches: 1077
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

@@ -1,0 +1,28 @@
+Input graph file parsed. # of vertices = 191, # of edges = 2360
+s 182 184 185 183 177 179 180 178 181 187 171 173 174 172 175 166 168 169 167 170 176 188 159 161 162 160 163 154 156 157 155 158 164 148 150 151 149 152 143 145 146 144 147 153 165 189 135 137 138 136 139 130 132 133 131 134 140 124 126 127 125 128 119 121 122 120 123 129 141 118 106 117 96 107 101 98 103 109 99 104 110 97 100 102 105 108 111 142 190 112 114 116 113 115
+t 182 184 185 183 186 177 179 180 178 181 187 171 173 174 172 166 168 169 167 170 176 188 159 161 162 160 163 154 156 157 155 158 164 148 150 151 149 152 143 145 146 144 147 153 165 189 135 137 138 136 139 130 132 133 131 134 140 124 126 127 125 128 119 121 122 120 123 129 141 118 106 117 96 107 101 98 103 109 99 104 110 97 100 102 105 108 111 142 190 112 114 116 113 115
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 30m ../ddreconf/ddreconf ../instances_pwwt_from_heur_col/myciel7.pwwt.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/myciel7_02.dat --tj --indset --st"
+	User time (seconds): 1743.10
+	System time (seconds): 53.37
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 30:00.29
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 116608352
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 995654
+	Voluntary context switches: 103
+	Involuntary context switches: 1166
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

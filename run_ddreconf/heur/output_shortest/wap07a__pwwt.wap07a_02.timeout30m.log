@@ -1,0 +1,28 @@
+Input graph file parsed. # of vertices = 1809, # of edges = 103368
+s 307 401 333 441 109 374 487 177 95 255 407 171 325 77 136 79 293 83 100 85 755 141 247 785 101 86 651 142 426 1398 857 309 615 137 115 371 239 364 372 297 218 321 55 1194 609 57 229 471 223 179 117 5 149 402 56 23 34 35 126 463 22 217 169 226 53 249 323 209 181 417 522 152 81 7 153 97 619 190 586 751 263 207 901 208 91 251 261 1338 431 355 302 1586 514 493 256 660 1113 581 955 701 266 427 519 106 211 819 186 447 267 699 559 298 502 312 931 317 405 593 565 311 817 301 215 420 1025 119 445 185 558 475 704 455 238 500 339 490 275
+t 307 401 333 441 109 374 487 177 95 255 407 171 325 77 136 79 293 83 99 85 141 247 785 101 86 651 142 426 1296 857 309 615 137 115 361 239 364 1234 369 297 218 321 55 1194 609 54 229 471 223 179 647 5 149 402 45 21 34 35 127 463 22 217 169 353 40 249 323 209 181 417 522 147 81 6 148 97 619 190 586 751 263 876 208 89 251 261 531 1338 431 1586 514 493 254 659 1113 581 955 701 266 427 519 106 210 819 186 1341 1279 265 699 1443 477 501 312 931 316 405 839 593 565 311 375 301 215 419 1025 119 445 835 558 474 704 455 233 500 339 489 274
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 30m ../ddreconf/ddreconf ../instances_pwwt_from_heur_col/wap07a.pwwt.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/wap07a_02.dat --tj --indset --st"
+	User time (seconds): 1727.97
+	System time (seconds): 68.54
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 30:00.57
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 139989980
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2631051
+	Voluntary context switches: 164
+	Involuntary context switches: 1704
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

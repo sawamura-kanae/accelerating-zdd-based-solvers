@@ -1,0 +1,28 @@
+Input graph file parsed. # of vertices = 377, # of edges = 1131
+s 24 82 86 340 72 87 127 141 179 197 342 204 352 246 267 341 330 91 100 285 374 43 258 334 249 1 47 264 335 359 272 189 281 238 102 192 163 15 76 132 221 250 298 271 356 135 242 247 191 85 119 59 370 95 58 118 213 173 134 222 207 156 190 229 311 276 200 122 75 168 366 12 274 65 369 360 70 108 74 89 210 3 26 186 139 32 358 18 211 44 78 83 324 346 216 128 131 289 322 235 10 367 248 144 209 115 203 344 347 314 278 94 199 55 231 300 280 297 296 310 279 353 64 301 304
+t 24 82 340 72 87 127 141 170 179 197 30 206 267 341 220 100 124 286 60 146 374 142 56 31 249 1 47 188 23 359 98 33 282 192 112 15 184 157 195 298 317 61 263 85 119 45 275 370 58 255 213 365 54 222 240 101 243 313 155 6 28 253 214 150 176 154 311 269 27 20 8 21 71 318 223 41 290 84 327 125 212 113 218 89 145 3 295 116 36 254 302 66 78 312 346 216 131 305 322 230 10 260 144 115 328 329 357 270 326 278 94 307 348 9 219 280 297 296 208 351 294 306 353 252 292
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 30m ../ddreconf/ddreconf ../instances_pwwt_from_heur_col/random_instance029_graph004.pwwt.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance029_graph004_01.dat --tj --indset --st"
+	User time (seconds): 1728.13
+	System time (seconds): 68.62
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 30:00.41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 136172840
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1251986
+	Voluntary context switches: 59
+	Involuntary context switches: 1175
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

@@ -1,0 +1,28 @@
+Input graph file parsed. # of vertices = 1000, # of edges = 49629
+s 344 935 345 155 338 851 197 83 355 989 24 135 855 910 41 639 17 878 959 753 933 158 240 456 460 691 734 486 700 713 279 524 447 712 929 940 962 246 408 597 688 720 250 309 617 759 69 255 535 991 63 102 341 469 978 218 324 365 537 675 668 169 464 666 821 923
+t 344 935 345 155 338 851 197 83 355 989 24 135 855 910 41 639 17 959 753 933 158 240 456 460 691 734 486 700 713 857 279 524 447 712 929 940 962 246 408 597 688 720 250 309 617 759 69 255 535 991 63 102 341 469 978 218 324 365 537 675 668 169 464 666 821 923
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 30m ../ddreconf/ddreconf ../instances_pwwt_from_heur_col/DSJC1000.1.pwwt.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/DSJC1000.1_01.dat --tj --indset --st"
+	User time (seconds): 1730.04
+	System time (seconds): 66.71
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 30:00.51
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 134955308
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2143864
+	Voluntary context switches: 120
+	Involuntary context switches: 1832
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

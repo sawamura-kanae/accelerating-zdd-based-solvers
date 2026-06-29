@@ -1,0 +1,28 @@
+Input graph file parsed. # of vertices = 455, # of edges = 1365
+s 1 253 266 286 5 255 43 123 167 34 229 282 180 217 294 179 415 334 307 45 19 121 50 192 174 25 134 251 329 267 189 292 233 199 332 242 170 17 9 21 182 258 6 396 157 140 162 209 38 181 335 264 354 155 328 395 404 356 316 355 318 4 381 166 270 107 438 296 370 211 171 437 95 435 243 275 35 125 48 85 444 234 172 240 259 151 137 387 285 128 110 327 414 419 271 60 3 105 203 313 194 62 15 102 452 449 280 400 361 331 168 261 76 447 358 429 139 385 402 269 69 190 87 322 349 40 436 408 59 236 314 390 75 375 333 216 165 409 250
+t 1 253 266 336 5 255 57 167 154 146 282 325 180 187 198 153 227 88 298 415 345 334 307 14 19 277 192 337 134 251 142 169 160 200 199 9 258 6 164 276 77 71 117 140 94 181 335 104 428 395 418 44 316 355 318 113 401 363 289 143 213 432 317 343 152 212 249 30 228 256 95 435 215 202 173 68 125 177 85 444 234 238 82 324 36 195 92 380 290 110 397 399 184 183 344 419 86 306 315 389 126 205 313 100 394 406 341 449 384 163 300 373 416 66 261 447 131 308 371 358 429 402 269 201 222 239 322 40 207 436 59 236 305 206 279 302 165 409 403
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 30m ../ddreconf/ddreconf ../instances_pwwt_from_heur_col/random_instance035_graph003.pwwt.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance035_graph003_01.dat --tj --indset --st"
+	User time (seconds): 1727.56
+	System time (seconds): 68.90
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 30:00.41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 136580468
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1366102
+	Voluntary context switches: 121
+	Involuntary context switches: 1115
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

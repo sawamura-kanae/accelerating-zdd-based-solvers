@@ -1,0 +1,66 @@
+Input graph file parsed. # of vertices = 91, # of edges = 273
+s 13 6 20 15 46 45 56 33 29 18 31 43 79 12 17 86 50 87 77 76 88 11 85 58 9 34 72 81 36 82 47 91
+t 6 20 15 46 45 56 28 33 42 4 19 18 43 49 79 66 40 3 22 76 88 90 32 85 27 70 81 67 36 82 65 91
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 163.069944
+Solution space ZDD size = 3334915
+# of elements in the solution space = 942068520920506
+Start searching a reconfiguration sequence from s to t
+Step 1 time = 0.000263, # ZDD nodes = 164, # elems = 17
+Step 2 time = 0.001783, # ZDD nodes = 676, # elems = 499
+Step 3 time = 0.012180, # ZDD nodes = 2540, # elems = 7491
+Step 4 time = 0.061179, # ZDD nodes = 7928, # elems = 77118
+Step 5 time = 0.227857, # ZDD nodes = 21029, # elems = 587400
+Step 6 time = 0.792938, # ZDD nodes = 48859, # elems = 3318459
+Step 7 time = 2.423798, # ZDD nodes = 101592, # elems = 14261577
+Step 8 time = 8.576724, # ZDD nodes = 190985, # elems = 46904466
+Step 9 time = 16.166228, # ZDD nodes = 324590, # elems = 117199890
+Step 10 time = 34.194972, # ZDD nodes = 499886, # elems = 220038882
+Step 11 time = 63.210417, # ZDD nodes = 697771, # elems = 308371406
+Step 12 time = 84.456853, # ZDD nodes = 879457, # elems = 323213025
+Step 13 time = 119.538252, # ZDD nodes = 998887, # elems = 256508338
+Step 14 time = 157.885202, # ZDD nodes = 1018415, # elems = 157938684
+Step 15 time = 114.616212, # ZDD nodes = 927689, # elems = 78154245
+t found
+a YES
+a 6 9 11 12 13 15 17 18 20 29 31 33 34 36 43 45 46 47 50 56 58 72 76 77 79 81 82 85 86 87 88 91
+a 6 11 12 13 15 17 18 20 29 31 33 34 36 43 45 46 47 50 56 58 65 72 76 77 79 81 82 85 86 87 88 91
+a 6 12 13 15 17 18 20 27 29 31 33 34 36 43 45 46 47 50 56 58 65 72 76 77 79 81 82 85 86 87 88 91
+a 6 13 15 17 18 20 27 29 31 33 34 36 43 45 46 47 50 56 58 65 70 72 76 77 79 81 82 85 86 87 88 91
+a 6 13 15 17 18 20 27 29 31 33 34 36 43 45 46 47 50 56 58 65 70 72 76 79 81 82 85 86 87 88 90 91
+a 6 13 15 17 18 20 22 27 29 31 33 34 36 43 45 46 47 50 56 58 65 70 72 76 79 81 82 85 86 88 90 91
+a 4 6 13 15 17 18 20 22 27 29 31 33 34 36 43 45 46 47 50 56 58 65 70 72 76 79 81 82 85 88 90 91
+a 4 6 13 15 18 20 22 27 29 31 32 33 34 36 43 45 46 47 50 56 58 65 70 72 76 79 81 82 85 88 90 91
+a 4 6 13 15 18 20 22 27 29 31 32 33 34 36 40 43 45 46 47 56 58 65 70 72 76 79 81 82 85 88 90 91
+a 4 6 13 15 18 20 22 27 29 31 32 33 34 36 40 43 45 46 56 58 65 66 70 72 76 79 81 82 85 88 90 91
+a 4 6 13 15 18 20 22 27 29 32 33 34 36 40 43 45 46 49 56 58 65 66 70 72 76 79 81 82 85 88 90 91
+a 4 6 13 15 18 19 20 22 27 32 33 34 36 40 43 45 46 49 56 58 65 66 70 72 76 79 81 82 85 88 90 91
+a 4 6 13 15 18 19 20 22 27 32 33 34 36 40 42 43 45 46 49 56 58 65 66 70 76 79 81 82 85 88 90 91
+a 4 6 13 15 18 19 20 22 27 32 33 36 40 42 43 45 46 49 56 58 65 66 67 70 76 79 81 82 85 88 90 91
+a 3 4 6 13 15 18 19 20 22 27 32 33 36 40 42 43 45 46 49 56 65 66 67 70 76 79 81 82 85 88 90 91
+a 3 4 6 15 18 19 20 22 27 28 32 33 36 40 42 43 45 46 49 56 65 66 67 70 76 79 81 82 85 88 90 91
+Reconfiguration time = 603.816797
+	Command being timed: "timeout 30m ../ddreconf/ddreconf ../instances_pwwt_from_heur_col/random_instance007_graph003.pwwt.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance007_graph003_01.dat --tj --indset --st"
+	User time (seconds): 749.50
+	System time (seconds): 17.19
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 12:48.37
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34749304
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 242761
+	Voluntary context switches: 62
+	Involuntary context switches: 597
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 80
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,28 @@
+Input graph file parsed. # of vertices = 377, # of edges = 1131
+s 20 107 143 262 296 330 342 10 70 118 21 169 127 141 121 137 162 52 172 289 214 279 27 17 335 124 227 285 355 139 93 209 223 234 255 356 156 189 80 132 90 218 112 163 42 99 174 308 270 122 253 252 129 233 125 370 239 103 119 11 59 266 170 77 179 181 111 102 182 168 78 91 192 341 352 198 318 215 374 19 338 307 248 263 221 340 320 55 354 331 7 301 25 269 50 366 236 288 302 230 337 175 43 323 319 360 185 201 300 213 231 240 261 272 326 351
+t 20 107 143 262 296 342 34 118 160 169 73 180 74 104 166 171 172 214 30 219 134 223 234 191 255 356 156 178 56 106 112 26 163 63 16 45 294 174 364 117 333 353 15 129 193 233 54 136 79 254 258 98 246 103 11 76 59 77 114 84 199 95 78 83 1 202 372 68 216 94 12 352 198 128 19 375 217 248 358 249 263 221 340 320 55 284 354 244 301 345 25 334 324 269 50 220 317 53 288 302 151 362 371 146 316 329 187 211 347 243 314 231 240 62 326 357
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 30m ../ddreconf/ddreconf ../instances_pwwt_from_heur_col/random_instance029_graph005.pwwt.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance029_graph005_01.dat --tj --indset --st"
+	User time (seconds): 1727.68
+	System time (seconds): 68.98
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 30:00.41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 137072512
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1247290
+	Voluntary context switches: 103
+	Involuntary context switches: 1253
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

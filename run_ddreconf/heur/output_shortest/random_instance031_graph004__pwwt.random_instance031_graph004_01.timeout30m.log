@@ -1,0 +1,28 @@
+Input graph file parsed. # of vertices = 403, # of edges = 1209
+s 83 141 155 199 208 218 287 298 301 319 369 395 34 72 367 77 103 71 65 122 62 87 129 169 403 233 279 149 56 396 13 27 190 183 137 384 398 150 167 214 111 257 160 135 81 191 110 250 78 205 16 161 226 18 349 147 158 35 248 53 96 240 200 288 317 344 357 365 44 318 90 119 127 333 171 222 105 239 241 347 131 177 88 377 24 201 102 312 267 173 89 213 394 94 50 354 61 236 209 86 402 364 164 342 181 383 221 272 387 217 67 92 97 63 266 366 148 314 33 382 359 356 360 379 198 391 206 320 270 202 401 321 388 376
+t 83 141 199 208 287 298 301 319 369 395 34 72 74 367 77 15 71 120 244 28 182 87 389 231 37 123 233 279 291 149 305 253 313 197 13 27 190 183 137 184 384 398 167 214 215 26 111 140 180 81 191 7 250 205 192 68 16 161 49 332 10 18 349 303 158 251 113 294 248 53 240 200 327 55 278 317 353 187 45 119 151 159 381 136 222 227 105 241 46 138 165 131 104 237 24 201 102 153 173 280 346 324 238 235 394 354 61 255 397 5 9 143 38 295 361 139 339 134 220 366 382 152 174 379 243 206 320 270 224 202 401 321 290 323
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 30m ../ddreconf/ddreconf ../instances_pwwt_from_heur_col/random_instance031_graph004.pwwt.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance031_graph004_01.dat --tj --indset --st"
+	User time (seconds): 1728.38
+	System time (seconds): 68.23
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 30:00.40
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 134746812
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1012489
+	Voluntary context switches: 58
+	Involuntary context switches: 1117
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124
