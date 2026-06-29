@@ -1,0 +1,5 @@
+# [run] timeout 1h java -Xms1024g -Xmx1024g -Xss134m -cp ../src/pathwidth.jar Pathwidth ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/grid/grid200x200.col
+# [date -Iseconds] 2025-08-01T01:06:55+09:00
+../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/grid/grid200x200.col
+# [date -Iseconds] 2025-08-01T02:07:02+09:00
+# [timeout] 124
