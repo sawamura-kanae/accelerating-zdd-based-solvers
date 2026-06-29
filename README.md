@@ -60,6 +60,8 @@ All log files are found in:
 - `./run_ddreconf/heur/output_farthest/`: log files from ddreconf on heur and
   orig graphs on the farthest variant.
 
+-----
+
 - Log files larger than 10MiB are gzipped. To unzip: `gunzip
   <path/to/file.log>.gz`.
 - Gzipped log files larger than 100MiB are split. To unzip: `cat
