@@ -1,0 +1,28 @@
+Input graph file parsed. # of vertices = 500, # of edges = 12458
+s 9 10 15 25 31 35 59 66 73 77 99 102 107 113 125 129 133 154 160 162 171 175 178 186 194 200 209 214 219 231 254 263 269 271 284 301 302 315 325 345 358 363 370 387 396 408 422 426 427 431 458 464 467 495 474 497
+t 9 10 15 25 31 35 36 59 66 73 77 99 102 107 113 125 133 148 154 160 171 175 178 184 186 194 200 209 214 219 254 263 269 271 284 302 309 315 325 333 345 358 363 370 387 396 408 422 426 431 451 458 464 467 495 474
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 2.0h ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/DSJC500.1.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/DSJC500.1_02.dat --tj --indset"
+	User time (seconds): 5802.07
+	System time (seconds): 1384.60
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:00:11
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 460422744
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1269294645
+	Voluntary context switches: 12
+	Involuntary context switches: 10024
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

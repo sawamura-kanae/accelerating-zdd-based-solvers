@@ -1,0 +1,56 @@
+Input graph file parsed. # of vertices = 65, # of edges = 195
+s 37 12 28 54 36 51 18 38 33 58 6 63 40 30 13 23 46 49
+t 21 12 7 9 34 18 38 4 50 65 63 40 19 30 13 25 57 49
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 2.037336
+Solution space ZDD size = 94019
+# of elements in the solution space = 21665853613
+Start searching a reconfiguration sequence from s to t
+Step 1 time = 0.000133, # ZDD nodes = 71, # elems = 12
+Step 2 time = 0.000775, # ZDD nodes = 263, # elems = 95
+Step 3 time = 0.003467, # ZDD nodes = 847, # elems = 642
+Step 4 time = 0.020754, # ZDD nodes = 2506, # elems = 3757
+Step 5 time = 0.068293, # ZDD nodes = 6882, # elems = 19138
+Step 6 time = 0.386977, # ZDD nodes = 17387, # elems = 83676
+Step 7 time = 1.082871, # ZDD nodes = 40012, # elems = 311816
+Step 8 time = 3.434910, # ZDD nodes = 84439, # elems = 987216
+Step 9 time = 9.486732, # ZDD nodes = 161865, # elems = 2663364
+Step 10 time = 21.958093, # ZDD nodes = 280602, # elems = 6138298
+t found
+a YES
+a 6 12 13 18 23 28 30 33 36 37 38 40 46 49 51 54 58 63
+a 4 6 12 13 18 28 30 33 36 37 38 40 46 49 51 54 58 63
+a 4 6 12 13 18 28 30 33 36 37 38 40 46 49 51 54 57 63
+a 4 6 12 13 18 25 28 30 33 36 37 38 40 49 51 54 57 63
+a 4 6 12 13 18 19 25 28 30 33 36 37 38 40 49 51 57 63
+a 4 6 12 13 18 19 25 28 30 33 36 37 38 40 49 57 63 65
+a 4 6 12 13 18 19 25 28 30 36 37 38 40 49 50 57 63 65
+a 4 6 12 13 18 19 25 28 30 34 37 38 40 49 50 57 63 65
+a 4 9 12 13 18 19 25 28 30 34 37 38 40 49 50 57 63 65
+a 4 7 9 12 13 18 19 25 30 34 37 38 40 49 50 57 63 65
+a 4 7 9 12 13 18 19 21 25 30 34 38 40 49 50 57 63 65
+Reconfiguration time = 36.602280
+	Command being timed: "timeout 0.5h ../ddreconf/ddreconf ../instances_pwwt_col/random_instance005_graph004.pwwt.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance005_graph004_01.dat --tj --indset"
+	User time (seconds): 37.47
+	System time (seconds): 1.06
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:38.69
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2116732
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 46491
+	Voluntary context switches: 3
+	Involuntary context switches: 52
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

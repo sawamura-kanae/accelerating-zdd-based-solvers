@@ -1,0 +1,56 @@
+Input graph file parsed. # of vertices = 128, # of edges = 1170
+s 1 22 27 35 48 112 121 70 77 85 84 106 99 101 104 117 119
+t 1 3 14 32 34 35 49 112 61 77 85 88 106 122 111 125 119
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 1185.604974
+Solution space ZDD size = 11786143
+# of elements in the solution space = 892734883938
+Start searching a reconfiguration sequence from s to t
+Step 1 time = 0.000739, # ZDD nodes = 197, # elems = 78
+Step 2 time = 0.006823, # ZDD nodes = 1510, # elems = 2112
+Step 3 time = 0.067831, # ZDD nodes = 7678, # elems = 26687
+Step 4 time = 0.498286, # ZDD nodes = 28629, # elems = 192837
+Step 5 time = 2.452156, # ZDD nodes = 82526, # elems = 907394
+Step 6 time = 10.062429, # ZDD nodes = 191234, # elems = 3059546
+Step 7 time = 23.264371, # ZDD nodes = 369777, # elems = 8012358
+Step 8 time = 45.212429, # ZDD nodes = 611470, # elems = 17447260
+Step 9 time = 94.331384, # ZDD nodes = 875825, # elems = 33057164
+Step 10 time = 188.245691, # ZDD nodes = 1089539, # elems = 54972099
+t found
+a YES
+a 1 22 27 35 48 70 77 84 85 99 101 104 106 112 117 119 121
+a 1 22 27 32 35 70 77 84 85 99 101 104 106 112 117 119 121
+a 1 3 22 27 32 35 70 77 84 85 99 101 104 106 112 119 121
+a 1 3 22 27 32 35 70 77 84 85 99 104 106 112 119 121 125
+a 1 3 22 27 32 35 70 77 85 99 104 106 111 112 119 121 125
+a 1 3 14 22 27 32 35 70 77 85 104 106 111 112 119 121 125
+a 1 3 14 22 32 35 70 77 85 88 104 106 111 112 119 121 125
+a 1 3 14 22 32 35 77 85 88 104 106 111 112 119 121 122 125
+a 1 3 14 32 35 61 77 85 88 104 106 111 112 119 121 122 125
+a 1 3 14 32 35 49 61 77 85 88 106 111 112 119 121 122 125
+a 1 3 14 32 34 35 49 61 77 85 88 106 111 112 119 122 125
+Reconfiguration time = 365.078491
+	Command being timed: "timeout 0.5h ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/miles500.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/miles500_02.dat --tj --indset"
+	User time (seconds): 1483.00
+	System time (seconds): 67.62
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 25:56.12
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 132713024
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 926528
+	Voluntary context switches: 3
+	Involuntary context switches: 1393
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

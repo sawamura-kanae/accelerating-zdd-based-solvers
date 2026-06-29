@@ -1,0 +1,50 @@
+Input graph file parsed. # of vertices = 74, # of edges = 301
+s 70 26 61 15 54 65 28 30 48 32 45 36 68 46 74 67 33 37 42 66 10 63 69 53 44 59
+t 70 26 61 15 54 65 28 30 58 64 32 45 36 19 46 74 12 33 42 66 72 63 69 3 18 59
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 0.020246
+Solution space ZDD size = 234
+# of elements in the solution space = 1537558481760
+Start searching a reconfiguration sequence from s to t
+Step 1 time = 0.000244, # ZDD nodes = 112, # elems = 181
+Step 2 time = 0.000404, # ZDD nodes = 218, # elems = 3910
+Step 3 time = 0.000931, # ZDD nodes = 319, # elems = 36836
+Step 4 time = 0.001027, # ZDD nodes = 405, # elems = 192374
+Step 5 time = 0.001094, # ZDD nodes = 453, # elems = 615782
+Step 6 time = 0.000952, # ZDD nodes = 477, # elems = 1268788
+Step 7 time = 0.000688, # ZDD nodes = 476, # elems = 1717156
+t found
+a YES
+a 10 15 26 28 30 32 33 36 37 42 44 45 46 48 53 54 59 61 63 65 66 67 68 69 70 74
+a 10 15 18 26 28 30 32 33 36 37 42 45 46 48 53 54 59 61 63 65 66 67 68 69 70 74
+a 3 10 15 18 26 28 30 32 33 36 37 42 45 46 48 54 59 61 63 65 66 67 68 69 70 74
+a 3 15 18 26 28 30 32 33 36 37 42 45 46 48 54 59 61 63 64 65 66 67 68 69 70 74
+a 3 15 18 26 28 30 32 33 36 42 45 46 48 54 59 61 63 64 65 66 67 68 69 70 72 74
+a 3 12 15 18 26 28 30 32 33 36 42 45 46 48 54 59 61 63 64 65 66 68 69 70 72 74
+a 3 12 15 18 19 26 28 30 32 33 36 42 45 46 48 54 59 61 63 64 65 66 69 70 72 74
+a 3 12 15 18 19 26 28 30 32 33 36 42 45 46 54 58 59 61 63 64 65 66 69 70 72 74
+Reconfiguration time = 0.012352
+	Command being timed: "timeout 0.5h ../ddreconf/ddreconf ../instances_pw_col/huck.pw.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/huck_02.dat --tj --indset"
+	User time (seconds): 0.04
+	System time (seconds): 0.00
+	Percent of CPU this job got: 97%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34036
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1355
+	Voluntary context switches: 4
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

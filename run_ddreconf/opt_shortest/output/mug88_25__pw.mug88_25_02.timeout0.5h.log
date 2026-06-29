@@ -1,0 +1,74 @@
+Input graph file parsed. # of vertices = 88, # of edges = 146
+s 7 19 8 49 46 24 77 3 43 55 80 67 34 11 59 26 37 85 40 63 73 58 22 76 88 50 16 70
+t 17 6 10 48 44 31 2 78 43 55 81 67 34 11 59 4 28 35 83 38 73 56 20 74 86 50 16 68
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 0.010146
+Solution space ZDD size = 493
+# of elements in the solution space = 6219522864915696
+Start searching a reconfiguration sequence from s to t
+Step 1 time = 0.000316, # ZDD nodes = 128, # elems = 62
+Step 2 time = 0.000580, # ZDD nodes = 321, # elems = 1440
+Step 3 time = 0.001554, # ZDD nodes = 638, # elems = 19198
+Step 4 time = 0.004483, # ZDD nodes = 1077, # elems = 173140
+Step 5 time = 0.008081, # ZDD nodes = 1628, # elems = 1150740
+Step 6 time = 0.014206, # ZDD nodes = 2262, # elems = 5938186
+Step 7 time = 0.021337, # ZDD nodes = 2903, # elems = 24642694
+Step 8 time = 0.027457, # ZDD nodes = 3488, # elems = 84366328
+Step 9 time = 0.034419, # ZDD nodes = 4043, # elems = 243046618
+Step 10 time = 0.039173, # ZDD nodes = 4519, # elems = 598813668
+Step 11 time = 0.041443, # ZDD nodes = 4916, # elems = 1279380010
+Step 12 time = 0.043570, # ZDD nodes = 5231, # elems = 2399224905
+Step 13 time = 0.046596, # ZDD nodes = 5468, # elems = 3990625518
+Step 14 time = 0.041684, # ZDD nodes = 5632, # elems = 5937939012
+Step 15 time = 0.036441, # ZDD nodes = 5732, # elems = 7955403293
+Step 16 time = 0.033177, # ZDD nodes = 5748, # elems = 9637579205
+Step 17 time = 0.024908, # ZDD nodes = 5693, # elems = 10579883685
+Step 18 time = 0.021144, # ZDD nodes = 5545, # elems = 10525155039
+Step 19 time = 0.018467, # ZDD nodes = 5296, # elems = 9466872340
+t found
+a YES
+a 3 7 8 11 16 19 22 24 26 34 37 40 43 46 49 50 55 58 59 63 67 70 73 76 77 80 85 88
+a 3 7 8 11 16 19 22 24 26 34 37 40 43 46 49 50 55 58 59 63 67 68 73 76 77 80 85 88
+a 3 7 8 11 16 19 22 24 26 34 37 40 43 46 49 50 55 56 59 63 67 68 73 76 77 80 85 88
+a 3 7 8 11 16 19 20 24 26 34 37 40 43 46 49 50 55 56 59 63 67 68 73 76 77 80 85 88
+a 3 7 8 11 16 19 20 24 26 34 37 40 43 46 49 50 55 56 59 63 67 68 73 74 76 77 80 85
+a 3 7 8 11 16 19 20 24 26 34 37 40 43 46 49 50 55 56 59 63 67 68 73 74 77 80 85 86
+a 3 7 8 11 16 19 20 24 28 34 37 40 43 46 49 50 55 56 59 63 67 68 73 74 77 80 85 86
+a 3 7 8 11 16 19 20 24 28 34 37 40 43 46 49 50 55 56 59 63 67 68 73 74 77 81 85 86
+a 4 7 8 11 16 19 20 24 28 34 37 40 43 46 49 50 55 56 59 63 67 68 73 74 77 81 85 86
+a 4 7 8 11 16 19 20 24 28 34 37 40 43 46 49 50 55 56 59 63 67 68 73 74 78 81 85 86
+a 2 4 7 8 11 16 19 20 28 34 37 40 43 46 49 50 55 56 59 63 67 68 73 74 78 81 85 86
+a 2 4 7 8 11 16 19 20 28 31 34 37 40 43 49 50 55 56 59 63 67 68 73 74 78 81 85 86
+a 2 4 7 8 11 16 19 20 28 31 34 37 40 43 44 49 50 55 56 59 67 68 73 74 78 81 85 86
+a 2 4 7 8 11 16 19 20 28 31 34 37 38 43 44 49 50 55 56 59 67 68 73 74 78 81 85 86
+a 2 4 7 8 11 16 19 20 28 31 34 35 38 43 44 49 50 55 56 59 67 68 73 74 78 81 85 86
+a 2 4 7 8 11 16 19 20 28 31 34 35 38 43 44 49 50 55 56 59 67 68 73 74 78 81 83 86
+a 2 4 7 8 11 16 19 20 28 31 34 35 38 43 44 48 50 55 56 59 67 68 73 74 78 81 83 86
+a 2 4 7 10 11 16 19 20 28 31 34 35 38 43 44 48 50 55 56 59 67 68 73 74 78 81 83 86
+a 2 4 7 10 11 16 17 20 28 31 34 35 38 43 44 48 50 55 56 59 67 68 73 74 78 81 83 86
+a 2 4 6 10 11 16 17 20 28 31 34 35 38 43 44 48 50 55 56 59 67 68 73 74 78 81 83 86
+Reconfiguration time = 0.497926
+	Command being timed: "timeout 0.5h ../ddreconf/ddreconf ../instances_pw_col/mug88_25.pw.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/mug88_25_02.dat --tj --indset"
+	User time (seconds): 0.50
+	System time (seconds): 0.01
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.52
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 38132
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2821
+	Voluntary context switches: 4
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

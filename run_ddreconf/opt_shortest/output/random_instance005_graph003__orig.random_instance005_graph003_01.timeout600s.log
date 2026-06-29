@@ -1,0 +1,64 @@
+Input graph file parsed. # of vertices = 65, # of edges = 195
+s 46 9 11 13 15 17 43 24 27 32 33 40 36 37 38 39 42 44 47 54 65 61
+t 1 3 46 7 9 10 11 12 13 14 15 34 18 25 33 40 38 41 50 52 54 62
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 33.755645
+Solution space ZDD size = 985466
+# of elements in the solution space = 38638170829
+Start searching a reconfiguration sequence from s to t
+Step 1 time = 0.000198, # ZDD nodes = 103, # elems = 10
+Step 2 time = 0.000869, # ZDD nodes = 291, # elems = 69
+Step 3 time = 0.003536, # ZDD nodes = 719, # elems = 392
+Step 4 time = 0.009874, # ZDD nodes = 1795, # elems = 1591
+Step 5 time = 0.032289, # ZDD nodes = 3843, # elems = 4705
+Step 6 time = 0.253245, # ZDD nodes = 7393, # elems = 11058
+Step 7 time = 0.208257, # ZDD nodes = 13061, # elems = 22596
+Step 8 time = 0.483686, # ZDD nodes = 21301, # elems = 40260
+Step 9 time = 0.935269, # ZDD nodes = 32191, # elems = 63104
+Step 10 time = 1.375619, # ZDD nodes = 46012, # elems = 90426
+Step 11 time = 2.186528, # ZDD nodes = 62127, # elems = 120725
+Step 12 time = 2.641545, # ZDD nodes = 79172, # elems = 149262
+Step 13 time = 4.269244, # ZDD nodes = 93952, # elems = 173133
+Step 14 time = 4.304211, # ZDD nodes = 102515, # elems = 195436
+t found
+a YES
+a 9 11 13 15 17 24 27 32 33 36 37 38 39 40 42 43 44 46 47 54 61 65
+a 9 11 13 15 17 24 27 32 33 37 38 39 40 42 43 44 46 47 50 54 61 65
+a 9 11 13 14 15 17 24 27 33 37 38 39 40 42 43 44 46 47 50 54 61 65
+a 9 11 13 14 15 17 27 33 37 38 39 40 42 43 44 46 47 50 54 59 61 65
+a 9 11 13 14 15 27 33 34 37 38 39 40 42 43 44 46 47 50 54 59 61 65
+a 9 11 13 14 15 27 33 34 37 38 39 40 41 42 43 44 46 47 50 54 59 61
+a 9 11 13 14 15 25 27 33 34 37 38 39 40 41 43 44 46 47 50 54 59 61
+a 1 9 11 13 14 15 25 27 33 34 37 38 39 40 41 43 44 46 47 50 54 59
+a 1 9 11 13 14 15 25 33 34 37 38 39 40 41 43 44 46 47 50 54 59 62
+a 1 9 11 13 14 15 25 33 34 37 38 40 41 43 44 46 47 50 52 54 59 62
+a 1 9 11 13 14 15 18 25 33 34 37 38 40 41 43 44 46 50 52 54 59 62
+a 1 9 11 12 13 14 15 18 25 33 34 38 40 41 43 44 46 50 52 54 59 62
+a 1 7 9 11 12 13 14 15 18 25 33 34 38 40 41 44 46 50 52 54 59 62
+a 1 7 9 10 11 12 13 14 15 18 25 33 34 38 40 41 46 50 52 54 59 62
+a 1 3 7 9 10 11 12 13 14 15 18 25 33 34 38 40 41 46 50 52 54 62
+Reconfiguration time = 16.812592
+	Command being timed: "timeout 600s ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance005_graph003.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance005_graph003_01.dat --tj --indset"
+	User time (seconds): 49.49
+	System time (seconds): 1.28
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:50.94
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2294016
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 190914
+	Voluntary context switches: 3
+	Involuntary context switches: 66
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 32
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

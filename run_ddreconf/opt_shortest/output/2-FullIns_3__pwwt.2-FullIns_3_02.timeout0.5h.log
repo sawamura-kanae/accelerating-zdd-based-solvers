@@ -1,0 +1,40 @@
+Input graph file parsed. # of vertices = 52, # of edges = 201
+s 13 14 37 38 39 15 16 41 42 17 18 43 44 46 47 51 45 21 19 20 22 23 24 48
+t 2 14 37 38 39 40 16 41 42 17 18 43 44 46 47 51 45 21 19 20 22 23 24 48
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 0.060801
+Solution space ZDD size = 7572
+# of elements in the solution space = 209515460
+Start searching a reconfiguration sequence from s to t
+Step 1 time = 0.000063, # ZDD nodes = 48, # elems = 24
+Step 2 time = 0.000259, # ZDD nodes = 31, # elems = 2
+t found
+a YES
+a 13 14 15 16 17 18 19 20 21 22 23 24 37 38 39 41 42 43 44 45 46 47 48 51
+a 13 14 16 17 18 19 20 21 22 23 24 37 38 39 40 41 42 43 44 45 46 47 48 51
+a 2 14 16 17 18 19 20 21 22 23 24 37 38 39 40 41 42 43 44 45 46 47 48 51
+Reconfiguration time = 0.000651
+	Command being timed: "timeout 0.5h ../ddreconf/ddreconf ../instances_pwwt_col/2-FullIns_3.pwwt.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/2-FullIns_3_02.dat --tj --indset"
+	User time (seconds): 0.06
+	System time (seconds): 0.01
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.07
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34036
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1319
+	Voluntary context switches: 3
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

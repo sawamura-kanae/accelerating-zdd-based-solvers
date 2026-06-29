@@ -1,0 +1,28 @@
+Input graph file parsed. # of vertices = 450, # of edges = 16750
+s 385 230 55 167 97 160 364 42 296 189 379 121 93 82 320 401 19 301 308 27 286 251 115 215 116 149 260 75 405 100 280 289 352 31 95 325 425 240 341 23
+t 385 230 55 167 97 168 364 42 296 189 379 121 93 82 241 320 401 301 398 438 308 27 286 251 115 116 149 176 260 75 405 100 289 31 95 336 425 240 341 23
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 2.0h ../ddreconf/ddreconf ../instances_pwwt_col/le450_15d.pwwt.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/le450_15d_02.dat --tj --indset"
+	User time (seconds): 6774.88
+	System time (seconds): 403.11
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:00:01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 291652868
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 286288343
+	Voluntary context switches: 4
+	Involuntary context switches: 5724
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

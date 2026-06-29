@@ -1,0 +1,50 @@
+Input graph file parsed. # of vertices = 16, # of edges = 24
+s 2 4 5 7 10 12
+t 1 3 6 8 9 11
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 0.000481
+Solution space ZDD size = 48
+# of elements in the solution space = 1234
+Start searching a reconfiguration sequence from s to t
+Step 1 time = 0.000048, # ZDD nodes = 15, # elems = 14
+Step 2 time = 0.000049, # ZDD nodes = 29, # elems = 25
+Step 3 time = 0.000065, # ZDD nodes = 26, # elems = 13
+Step 4 time = 0.000090, # ZDD nodes = 27, # elems = 10
+Step 5 time = 0.000085, # ZDD nodes = 29, # elems = 12
+Step 6 time = 0.000069, # ZDD nodes = 30, # elems = 20
+Step 7 time = 0.000084, # ZDD nodes = 29, # elems = 19
+t found
+a YES
+a 2 4 5 7 10 12
+a 2 4 5 7 12 14
+a 2 4 7 9 12 14
+a 1 4 7 9 12 14
+a 1 4 6 9 12 14
+a 1 4 6 9 11 14
+a 1 6 8 9 11 14
+a 1 3 6 8 9 11
+Reconfiguration time = 0.001132
+	Command being timed: "timeout 0.5h ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/grid/grid004x004.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/grid/grid004x004_03.dat --tj --indset"
+	User time (seconds): 0.00
+	System time (seconds): 0.01
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 33012
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 912
+	Voluntary context switches: 3
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

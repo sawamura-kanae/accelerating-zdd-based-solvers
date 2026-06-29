@@ -1,0 +1,74 @@
+Input graph file parsed. # of vertices = 78, # of edges = 234
+s 27 4 42 17 25 9 22 77 55 65 54 69 32 13 7 1 45 78 60 57 44 50 59
+t 48 4 42 56 28 20 19 29 49 39 35 54 69 62 37 36 18 31 15 5 34 51 68
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 27.578307
+Solution space ZDD size = 419992
+# of elements in the solution space = 4784011345326
+Start searching a reconfiguration sequence from s to t
+Step 1 time = 0.000218, # ZDD nodes = 123, # elems = 18
+Step 2 time = 0.001265, # ZDD nodes = 526, # elems = 333
+Step 3 time = 0.007431, # ZDD nodes = 1870, # elems = 3915
+Step 4 time = 0.038904, # ZDD nodes = 5759, # elems = 31370
+Step 5 time = 0.175728, # ZDD nodes = 15481, # elems = 189115
+Step 6 time = 0.669964, # ZDD nodes = 36711, # elems = 912067
+Step 7 time = 2.206725, # ZDD nodes = 78171, # elems = 3684483
+Step 8 time = 5.228876, # ZDD nodes = 152488, # elems = 12890112
+Step 9 time = 14.012655, # ZDD nodes = 276098, # elems = 39734305
+Step 10 time = 34.710736, # ZDD nodes = 467037, # elems = 108245678
+Step 11 time = 70.536814, # ZDD nodes = 740045, # elems = 259324888
+Step 12 time = 137.641590, # ZDD nodes = 1096596, # elems = 542467498
+Step 13 time = 237.594649, # ZDD nodes = 1515946, # elems = 983582318
+Step 14 time = 327.349405, # ZDD nodes = 1946886, # elems = 1532370485
+Step 15 time = 475.962994, # ZDD nodes = 2312720, # elems = 2026377011
+Step 16 time = 494.588914, # ZDD nodes = 2516962, # elems = 2238005718
+Step 17 time = 601.853355, # ZDD nodes = 2472858, # elems = 2024836195
+Step 18 time = 414.549485, # ZDD nodes = 2145847, # elems = 1465148288
+Step 19 time = 272.779339, # ZDD nodes = 1611034, # elems = 820636964
+t found
+a YES
+a 1 4 7 9 13 17 22 25 27 32 42 44 45 50 54 55 57 59 60 65 69 77 78
+a 1 4 7 9 13 17 22 25 27 32 39 42 44 45 50 54 55 57 59 60 65 69 78
+a 1 4 7 9 13 22 25 27 32 39 42 44 45 49 50 54 55 57 59 60 65 69 78
+a 1 4 7 9 13 22 25 27 32 37 39 42 44 49 50 54 55 57 59 60 65 69 78
+a 1 4 7 9 13 15 22 25 27 32 37 39 42 44 49 50 54 55 59 60 65 69 78
+a 1 4 7 9 13 15 22 25 27 31 32 37 39 42 44 49 50 54 55 59 60 65 69
+a 1 4 5 7 9 13 15 22 25 27 31 37 39 42 44 49 50 54 55 59 60 65 69
+a 1 4 5 7 9 13 15 20 22 25 27 31 37 39 42 44 49 50 54 55 60 65 69
+a 1 4 5 7 9 13 15 20 22 25 27 28 31 37 39 42 44 49 54 55 60 65 69
+a 1 4 5 7 9 13 15 20 22 25 27 28 31 37 39 42 44 48 49 54 55 65 69
+a 1 4 5 9 13 15 20 22 25 27 28 31 37 39 42 44 48 49 54 55 65 68 69
+a 4 5 9 13 15 20 22 25 27 28 31 37 39 42 44 48 49 54 55 62 65 68 69
+a 4 5 9 13 15 20 22 25 27 28 31 37 39 42 44 48 49 51 54 55 62 68 69
+a 4 5 9 13 15 20 22 25 27 28 31 34 37 39 42 48 49 51 54 55 62 68 69
+a 4 5 13 15 18 20 22 25 27 28 31 34 37 39 42 48 49 51 54 55 62 68 69
+a 4 5 15 18 20 22 25 27 28 31 34 36 37 39 42 48 49 51 54 55 62 68 69
+a 4 5 15 18 20 22 25 27 28 31 34 35 36 37 39 42 48 49 51 54 62 68 69
+a 4 5 15 18 19 20 25 27 28 31 34 35 36 37 39 42 48 49 51 54 62 68 69
+a 4 5 15 18 19 20 27 28 29 31 34 35 36 37 39 42 48 49 51 54 62 68 69
+a 4 5 15 18 19 20 28 29 31 34 35 36 37 39 42 48 49 51 54 56 62 68 69
+Reconfiguration time = 3096.113365
+	Command being timed: "timeout 1.0h ../ddreconf/ddreconf ../instances_pw_col/random_instance006_graph004.pw.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance006_graph004_01.dat --tj --indset"
+	User time (seconds): 3075.85
+	System time (seconds): 35.66
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 52:04.08
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 69769880
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 864823
+	Voluntary context switches: 3
+	Involuntary context switches: 1666
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 112
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

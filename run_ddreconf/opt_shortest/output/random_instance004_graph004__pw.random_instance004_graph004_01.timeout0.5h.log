@@ -1,0 +1,52 @@
+Input graph file parsed. # of vertices = 52, # of edges = 156
+s 8 40 47 42 6 20 31 28 46 23 29 39 19 34 45
+t 16 47 33 42 6 44 17 28 32 43 29 38 19 34 49
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 0.175191
+Solution space ZDD size = 10632
+# of elements in the solution space = 245353332
+Start searching a reconfiguration sequence from s to t
+Step 1 time = 0.000105, # ZDD nodes = 83, # elems = 12
+Step 2 time = 0.000637, # ZDD nodes = 336, # elems = 103
+Step 3 time = 0.005726, # ZDD nodes = 1103, # elems = 683
+Step 4 time = 0.015103, # ZDD nodes = 2874, # elems = 3539
+Step 5 time = 0.061630, # ZDD nodes = 6442, # elems = 14396
+Step 6 time = 0.207111, # ZDD nodes = 12633, # elems = 45885
+Step 7 time = 0.392859, # ZDD nodes = 21299, # elems = 115398
+Step 8 time = 0.938409, # ZDD nodes = 31129, # elems = 234049
+t found
+a YES
+a 6 8 19 20 23 28 29 31 34 39 40 42 45 46 47
+a 6 8 19 20 23 28 29 31 34 40 42 43 45 46 47
+a 6 8 19 20 23 28 29 31 34 40 42 43 44 46 47
+a 6 8 19 20 23 28 29 34 40 42 43 44 46 47 49
+a 6 8 17 19 20 23 28 29 34 42 43 44 46 47 49
+a 6 8 17 19 20 28 29 33 34 42 43 44 46 47 49
+a 6 8 17 19 20 28 29 33 34 38 42 43 44 47 49
+a 6 8 17 19 28 29 32 33 34 38 42 43 44 47 49
+a 6 16 17 19 28 29 32 33 34 38 42 43 44 47 49
+Reconfiguration time = 1.642038
+	Command being timed: "timeout 0.5h ../ddreconf/ddreconf ../instances_pw_col/random_instance004_graph004.pw.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance004_graph004_01.dat --tj --indset"
+	User time (seconds): 1.75
+	System time (seconds): 0.07
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.83
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 154520
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 7716
+	Voluntary context switches: 4
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,48 @@
+Input graph file parsed. # of vertices = 41, # of edges = 57
+s 1 3 8 24 30 32 11 36 38 14 26 17 34 40 20 23 28
+t 2 4 8 24 30 32 11 36 38 14 26 17 34 40 20 23 28
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 0.002326
+Solution space ZDD size = 353
+# of elements in the solution space = 121582107
+Start searching a reconfiguration sequence from s to t
+Step 1 time = 0.000134, # ZDD nodes = 43, # elems = 14
+Step 2 time = 0.000145, # ZDD nodes = 99, # elems = 88
+Step 3 time = 0.000312, # ZDD nodes = 185, # elems = 331
+Step 4 time = 0.000748, # ZDD nodes = 275, # elems = 837
+Step 5 time = 0.000948, # ZDD nodes = 339, # elems = 1513
+Step 6 time = 0.001022, # ZDD nodes = 374, # elems = 2027
+Step 7 time = 0.001035, # ZDD nodes = 383, # elems = 2055
+Step 8 time = 0.000834, # ZDD nodes = 360, # elems = 1590
+Step 9 time = 0.000610, # ZDD nodes = 301, # elems = 935
+Step 10 time = 0.000466, # ZDD nodes = 212, # elems = 409
+Step 11 time = 0.000250, # ZDD nodes = 127, # elems = 126
+Step 12 time = 0.000105, # ZDD nodes = 60, # elems = 24
+Step 13 time = 0.000037, # ZDD nodes = 19, # elems = 2
+Step 14 time = 0.000005, # ZDD nodes = 0, # elems = 0
+a NO
+Reconfiguration time = 0.008669
+	Command being timed: "timeout 0.5h ../ddreconf/ddreconf ../instances_pwwt_col/ph-03-02.pwwt.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/ph-isr/ph-03-02_01.dat --tj --indset"
+	User time (seconds): 0.01
+	System time (seconds): 0.01
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 33012
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1122
+	Voluntary context switches: 3
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

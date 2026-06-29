@@ -1,0 +1,50 @@
+Input graph file parsed. # of vertices = 39, # of edges = 117
+s 24 34 6 7 9 17 18 22 4 36 29 35 25 32
+t 24 34 5 6 7 9 10 1 18 11 39 35 25 27
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 0.012288
+Solution space ZDD size = 1605
+# of elements in the solution space = 2283228
+Start searching a reconfiguration sequence from s to t
+Step 1 time = 0.000090, # ZDD nodes = 27, # elems = 4
+Step 2 time = 0.000096, # ZDD nodes = 53, # elems = 12
+Step 3 time = 0.000238, # ZDD nodes = 99, # elems = 48
+Step 4 time = 0.000565, # ZDD nodes = 207, # elems = 168
+Step 5 time = 0.001391, # ZDD nodes = 321, # elems = 408
+Step 6 time = 0.002144, # ZDD nodes = 371, # elems = 545
+Step 7 time = 0.002709, # ZDD nodes = 294, # elems = 335
+t found
+a YES
+a 4 6 7 9 17 18 22 24 25 29 32 34 35 36
+a 4 6 7 9 18 22 24 25 28 29 32 34 35 36
+a 4 5 6 7 9 18 24 25 28 29 32 34 35 36
+a 4 5 6 7 9 18 24 25 28 32 34 35 36 39
+a 4 5 6 7 9 10 18 24 25 28 32 34 35 39
+a 1 5 6 7 9 10 18 24 25 28 32 34 35 39
+a 1 5 6 7 9 10 11 18 24 25 32 34 35 39
+a 1 5 6 7 9 10 11 18 24 25 27 34 35 39
+Reconfiguration time = 0.009273
+	Command being timed: "timeout 0.5h ../ddreconf/ddreconf ../instances_pwwt_col/random_instance003_graph002.pwwt.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance003_graph002_01.dat --tj --indset"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 97%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34032
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1134
+	Voluntary context switches: 3
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,54 @@
+Input graph file parsed. # of vertices = 64, # of edges = 728
+s 5 9 24 34 47 51 62
+t 7 12 22 32 41 51 61
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 30.756547
+Solution space ZDD size = 20243
+# of elements in the solution space = 118969
+Start searching a reconfiguration sequence from s to t
+Step 1 time = 0.000111, # ZDD nodes = 17, # elems = 8
+Step 2 time = 0.000230, # ZDD nodes = 38, # elems = 9
+Step 3 time = 0.000685, # ZDD nodes = 63, # elems = 20
+Step 4 time = 0.000989, # ZDD nodes = 132, # elems = 34
+Step 5 time = 0.002331, # ZDD nodes = 244, # elems = 75
+Step 6 time = 0.005214, # ZDD nodes = 385, # elems = 141
+Step 7 time = 0.046163, # ZDD nodes = 571, # elems = 243
+Step 8 time = 0.180370, # ZDD nodes = 798, # elems = 326
+Step 9 time = 0.022654, # ZDD nodes = 959, # elems = 413
+t found
+a YES
+a 5 9 24 34 47 51 62
+a 4 9 24 34 47 51 62
+a 4 9 24 29 34 51 62
+a 7 9 24 29 34 51 62
+a 7 12 24 29 34 51 62
+a 7 12 24 29 41 51 62
+a 7 12 18 29 41 51 62
+a 7 12 18 32 41 51 62
+a 7 12 18 32 41 51 61
+a 7 12 22 32 41 51 61
+Reconfiguration time = 0.261411
+	Command being timed: "timeout 600s ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/queen8_8.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/queen8_8_01.dat --tj --indset"
+	User time (seconds): 29.29
+	System time (seconds): 1.66
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:31.06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2247496
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 339700
+	Voluntary context switches: 3
+	Involuntary context switches: 39
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

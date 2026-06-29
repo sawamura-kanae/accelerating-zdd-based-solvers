@@ -1,0 +1,44 @@
+Input graph file parsed. # of vertices = 78, # of edges = 234
+s 1 4 7 9 13 17 22 25 27 32 45 42 44 69 50 54 55 57 59 60 77 65 78
+t 4 5 15 18 19 20 28 29 31 48 34 35 36 37 39 42 69 49 51 54 56 68 62
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 1082.298205
+Solution space ZDD size = 17793391
+# of elements in the solution space = 4784011345326
+Start searching a reconfiguration sequence from s to t
+Step 1 time = 0.000392, # ZDD nodes = 165, # elems = 18
+Step 2 time = 0.003076, # ZDD nodes = 869, # elems = 333
+Step 3 time = 0.021026, # ZDD nodes = 4090, # elems = 3915
+Step 4 time = 0.137351, # ZDD nodes = 16556, # elems = 31370
+Step 5 time = 0.766404, # ZDD nodes = 57295, # elems = 189115
+Step 6 time = 3.434679, # ZDD nodes = 170898, # elems = 912067
+Step 7 time = 21.974868, # ZDD nodes = 446263, # elems = 3684483
+Step 8 time = 52.991048, # ZDD nodes = 1039930, # elems = 12890112
+Step 9 time = 128.541897, # ZDD nodes = 2193351, # elems = 39734305
+Step 10 time = 327.405948, # ZDD nodes = 4214471, # elems = 108245678
+Step 11 time = 771.257144, # ZDD nodes = 7390619, # elems = 259324888
+Step 12 Command exited with non-zero status 124
+	Command being timed: "timeout 1.0h ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance006_graph004.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance006_graph004_01.dat --tj --indset"
+	User time (seconds): 3511.09
+	System time (seconds): 75.23
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:00:00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 143542964
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2752574
+	Voluntary context switches: 5
+	Involuntary context switches: 2148
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

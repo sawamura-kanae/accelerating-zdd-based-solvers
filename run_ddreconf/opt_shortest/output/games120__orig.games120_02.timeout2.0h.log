@@ -1,0 +1,28 @@
+Input graph file parsed. # of vertices = 120, # of edges = 638
+s 2 5 9 15 21 27 29 50 64 73 79 81 87 89 94 98 102 103 109 110 115
+t 4 5 6 9 16 20 22 29 43 46 54 59 64 68 73 75 78 93 98 110 115
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 2.0h ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/games120.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/games120_02.dat --tj --indset"
+	User time (seconds): 6182.35
+	System time (seconds): 997.22
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:00:04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 279646172
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 957508880
+	Voluntary context switches: 4
+	Involuntary context switches: 3934
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

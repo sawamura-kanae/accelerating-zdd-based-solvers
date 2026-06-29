@@ -1,0 +1,52 @@
+Input graph file parsed. # of vertices = 100, # of edges = 1470
+s 32 7 28 81 53 74 49 66 100
+t 2 36 15 61 53 84 29 77 100
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 2571.340878
+Solution space ZDD size = 523184
+# of elements in the solution space = 7535369
+Start searching a reconfiguration sequence from s to t
+Step 1 time = 0.000297, # ZDD nodes = 29, # elems = 11
+Step 2 time = 0.000665, # ZDD nodes = 73, # elems = 15
+Step 3 time = 0.002140, # ZDD nodes = 141, # elems = 29
+Step 4 time = 0.003712, # ZDD nodes = 232, # elems = 55
+Step 5 time = 0.006293, # ZDD nodes = 432, # elems = 104
+Step 6 time = 0.013485, # ZDD nodes = 866, # elems = 223
+Step 7 time = 0.029647, # ZDD nodes = 1541, # elems = 446
+Step 8 time = 0.056825, # ZDD nodes = 2640, # elems = 787
+t found
+a YES
+a 7 28 32 49 53 66 74 81 100
+a 15 28 32 49 53 66 74 81 100
+a 2 15 28 49 53 66 74 81 100
+a 2 15 28 49 53 66 74 87 100
+a 2 15 28 49 53 61 74 87 100
+a 2 15 28 36 49 53 61 74 100
+a 2 15 28 36 49 53 61 77 100
+a 2 15 28 36 53 61 77 84 100
+a 2 15 29 36 53 61 77 84 100
+Reconfiguration time = 0.116919
+	Command being timed: "timeout 1.0h ../ddreconf/ddreconf ../instances_pw_col/queen10_10.pw.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/queen10_10_01.dat --tj --indset"
+	User time (seconds): 2491.19
+	System time (seconds): 70.92
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 42:52.16
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 137453472
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1589001
+	Voluntary context switches: 3
+	Involuntary context switches: 1748
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

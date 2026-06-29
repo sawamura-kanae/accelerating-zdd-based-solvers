@@ -1,0 +1,28 @@
+Input graph file parsed. # of vertices = 900, # of edges = 307350
+s 151 62 243 327 440 615 702 786 894
+t 151 62 243 327 440 531 615 702 786
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 2.0h ../ddreconf/ddreconf ../instances_pw_col/latin_square_10.pw.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/latin_square_10_01.dat --tj --indset"
+	User time (seconds): 6188.62
+	System time (seconds): 994.45
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:00:04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 548621644
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 766194797
+	Voluntary context switches: 5
+	Involuntary context switches: 8462
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

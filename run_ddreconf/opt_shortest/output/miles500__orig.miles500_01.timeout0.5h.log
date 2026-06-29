@@ -1,0 +1,50 @@
+Input graph file parsed. # of vertices = 128, # of edges = 1170
+s 1 22 27 35 37 48 112 121 70 77 85 84 106 99 101 104 117 119
+t 1 9 12 14 15 22 27 35 48 112 56 63 121 69 70 84 117 119
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 1180.277709
+Solution space ZDD size = 11786143
+# of elements in the solution space = 892734883938
+Start searching a reconfiguration sequence from s to t
+Step 1 time = 0.000712, # ZDD nodes = 174, # elems = 43
+Step 2 time = 0.005930, # ZDD nodes = 921, # elems = 627
+Step 3 time = 0.037600, # ZDD nodes = 3374, # elems = 4714
+Step 4 time = 0.153467, # ZDD nodes = 9084, # elems = 21901
+Step 5 time = 0.446379, # ZDD nodes = 18921, # elems = 70133
+Step 6 time = 0.966277, # ZDD nodes = 32501, # elems = 168988
+Step 7 time = 2.981835, # ZDD nodes = 48495, # elems = 334595
+t found
+a YES
+a 1 22 27 35 37 48 70 77 84 85 99 101 104 106 112 117 119 121
+a 1 22 27 35 37 48 69 70 77 84 85 101 104 106 112 117 119 121
+a 1 22 27 35 37 48 63 69 70 77 84 101 104 106 112 117 119 121
+a 1 22 27 35 37 48 56 63 69 70 77 84 101 104 112 117 119 121
+a 1 15 22 27 35 37 48 56 63 69 70 84 101 104 112 117 119 121
+a 1 14 15 22 27 35 37 48 56 63 69 70 84 104 112 117 119 121
+a 1 12 14 15 22 27 35 48 56 63 69 70 84 104 112 117 119 121
+a 1 9 12 14 15 22 27 35 48 56 63 69 70 84 112 117 119 121
+Reconfiguration time = 4.619271
+	Command being timed: "timeout 0.5h ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/miles500.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/miles500_01.dat --tj --indset"
+	User time (seconds): 1149.83
+	System time (seconds): 35.84
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 19:50.13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 71261916
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 599855
+	Voluntary context switches: 3
+	Involuntary context switches: 1088
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

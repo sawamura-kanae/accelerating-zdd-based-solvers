@@ -1,0 +1,970 @@
+Input graph file parsed. # of vertices = 185, # of edges = 215
+s 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+t 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 1.594679
+Solution space ZDD size = 184949
+# of elements in the solution space = 204378652937287921022196675453652622940
+Start searching a reconfiguration sequence from s to t
+Step 1 time = 0.000676, # ZDD nodes = 191, # elems = 17
+Step 2 time = 0.001591, # ZDD nodes = 362, # elems = 150
+Step 3 time = 0.003525, # ZDD nodes = 560, # elems = 921
+Step 4 time = 0.004732, # ZDD nodes = 873, # elems = 4417
+Step 5 time = 0.010262, # ZDD nodes = 1196, # elems = 17575
+Step 6 time = 0.008964, # ZDD nodes = 1496, # elems = 60190
+Step 7 time = 0.009723, # ZDD nodes = 1818, # elems = 181827
+Step 8 time = 0.010715, # ZDD nodes = 2113, # elems = 492987
+Step 9 time = 0.013734, # ZDD nodes = 2402, # elems = 1215174
+Step 10 time = 0.011270, # ZDD nodes = 2668, # elems = 2750036
+Step 11 time = 0.010713, # ZDD nodes = 2919, # elems = 5758158
+Step 12 time = 0.010603, # ZDD nodes = 3181, # elems = 11224041
+Step 13 time = 0.010873, # ZDD nodes = 3471, # elems = 20469276
+Step 14 time = 0.016521, # ZDD nodes = 3799, # elems = 35068432
+Step 15 time = 0.013210, # ZDD nodes = 4196, # elems = 56630557
+Step 16 time = 0.018182, # ZDD nodes = 4614, # elems = 86439341
+Step 17 time = 0.025331, # ZDD nodes = 4999, # elems = 124995026
+Step 18 time = 0.021488, # ZDD nodes = 5380, # elems = 171558013
+Step 19 time = 0.019115, # ZDD nodes = 5750, # elems = 223835689
+Step 20 time = 0.021728, # ZDD nodes = 6105, # elems = 277956523
+Step 21 time = 0.018888, # ZDD nodes = 6430, # elems = 328824439
+Step 22 time = 0.018868, # ZDD nodes = 6712, # elems = 370847212
+Step 23 time = 0.026540, # ZDD nodes = 6952, # elems = 398912578
+Step 24 time = 0.052336, # ZDD nodes = 7157, # elems = 409387104
+Step 25 time = 0.026513, # ZDD nodes = 7306, # elems = 400876871
+Step 26 time = 0.021036, # ZDD nodes = 7469, # elems = 374536564
+Step 27 time = 0.020560, # ZDD nodes = 7620, # elems = 333834594
+Step 28 time = 0.019741, # ZDD nodes = 7767, # elems = 283836848
+Step 29 time = 0.018822, # ZDD nodes = 7819, # elems = 230206115
+Step 30 time = 0.019792, # ZDD nodes = 7841, # elems = 178182199
+Step 31 time = 0.017534, # ZDD nodes = 7792, # elems = 131789314
+Step 32 time = 0.016761, # ZDD nodes = 7687, # elems = 93425812
+Step 33 time = 0.015734, # ZDD nodes = 7585, # elems = 63865723
+Step 34 time = 0.016219, # ZDD nodes = 7408, # elems = 42587835
+Step 35 time = 0.017642, # ZDD nodes = 7192, # elems = 28280881
+Step 36 time = 0.013547, # ZDD nodes = 6923, # elems = 19364718
+Step 37 time = 0.016234, # ZDD nodes = 6613, # elems = 14405595
+Step 38 time = 0.010581, # ZDD nodes = 6293, # elems = 12363953
+Step 39 time = 0.014472, # ZDD nodes = 5991, # elems = 12669961
+Step 40 time = 0.009795, # ZDD nodes = 5673, # elems = 15159055
+Step 41 time = 0.009392, # ZDD nodes = 5340, # elems = 19914653
+Step 42 time = 0.009046, # ZDD nodes = 5081, # elems = 27065309
+Step 43 time = 0.008768, # ZDD nodes = 4896, # elems = 36579258
+Step 44 time = 0.012308, # ZDD nodes = 4861, # elems = 48096940
+Step 45 time = 0.236530, # ZDD nodes = 4836, # elems = 60840403
+Step 46 time = 0.012072, # ZDD nodes = 4801, # elems = 73631077
+Step 47 time = 0.011262, # ZDD nodes = 4761, # elems = 85028143
+Step 48 time = 0.011632, # ZDD nodes = 4685, # elems = 93568643
+Step 49 time = 0.010733, # ZDD nodes = 4613, # elems = 98056548
+Step 50 time = 0.012603, # ZDD nodes = 4602, # elems = 97825406
+Step 51 time = 0.010403, # ZDD nodes = 4562, # elems = 92900300
+Step 52 time = 0.009615, # ZDD nodes = 4496, # elems = 84012833
+Step 53 time = 0.009111, # ZDD nodes = 4541, # elems = 72468245
+Step 54 time = 0.009677, # ZDD nodes = 4640, # elems = 59908424
+Step 55 time = 0.010630, # ZDD nodes = 4731, # elems = 48040160
+Step 56 time = 0.010791, # ZDD nodes = 4843, # elems = 38395057
+Step 57 time = 0.016100, # ZDD nodes = 5048, # elems = 32160418
+Step 58 time = 0.013036, # ZDD nodes = 5226, # elems = 30084709
+Step 59 time = 0.018026, # ZDD nodes = 5360, # elems = 32435402
+Step 60 time = 0.020106, # ZDD nodes = 5482, # elems = 38982892
+Step 61 time = 0.025106, # ZDD nodes = 5544, # elems = 49000921
+Step 62 time = 0.015026, # ZDD nodes = 5568, # elems = 61298600
+Step 63 time = 0.011461, # ZDD nodes = 5632, # elems = 74314111
+Step 64 time = 0.017588, # ZDD nodes = 5653, # elems = 86293092
+Step 65 time = 0.009990, # ZDD nodes = 5651, # elems = 95545196
+Step 66 time = 0.009585, # ZDD nodes = 5644, # elems = 100733463
+Step 67 time = 0.010520, # ZDD nodes = 5605, # elems = 101122823
+Step 68 time = 0.016946, # ZDD nodes = 5535, # elems = 96712562
+Step 69 time = 0.011449, # ZDD nodes = 5472, # elems = 88207464
+Step 70 time = 0.010813, # ZDD nodes = 5376, # elems = 76832734
+Step 71 time = 0.010725, # ZDD nodes = 5341, # elems = 64047940
+Step 72 time = 0.015113, # ZDD nodes = 5333, # elems = 51244563
+Step 73 time = 0.010452, # ZDD nodes = 5330, # elems = 39509133
+Step 74 time = 0.012367, # ZDD nodes = 5334, # elems = 29503025
+Step 75 time = 0.011445, # ZDD nodes = 5342, # elems = 21465956
+Step 76 time = 0.015302, # ZDD nodes = 5353, # elems = 15311608
+Step 77 time = 0.016424, # ZDD nodes = 5338, # elems = 10764323
+Step 78 time = 0.022602, # ZDD nodes = 5313, # elems = 7488495
+Step 79 time = 0.020725, # ZDD nodes = 5317, # elems = 5180578
+Step 80 time = 0.013604, # ZDD nodes = 5313, # elems = 3616237
+Step 81 time = 0.013225, # ZDD nodes = 5248, # elems = 2661807
+Step 82 time = 0.012907, # ZDD nodes = 5196, # elems = 2265207
+Step 83 time = 0.013151, # ZDD nodes = 5122, # elems = 2438016
+Step 84 time = 0.015492, # ZDD nodes = 5105, # elems = 3232827
+Step 85 time = 0.014621, # ZDD nodes = 5069, # elems = 4714251
+Step 86 time = 0.019963, # ZDD nodes = 5108, # elems = 6921771
+Step 87 time = 0.018675, # ZDD nodes = 5116, # elems = 9828248
+Step 88 time = 0.019304, # ZDD nodes = 5103, # elems = 13306018
+Step 89 time = 0.016351, # ZDD nodes = 5068, # elems = 17118293
+Step 90 time = 0.013793, # ZDD nodes = 4985, # elems = 20952720
+Step 91 time = 0.012960, # ZDD nodes = 4917, # elems = 24504962
+Step 92 time = 0.014280, # ZDD nodes = 4801, # elems = 27605192
+Step 93 time = 0.012007, # ZDD nodes = 4678, # elems = 30364142
+Step 94 time = 0.010599, # ZDD nodes = 4567, # elems = 33302978
+Step 95 time = 0.009650, # ZDD nodes = 4502, # elems = 37426021
+Step 96 time = 0.014566, # ZDD nodes = 4513, # elems = 44197933
+Step 97 time = 0.010756, # ZDD nodes = 4487, # elems = 55397108
+Step 98 time = 0.007999, # ZDD nodes = 4409, # elems = 72834995
+Step 99 time = 0.007510, # ZDD nodes = 4317, # elems = 97958458
+Step 100 time = 0.007067, # ZDD nodes = 4207, # elems = 131389151
+Step 101 time = 0.006774, # ZDD nodes = 4090, # elems = 172494318
+Step 102 time = 0.012264, # ZDD nodes = 4094, # elems = 219113273
+Step 103 time = 0.012660, # ZDD nodes = 4089, # elems = 267563719
+Step 104 time = 0.012031, # ZDD nodes = 4079, # elems = 313006721
+Step 105 time = 0.007441, # ZDD nodes = 4079, # elems = 350159288
+Step 106 time = 0.007526, # ZDD nodes = 4045, # elems = 374231866
+Step 107 time = 0.007244, # ZDD nodes = 4039, # elems = 381874662
+Step 108 time = 0.008168, # ZDD nodes = 4030, # elems = 371883287
+Step 109 time = 0.009162, # ZDD nodes = 4029, # elems = 345463153
+Step 110 time = 0.010398, # ZDD nodes = 4111, # elems = 305973521
+Step 111 time = 0.014334, # ZDD nodes = 4247, # elems = 258225246
+Step 112 time = 0.026433, # ZDD nodes = 4482, # elems = 207535809
+Step 113 time = 0.030023, # ZDD nodes = 4702, # elems = 158806153
+Step 114 time = 0.016704, # ZDD nodes = 4848, # elems = 115859724
+Step 115 time = 0.015802, # ZDD nodes = 5002, # elems = 81191509
+Step 116 time = 0.017287, # ZDD nodes = 5259, # elems = 56152055
+Step 117 time = 0.018149, # ZDD nodes = 5456, # elems = 41478158
+Step 118 time = 0.028163, # ZDD nodes = 5678, # elems = 38003215
+Step 119 time = 0.019925, # ZDD nodes = 5906, # elems = 47341511
+Step 120 time = 0.021529, # ZDD nodes = 6127, # elems = 72335464
+Step 121 time = 0.039198, # ZDD nodes = 6353, # elems = 117078543
+Step 122 time = 0.024586, # ZDD nodes = 6594, # elems = 186384765
+Step 123 time = 0.036405, # ZDD nodes = 6759, # elems = 284680728
+Step 124 time = 0.030450, # ZDD nodes = 6860, # elems = 414451432
+Step 125 time = 0.035341, # ZDD nodes = 6920, # elems = 574553114
+Step 126 time = 0.024511, # ZDD nodes = 6951, # elems = 758858402
+Step 127 time = 0.023473, # ZDD nodes = 7018, # elems = 955745376
+Step 128 time = 0.034815, # ZDD nodes = 7133, # elems = 1148821745
+Step 129 time = 0.026231, # ZDD nodes = 7275, # elems = 1318981338
+Step 130 time = 0.028203, # ZDD nodes = 7432, # elems = 1447490769
+Step 131 time = 0.034789, # ZDD nodes = 7574, # elems = 1519431715
+Step 132 time = 0.035355, # ZDD nodes = 7782, # elems = 1526626455
+Step 133 time = 0.030565, # ZDD nodes = 8067, # elems = 1469249326
+Step 134 time = 0.082713, # ZDD nodes = 8383, # elems = 1355673009
+Step 135 time = 0.085728, # ZDD nodes = 8720, # elems = 1200604766
+Step 136 time = 0.043429, # ZDD nodes = 9077, # elems = 1022054846
+Step 137 time = 0.078906, # ZDD nodes = 9440, # elems = 837974878
+Step 138 time = 0.074879, # ZDD nodes = 9819, # elems = 663413941
+Step 139 time = 0.064582, # ZDD nodes = 10139, # elems = 508784807
+Step 140 time = 0.056259, # ZDD nodes = 10417, # elems = 379430966
+Step 141 time = 0.053780, # ZDD nodes = 10560, # elems = 276294569
+Step 142 time = 0.043899, # ZDD nodes = 10563, # elems = 197236192
+Step 143 time = 0.045219, # ZDD nodes = 10438, # elems = 138503016
+Step 144 time = 0.047440, # ZDD nodes = 10271, # elems = 95953682
+Step 145 time = 0.037993, # ZDD nodes = 10015, # elems = 65843661
+Step 146 time = 0.030003, # ZDD nodes = 9640, # elems = 45164203
+Step 147 time = 0.027004, # ZDD nodes = 9131, # elems = 31650484
+Step 148 time = 0.023983, # ZDD nodes = 8605, # elems = 23614711
+Step 149 time = 0.022167, # ZDD nodes = 8056, # elems = 19737687
+Step 150 time = 0.020096, # ZDD nodes = 7500, # elems = 18902523
+Step 151 time = 0.018327, # ZDD nodes = 7031, # elems = 20106140
+Step 152 time = 0.017121, # ZDD nodes = 6619, # elems = 22451676
+Step 153 time = 0.020202, # ZDD nodes = 6255, # elems = 25207687
+Step 154 time = 0.015719, # ZDD nodes = 6056, # elems = 27911426
+Step 155 time = 0.019431, # ZDD nodes = 5840, # elems = 30487569
+Step 156 time = 0.013146, # ZDD nodes = 5621, # elems = 33348767
+Step 157 time = 0.011576, # ZDD nodes = 5351, # elems = 37441580
+Step 158 time = 0.010428, # ZDD nodes = 5015, # elems = 44202747
+Step 159 time = 0.013526, # ZDD nodes = 4806, # elems = 55398451
+Step 160 time = 0.009132, # ZDD nodes = 4568, # elems = 72835326
+Step 161 time = 0.014467, # ZDD nodes = 4393, # elems = 97958528
+Step 162 time = 0.009271, # ZDD nodes = 4299, # elems = 131389174
+Step 163 time = 0.014950, # ZDD nodes = 4190, # elems = 172494396
+Step 164 time = 0.009442, # ZDD nodes = 4160, # elems = 219113624
+Step 165 time = 0.009560, # ZDD nodes = 4180, # elems = 267564984
+Step 166 time = 0.009014, # ZDD nodes = 4204, # elems = 313010528
+Step 167 time = 0.009283, # ZDD nodes = 4256, # elems = 350169178
+Step 168 time = 0.009488, # ZDD nodes = 4278, # elems = 374254535
+Step 169 time = 0.009600, # ZDD nodes = 4300, # elems = 381921211
+Step 170 time = 0.011373, # ZDD nodes = 4266, # elems = 371969864
+Step 171 time = 0.010094, # ZDD nodes = 4209, # elems = 345610139
+Step 172 time = 0.010448, # ZDD nodes = 4184, # elems = 306202341
+Step 173 time = 0.011324, # ZDD nodes = 4154, # elems = 258551773
+Step 174 time = 0.014180, # ZDD nodes = 4203, # elems = 207958414
+Step 175 time = 0.012181, # ZDD nodes = 4269, # elems = 159283367
+Step 176 time = 0.012566, # ZDD nodes = 4297, # elems = 116265523
+Step 177 time = 0.018242, # ZDD nodes = 4352, # elems = 81224397
+Step 178 time = 0.014683, # ZDD nodes = 4544, # elems = 55158784
+Step 179 time = 0.015336, # ZDD nodes = 4733, # elems = 38139677
+Step 180 time = 0.016049, # ZDD nodes = 4904, # elems = 29830075
+Step 181 time = 0.016932, # ZDD nodes = 5083, # elems = 29952858
+Step 182 time = 0.018377, # ZDD nodes = 5255, # elems = 38562224
+Step 183 time = 0.019389, # ZDD nodes = 5408, # elems = 56038417
+Step 184 time = 0.019169, # ZDD nodes = 5590, # elems = 82804126
+Step 185 time = 0.018245, # ZDD nodes = 5718, # elems = 118841125
+Step 186 time = 0.017943, # ZDD nodes = 5811, # elems = 163153819
+Step 187 time = 0.022104, # ZDD nodes = 5875, # elems = 213364758
+Step 188 time = 0.017713, # ZDD nodes = 5887, # elems = 265617439
+Step 189 time = 0.013755, # ZDD nodes = 5896, # elems = 314893407
+Step 190 time = 0.013027, # ZDD nodes = 5883, # elems = 355732678
+Step 191 time = 0.013867, # ZDD nodes = 5899, # elems = 383211424
+Step 192 time = 0.014865, # ZDD nodes = 5902, # elems = 393926672
+Step 193 time = 0.014706, # ZDD nodes = 5876, # elems = 386709342
+Step 194 time = 0.014246, # ZDD nodes = 5816, # elems = 362853639
+Step 195 time = 0.013792, # ZDD nodes = 5874, # elems = 325794157
+Step 196 time = 0.022650, # ZDD nodes = 5923, # elems = 280330948
+Step 197 time = 0.015682, # ZDD nodes = 6046, # elems = 231633958
+Step 198 time = 0.017601, # ZDD nodes = 6109, # elems = 184304580
+Step 199 time = 0.036811, # ZDD nodes = 6141, # elems = 141722665
+Step 200 time = 0.015903, # ZDD nodes = 6182, # elems = 105789721
+Step 201 time = 0.016155, # ZDD nodes = 6263, # elems = 77044912
+Step 202 time = 0.028897, # ZDD nodes = 6343, # elems = 55030382
+Step 203 time = 0.023918, # ZDD nodes = 6438, # elems = 38745004
+Step 204 time = 0.018697, # ZDD nodes = 6489, # elems = 27049633
+Step 205 time = 0.018208, # ZDD nodes = 6466, # elems = 18947117
+Step 206 time = 0.029009, # ZDD nodes = 6479, # elems = 13723829
+Step 207 time = 0.023615, # ZDD nodes = 6492, # elems = 10981267
+Step 208 time = 0.048646, # ZDD nodes = 6495, # elems = 10597857
+Step 209 time = 0.048535, # ZDD nodes = 6410, # elems = 12650301
+Step 210 time = 0.032520, # ZDD nodes = 6308, # elems = 17306865
+Step 211 time = 0.033945, # ZDD nodes = 6205, # elems = 24697097
+Step 212 time = 0.023062, # ZDD nodes = 6105, # elems = 34770288
+Step 213 time = 0.021205, # ZDD nodes = 6072, # elems = 47174330
+Step 214 time = 0.020548, # ZDD nodes = 6006, # elems = 61205279
+Step 215 time = 0.019926, # ZDD nodes = 5924, # elems = 75881993
+Step 216 time = 0.030637, # ZDD nodes = 5835, # elems = 90181167
+Step 217 time = 0.018445, # ZDD nodes = 5696, # elems = 103427016
+Step 218 time = 0.017001, # ZDD nodes = 5569, # elems = 115777274
+Step 219 time = 0.015777, # ZDD nodes = 5391, # elems = 128698333
+Step 220 time = 0.020563, # ZDD nodes = 5212, # elems = 145291074
+Step 221 time = 0.013288, # ZDD nodes = 5052, # elems = 170324040
+Step 222 time = 0.017555, # ZDD nodes = 4938, # elems = 209856057
+Step 223 time = 0.012140, # ZDD nodes = 4904, # elems = 270388494
+Step 224 time = 0.010506, # ZDD nodes = 4845, # elems = 357579712
+Step 225 time = 0.009745, # ZDD nodes = 4736, # elems = 474676922
+Step 226 time = 0.020447, # ZDD nodes = 4616, # elems = 620955199
+Step 227 time = 0.009050, # ZDD nodes = 4481, # elems = 790560449
+Step 228 time = 0.008411, # ZDD nodes = 4341, # elems = 972177953
+Step 229 time = 0.007977, # ZDD nodes = 4264, # elems = 1149842637
+Step 230 time = 0.007472, # ZDD nodes = 4163, # elems = 1304960238
+Step 231 time = 0.006994, # ZDD nodes = 4050, # elems = 1419268270
+Step 232 time = 0.006665, # ZDD nodes = 3972, # elems = 1478137327
+Step 233 time = 0.007481, # ZDD nodes = 3876, # elems = 1473423603
+Step 234 time = 0.007127, # ZDD nodes = 3752, # elems = 1405126560
+Step 235 time = 0.006785, # ZDD nodes = 3580, # elems = 1281394175
+Step 236 time = 0.006344, # ZDD nodes = 3387, # elems = 1116867429
+Step 237 time = 0.005889, # ZDD nodes = 3241, # elems = 929813216
+Step 238 time = 0.007829, # ZDD nodes = 3159, # elems = 738802300
+Step 239 time = 0.008629, # ZDD nodes = 3208, # elems = 559747670
+Step 240 time = 0.011249, # ZDD nodes = 3365, # elems = 403928249
+Step 241 time = 0.019202, # ZDD nodes = 3564, # elems = 277274005
+Step 242 time = 0.015072, # ZDD nodes = 3752, # elems = 180817906
+Step 243 time = 0.016016, # ZDD nodes = 4036, # elems = 111951789
+Step 244 time = 0.021564, # ZDD nodes = 4267, # elems = 66022022
+Step 245 time = 0.017846, # ZDD nodes = 4551, # elems = 37859208
+Step 246 time = 0.021535, # ZDD nodes = 4832, # elems = 22991158
+Step 247 time = 0.022744, # ZDD nodes = 5013, # elems = 18457043
+Step 248 time = 0.031824, # ZDD nodes = 5192, # elems = 23256014
+Step 249 time = 0.024581, # ZDD nodes = 5374, # elems = 38495970
+Step 250 time = 0.025104, # ZDD nodes = 5505, # elems = 67269850
+Step 251 time = 0.034388, # ZDD nodes = 5634, # elems = 114221548
+Step 252 time = 0.026354, # ZDD nodes = 5743, # elems = 184726594
+Step 253 time = 0.030149, # ZDD nodes = 5827, # elems = 283648891
+Step 254 time = 0.024654, # ZDD nodes = 5930, # elems = 413757287
+Step 255 time = 0.030886, # ZDD nodes = 6022, # elems = 574064392
+Step 256 time = 0.023046, # ZDD nodes = 6091, # elems = 758514846
+Step 257 time = 0.021558, # ZDD nodes = 6261, # elems = 955513162
+Step 258 time = 0.022681, # ZDD nodes = 6534, # elems = 1148674377
+Step 259 time = 0.024445, # ZDD nodes = 6870, # elems = 1318894807
+Step 260 time = 0.025789, # ZDD nodes = 7207, # elems = 1447444256
+Step 261 time = 0.026459, # ZDD nodes = 7469, # elems = 1519409055
+Step 262 time = 0.032967, # ZDD nodes = 7758, # elems = 1526616566
+Step 263 time = 0.041597, # ZDD nodes = 8078, # elems = 1469245519
+Step 264 time = 0.029824, # ZDD nodes = 8382, # elems = 1355671744
+Step 265 time = 0.052661, # ZDD nodes = 8729, # elems = 1200604415
+Step 266 time = 0.039401, # ZDD nodes = 9121, # elems = 1022054769
+Step 267 time = 0.042135, # ZDD nodes = 9598, # elems = 837974866
+Step 268 time = 0.045420, # ZDD nodes = 10122, # elems = 663413940
+Step 269 time = 0.067931, # ZDD nodes = 10600, # elems = 508784807
+Step 270 time = 0.049406, # ZDD nodes = 10996, # elems = 379430966
+Step 271 time = 0.042882, # ZDD nodes = 11288, # elems = 276294569
+Step 272 time = 0.055577, # ZDD nodes = 11456, # elems = 197236192
+Step 273 time = 0.050638, # ZDD nodes = 11462, # elems = 138503016
+Step 274 time = 0.053270, # ZDD nodes = 11395, # elems = 95953682
+Step 275 time = 0.040064, # ZDD nodes = 11202, # elems = 65843661
+Step 276 time = 0.031880, # ZDD nodes = 10897, # elems = 45164203
+Step 277 time = 0.035950, # ZDD nodes = 10450, # elems = 31650484
+Step 278 time = 0.028211, # ZDD nodes = 9960, # elems = 23614711
+Step 279 time = 0.028036, # ZDD nodes = 9371, # elems = 19737687
+Step 280 time = 0.024952, # ZDD nodes = 8717, # elems = 18902523
+Step 281 time = 0.026328, # ZDD nodes = 8069, # elems = 20106140
+Step 282 time = 0.020821, # ZDD nodes = 7463, # elems = 22451676
+Step 283 time = 0.021481, # ZDD nodes = 6938, # elems = 25207687
+Step 284 time = 0.016401, # ZDD nodes = 6562, # elems = 27911426
+Step 285 time = 0.014036, # ZDD nodes = 6211, # elems = 30487569
+Step 286 time = 0.026603, # ZDD nodes = 5907, # elems = 33348767
+Step 287 time = 0.010866, # ZDD nodes = 5573, # elems = 37441580
+Step 288 time = 0.009354, # ZDD nodes = 5203, # elems = 44202747
+Step 289 time = 0.008244, # ZDD nodes = 4953, # elems = 55398451
+Step 290 time = 0.007471, # ZDD nodes = 4685, # elems = 72835326
+Step 291 time = 0.006850, # ZDD nodes = 4496, # elems = 97958528
+Step 292 time = 0.007156, # ZDD nodes = 4392, # elems = 131389174
+Step 293 time = 0.007103, # ZDD nodes = 4294, # elems = 172494396
+Step 294 time = 0.008458, # ZDD nodes = 4253, # elems = 219113623
+Step 295 time = 0.006685, # ZDD nodes = 4247, # elems = 267564973
+Step 296 time = 0.006264, # ZDD nodes = 4285, # elems = 313010463
+Step 297 time = 0.006984, # ZDD nodes = 4342, # elems = 350168903
+Step 298 time = 0.007489, # ZDD nodes = 4371, # elems = 374253610
+Step 299 time = 0.007347, # ZDD nodes = 4391, # elems = 381918605
+Step 300 time = 0.007603, # ZDD nodes = 4388, # elems = 371963518
+Step 301 time = 0.008044, # ZDD nodes = 4369, # elems = 345596509
+Step 302 time = 0.008127, # ZDD nodes = 4370, # elems = 306176171
+Step 303 time = 0.008214, # ZDD nodes = 4400, # elems = 258506443
+Step 304 time = 0.008352, # ZDD nodes = 4486, # elems = 207887168
+Step 305 time = 0.008476, # ZDD nodes = 4552, # elems = 159181461
+Step 306 time = 0.008409, # ZDD nodes = 4564, # elems = 116132873
+Step 307 time = 0.007775, # ZDD nodes = 4603, # elems = 81067847
+Step 308 time = 0.008352, # ZDD nodes = 4760, # elems = 54992894
+Step 309 time = 0.009284, # ZDD nodes = 4903, # elems = 37985191
+Step 310 time = 0.009388, # ZDD nodes = 5046, # elems = 29709999
+Step 311 time = 0.018161, # ZDD nodes = 5189, # elems = 29887058
+Step 312 time = 0.011320, # ZDD nodes = 5349, # elems = 38562224
+Step 313 time = 0.014930, # ZDD nodes = 5540, # elems = 56104217
+Step 314 time = 0.020064, # ZDD nodes = 5734, # elems = 82924202
+Step 315 time = 0.012504, # ZDD nodes = 5878, # elems = 118995611
+Step 316 time = 0.011943, # ZDD nodes = 5970, # elems = 163319709
+Step 317 time = 0.017275, # ZDD nodes = 6010, # elems = 213521308
+Step 318 time = 0.013602, # ZDD nodes = 6017, # elems = 265750089
+Step 319 time = 0.225033, # ZDD nodes = 5983, # elems = 314995313
+Step 320 time = 0.014000, # ZDD nodes = 5933, # elems = 355803924
+Step 321 time = 0.008969, # ZDD nodes = 5915, # elems = 383256754
+Step 322 time = 0.009401, # ZDD nodes = 5904, # elems = 393952842
+Step 323 time = 0.009396, # ZDD nodes = 5906, # elems = 386722972
+Step 324 time = 0.014360, # ZDD nodes = 5874, # elems = 362859985
+Step 325 time = 0.019881, # ZDD nodes = 5964, # elems = 325796763
+Step 326 time = 0.009026, # ZDD nodes = 6076, # elems = 280331873
+Step 327 time = 0.013767, # ZDD nodes = 6183, # elems = 231634233
+Step 328 time = 0.009185, # ZDD nodes = 6228, # elems = 184304645
+Step 329 time = 0.008929, # ZDD nodes = 6227, # elems = 141722676
+Step 330 time = 0.015166, # ZDD nodes = 6229, # elems = 105789722
+Step 331 time = 0.009615, # ZDD nodes = 6212, # elems = 77044912
+Step 332 time = 0.010138, # ZDD nodes = 6268, # elems = 55030382
+Step 333 time = 0.015635, # ZDD nodes = 6338, # elems = 38745004
+Step 334 time = 0.015767, # ZDD nodes = 6357, # elems = 27049633
+Step 335 time = 0.010870, # ZDD nodes = 6319, # elems = 18947117
+Step 336 time = 0.010597, # ZDD nodes = 6330, # elems = 13723829
+Step 337 time = 0.010676, # ZDD nodes = 6342, # elems = 10981267
+Step 338 time = 0.011116, # ZDD nodes = 6343, # elems = 10597857
+Step 339 time = 0.014145, # ZDD nodes = 6256, # elems = 12650301
+Step 340 time = 0.011957, # ZDD nodes = 6158, # elems = 17306865
+Step 341 time = 0.012366, # ZDD nodes = 6078, # elems = 24697097
+Step 342 time = 0.012713, # ZDD nodes = 6002, # elems = 34770288
+Step 343 time = 0.023250, # ZDD nodes = 6005, # elems = 47174330
+Step 344 time = 0.012607, # ZDD nodes = 5957, # elems = 61205279
+Step 345 time = 0.011643, # ZDD nodes = 5884, # elems = 75881993
+Step 346 time = 0.010900, # ZDD nodes = 5800, # elems = 90181167
+Step 347 time = 0.010141, # ZDD nodes = 5657, # elems = 103427016
+Step 348 time = 0.014491, # ZDD nodes = 5516, # elems = 115777274
+Step 349 time = 0.014201, # ZDD nodes = 5346, # elems = 128698333
+Step 350 time = 0.013281, # ZDD nodes = 5173, # elems = 145291074
+Step 351 time = 0.007569, # ZDD nodes = 5025, # elems = 170324040
+Step 352 time = 0.006948, # ZDD nodes = 4926, # elems = 209856057
+Step 353 time = 0.006588, # ZDD nodes = 4902, # elems = 270388494
+Step 354 time = 0.006127, # ZDD nodes = 4851, # elems = 357579712
+Step 355 time = 0.005684, # ZDD nodes = 4750, # elems = 474676922
+Step 356 time = 0.005379, # ZDD nodes = 4631, # elems = 620955199
+Step 357 time = 0.005123, # ZDD nodes = 4498, # elems = 790560449
+Step 358 time = 0.004855, # ZDD nodes = 4359, # elems = 972177953
+Step 359 time = 0.004768, # ZDD nodes = 4345, # elems = 1149842638
+Step 360 time = 0.005186, # ZDD nodes = 4323, # elems = 1304960250
+Step 361 time = 0.005097, # ZDD nodes = 4289, # elems = 1419268347
+Step 362 time = 0.009947, # ZDD nodes = 4236, # elems = 1478137678
+Step 363 time = 0.004847, # ZDD nodes = 4156, # elems = 1473424868
+Step 364 time = 0.004549, # ZDD nodes = 4060, # elems = 1405130367
+Step 365 time = 0.004546, # ZDD nodes = 3915, # elems = 1281404065
+Step 366 time = 0.004261, # ZDD nodes = 3754, # elems = 1116890098
+Step 367 time = 0.003973, # ZDD nodes = 3637, # elems = 929859765
+Step 368 time = 0.004267, # ZDD nodes = 3569, # elems = 738888878
+Step 369 time = 0.004604, # ZDD nodes = 3594, # elems = 559894667
+Step 370 time = 0.005110, # ZDD nodes = 3694, # elems = 404157134
+Step 371 time = 0.010918, # ZDD nodes = 3809, # elems = 277600806
+Step 372 time = 0.006634, # ZDD nodes = 3900, # elems = 181241426
+Step 373 time = 0.007329, # ZDD nodes = 4064, # elems = 112431556
+Step 374 time = 0.007307, # ZDD nodes = 4143, # elems = 66433968
+Step 375 time = 0.011992, # ZDD nodes = 4234, # elems = 37905140
+Step 376 time = 0.007955, # ZDD nodes = 4341, # elems = 22022640
+Step 377 time = 0.008238, # ZDD nodes = 4435, # elems = 15161013
+Step 378 time = 0.008385, # ZDD nodes = 4632, # elems = 15149179
+Step 379 time = 0.010443, # ZDD nodes = 4926, # elems = 21202179
+Step 380 time = 0.010946, # ZDD nodes = 5193, # elems = 33621453
+Step 381 time = 0.011891, # ZDD nodes = 5438, # elems = 53333015
+Step 382 time = 0.012611, # ZDD nodes = 5632, # elems = 81316142
+Step 383 time = 0.013033, # ZDD nodes = 5752, # elems = 117986144
+Step 384 time = 0.012902, # ZDD nodes = 5851, # elems = 162629861
+Step 385 time = 0.012712, # ZDD nodes = 5917, # elems = 213027629
+Step 386 time = 0.017557, # ZDD nodes = 5964, # elems = 265398726
+Step 387 time = 0.012045, # ZDD nodes = 6054, # elems = 314756055
+Step 388 time = 0.012258, # ZDD nodes = 6210, # elems = 355651615
+Step 389 time = 0.013383, # ZDD nodes = 6430, # elems = 383167344
+Step 390 time = 0.014561, # ZDD nodes = 6644, # elems = 393904911
+Step 391 time = 0.016180, # ZDD nodes = 6783, # elems = 386699716
+Step 392 time = 0.014722, # ZDD nodes = 6957, # elems = 362849843
+Step 393 time = 0.015481, # ZDD nodes = 7173, # elems = 325792691
+Step 394 time = 0.017039, # ZDD nodes = 7413, # elems = 280329924
+Step 395 time = 0.018165, # ZDD nodes = 7680, # elems = 231632046
+Step 396 time = 0.019401, # ZDD nodes = 7999, # elems = 184300121
+Step 397 time = 0.046999, # ZDD nodes = 8296, # elems = 141712776
+Step 398 time = 0.032664, # ZDD nodes = 8573, # elems = 105768997
+Step 399 time = 0.022272, # ZDD nodes = 8745, # elems = 77002913
+Step 400 time = 0.025756, # ZDD nodes = 8801, # elems = 54946280
+Step 401 time = 0.034248, # ZDD nodes = 8742, # elems = 38576379
+Step 402 time = 0.017316, # ZDD nodes = 8561, # elems = 26710620
+Step 403 time = 0.025158, # ZDD nodes = 8211, # elems = 18269737
+Step 404 time = 0.012867, # ZDD nodes = 7814, # elems = 12396946
+Step 405 time = 0.011316, # ZDD nodes = 7411, # elems = 8466358
+Step 406 time = 0.010204, # ZDD nodes = 6990, # elems = 6031162
+Step 407 time = 0.009278, # ZDD nodes = 6513, # elems = 4756018
+Step 408 time = 0.008730, # ZDD nodes = 6120, # elems = 4361173
+Step 409 time = 0.008588, # ZDD nodes = 5787, # elems = 4589334
+Step 410 time = 0.013233, # ZDD nodes = 5501, # elems = 5195998
+Step 411 time = 0.013200, # ZDD nodes = 5371, # elems = 5959635
+Step 412 time = 0.012877, # ZDD nodes = 5223, # elems = 6706709
+Step 413 time = 0.007577, # ZDD nodes = 5056, # elems = 7345345
+Step 414 time = 0.006880, # ZDD nodes = 4837, # elems = 7899737
+Step 415 time = 0.006189, # ZDD nodes = 4548, # elems = 8535778
+Step 416 time = 0.005802, # ZDD nodes = 4378, # elems = 9567907
+Step 417 time = 0.005417, # ZDD nodes = 4177, # elems = 11438158
+Step 418 time = 0.005122, # ZDD nodes = 3989, # elems = 14660904
+Step 419 time = 0.004829, # ZDD nodes = 3868, # elems = 19731482
+Step 420 time = 0.005663, # ZDD nodes = 3717, # elems = 27004782
+Step 421 time = 0.004329, # ZDD nodes = 3677, # elems = 36561360
+Step 422 time = 0.004565, # ZDD nodes = 3697, # elems = 48091550
+Step 423 time = 0.004627, # ZDD nodes = 3711, # elems = 60836704
+Step 424 time = 0.004638, # ZDD nodes = 3706, # elems = 73624010
+Step 425 time = 0.004557, # ZDD nodes = 3668, # elems = 85012720
+Step 426 time = 0.004346, # ZDD nodes = 3606, # elems = 93537094
+Step 427 time = 0.009312, # ZDD nodes = 3545, # elems = 97995354
+Step 428 time = 0.004377, # ZDD nodes = 3471, # elems = 97709367
+Step 429 time = 0.004299, # ZDD nodes = 3424, # elems = 92679396
+Step 430 time = 0.004450, # ZDD nodes = 3373, # elems = 83585747
+Step 431 time = 0.004551, # ZDD nodes = 3373, # elems = 71635629
+Step 432 time = 0.009391, # ZDD nodes = 3422, # elems = 58301569
+Step 433 time = 0.005030, # ZDD nodes = 3459, # elems = 45028828
+Step 434 time = 0.005536, # ZDD nodes = 3483, # elems = 32992388
+Step 435 time = 0.005817, # ZDD nodes = 3600, # elems = 22960582
+Step 436 time = 0.005998, # ZDD nodes = 3664, # elems = 15283725
+Step 437 time = 0.005755, # ZDD nodes = 3730, # elems = 9987702
+Step 438 time = 0.006226, # ZDD nodes = 3847, # elems = 6926775
+Step 439 time = 0.006922, # ZDD nodes = 3967, # elems = 5941475
+Step 440 time = 0.007178, # ZDD nodes = 4100, # elems = 6974123
+Step 441 time = 0.007500, # ZDD nodes = 4310, # elems = 10110485
+Step 442 time = 0.008151, # ZDD nodes = 4497, # elems = 15536141
+Step 443 time = 0.008487, # ZDD nodes = 4680, # elems = 23417668
+Step 444 time = 0.008589, # ZDD nodes = 4839, # elems = 33739832
+Step 445 time = 0.008460, # ZDD nodes = 4938, # elems = 46147484
+Step 446 time = 0.013137, # ZDD nodes = 5004, # elems = 59848835
+Step 447 time = 0.007777, # ZDD nodes = 5036, # elems = 73628607
+Step 448 time = 0.007189, # ZDD nodes = 5018, # elems = 85992513
+Step 449 time = 0.006661, # ZDD nodes = 4985, # elems = 95423452
+Step 450 time = 0.006381, # ZDD nodes = 4942, # elems = 100688106
+Step 451 time = 0.006681, # ZDD nodes = 4911, # elems = 101107353
+Step 452 time = 0.007214, # ZDD nodes = 4941, # elems = 96707761
+Step 453 time = 0.007060, # ZDD nodes = 4975, # elems = 88206122
+Step 454 time = 0.006922, # ZDD nodes = 5037, # elems = 76832403
+Step 455 time = 0.006765, # ZDD nodes = 5139, # elems = 64047871
+Step 456 time = 0.009421, # ZDD nodes = 5200, # elems = 51244552
+Step 457 time = 0.007102, # ZDD nodes = 5287, # elems = 39509132
+Step 458 time = 0.007463, # ZDD nodes = 5362, # elems = 29503025
+Step 459 time = 0.012633, # ZDD nodes = 5388, # elems = 21465956
+Step 460 time = 0.007587, # ZDD nodes = 5418, # elems = 15311608
+Step 461 time = 0.007736, # ZDD nodes = 5430, # elems = 10764323
+Step 462 time = 0.008119, # ZDD nodes = 5418, # elems = 7488495
+Step 463 time = 0.008835, # ZDD nodes = 5416, # elems = 5180578
+Step 464 time = 0.009120, # ZDD nodes = 5416, # elems = 3616237
+Step 465 time = 0.008970, # ZDD nodes = 5346, # elems = 2661807
+Step 466 time = 0.008755, # ZDD nodes = 5285, # elems = 2265207
+Step 467 time = 0.008747, # ZDD nodes = 5192, # elems = 2438016
+t found
+a YES
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 73 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 73 75 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 66 69 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 66 68 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 20 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 18 20 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 18 20 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 20 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 66 68 70 73 75 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 66 68 70 73 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 66 68 70 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 66 68 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 66 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 121 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 121 123 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 114 117 119 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 114 116 119 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 85 86 88 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 85 87 88 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 81 83 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 83 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 33 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 31 33 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 31 33 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 33 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 85 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 73 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 73 75 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 66 69 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 66 68 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 20 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 18 20 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 18 20 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 20 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 66 68 70 73 75 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 66 68 70 73 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 66 68 70 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 66 68 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 66 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 157 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 157 159 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 150 153 155 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 150 152 155 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 133 134 136 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 133 135 136 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 126 129 131 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 126 128 131 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 97 98 100 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 97 99 100 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 93 95 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 95 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 46 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 44 46 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 44 46 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 46 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 73 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 73 75 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 73 75 77 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 73 75 77 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 73 75 77 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 66 69 71 73 75 77 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 66 68 71 73 75 77 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 20 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 18 20 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 18 20 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 20 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 66 68 70 73 75 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 66 68 70 73 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 66 68 70 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 66 68 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 66 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 121 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 121 123 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 114 117 119 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 114 116 119 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 85 86 88 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 85 87 88 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 81 83 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 83 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 33 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 31 33 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 31 33 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 33 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 85 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 82 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 80 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 78 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 73 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 73 75 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 66 69 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 66 68 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 20 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 18 20 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 18 20 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 20 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 66 68 70 73 75 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 66 68 70 73 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 66 68 70 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 66 68 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 66 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 181 182 184
+a 1 5 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 181 183 184
+a 1 5 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 181 183 185
+a 1 4 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 181 183 185
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 181 183 185
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 174 177 179 181 183 185
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 174 176 179 181 183 185
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 174 176 178 181 183 185
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 169 170 172 174 176 178 181 183 185
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 169 171 172 174 176 178 181 183 185
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 169 171 173 174 176 178 181 183 185
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 162 165 167 169 171 173 174 176 178 181 183 185
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 162 164 167 169 171 173 174 176 178 181 183 185
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 162 164 166 169 171 173 174 176 178 181 183 185
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 145 146 148 151 153 155 156 158 160 162 164 166 169 171 173 174 176 178 181 183 185
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 145 147 148 151 153 155 156 158 160 162 164 166 169 171 173 174 176 178 181 183 185
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 145 147 149 151 153 155 156 158 160 162 164 166 169 171 173 174 176 178 181 183 185
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 138 141 143 145 147 149 151 153 155 156 158 160 162 164 166 169 171 173 174 176 178 181 183 185
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 138 140 143 145 147 149 151 153 155 156 158 160 162 164 166 169 171 173 174 176 178 181 183 185
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 138 140 142 145 147 149 151 153 155 156 158 160 162 164 166 169 171 173 174 176 178 181 183 185
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 109 110 112 115 117 119 120 122 124 127 129 131 132 134 136 138 140 142 145 147 149 151 153 155 156 158 160 162 164 166 169 171 173 174 176 178 181 183 185
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 109 111 112 115 117 119 120 122 124 127 129 131 132 134 136 138 140 142 145 147 149 151 153 155 156 158 160 162 164 166 169 171 173 174 176 178 181 183 185
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 138 140 142 145 147 149 151 153 155 156 158 160 162 164 166 169 171 173 174 176 178 181 183 185
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 105 107 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 138 140 142 145 147 149 151 153 155 156 158 160 162 164 166 169 171 173 174 176 178 181 183 185
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 107 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 138 140 142 145 147 149 151 153 155 156 158 160 162 164 166 169 171 173 174 176 178 181 183 185
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 138 140 142 145 147 149 151 153 155 156 158 160 162 164 166 169 171 173 174 176 178 181 183 185
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 56 59 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 138 140 142 145 147 149 151 153 155 156 158 160 162 164 166 169 171 173 174 176 178 181 183 185
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 53 57 59 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 138 140 142 145 147 149 151 153 155 156 158 160 162 164 166 169 171 173 174 176 178 181 183 185
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 57 59 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 138 140 142 145 147 149 151 153 155 156 158 160 162 164 166 169 171 173 174 176 178 181 183 185
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 59 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 138 140 142 145 147 149 151 153 155 156 158 160 162 164 166 169 171 173 174 176 178 181 183 185
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 138 140 142 145 147 149 151 153 155 156 158 160 162 164 166 169 171 173 174 176 178 181 183 185
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 138 140 142 145 147 149 151 153 155 156 158 160 162 164 166 169 171 173 174 176 178 181 183 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 138 140 142 145 147 149 151 153 155 156 158 160 162 164 166 169 171 173 174 176 178 181 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 138 140 142 145 147 149 151 153 155 156 158 160 162 164 166 169 171 173 174 176 178 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 138 140 142 145 147 149 151 153 155 156 158 160 162 164 166 169 171 173 174 176 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 138 140 142 145 147 149 151 153 155 156 158 160 162 164 166 169 171 173 174 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 138 140 142 145 147 149 151 153 155 156 158 160 162 164 166 169 171 173 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 138 140 142 145 147 149 151 153 155 156 158 160 162 164 166 169 171 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 138 140 142 145 147 149 151 153 155 156 158 160 162 164 166 169 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 138 140 142 145 147 149 151 153 155 156 158 160 162 164 166 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 138 140 142 145 147 149 151 153 155 156 158 160 162 164 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 138 140 142 145 147 149 151 153 155 156 158 160 162 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 138 140 142 145 147 149 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 138 140 142 145 147 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 138 140 142 145 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 138 140 142 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 138 140 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 138 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 73 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 73 75 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 66 69 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 66 68 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 20 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 18 20 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 18 20 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 20 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 66 68 70 73 75 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 66 68 70 73 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 66 68 70 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 66 68 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 66 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 121 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 121 123 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 114 117 119 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 114 116 119 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 85 86 88 91 93 95 96 98 100 102 104 106 109 111 113 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 85 87 88 91 93 95 96 98 100 102 104 106 109 111 113 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 85 87 89 91 93 95 96 98 100 102 104 106 109 111 113 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 81 83 85 87 89 91 93 95 96 98 100 102 104 106 109 111 113 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 83 85 87 89 91 93 95 96 98 100 102 104 106 109 111 113 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 102 104 106 109 111 113 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 33 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 102 104 106 109 111 113 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 31 33 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 102 104 106 109 111 113 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 31 33 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 102 104 106 109 111 113 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 33 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 102 104 106 109 111 113 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 102 104 106 109 111 113 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 102 104 106 109 111 113 114 116 118 121 123 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 102 104 106 109 111 113 114 116 118 121 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 102 104 106 109 111 113 114 116 118 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 102 104 106 109 111 113 114 116 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 102 104 106 109 111 113 114 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 85 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 73 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 73 75 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 66 69 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 66 68 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 20 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 18 20 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 18 20 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 20 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 66 68 70 73 75 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 66 68 70 73 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 66 68 70 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 66 68 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 66 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 157 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 157 159 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 150 153 155 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 150 152 155 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 133 134 136 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 133 135 136 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 127 129 131 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 126 129 131 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 126 128 131 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 113 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 111 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 109 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 106 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 104 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 102 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 97 98 100 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 97 99 100 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 93 95 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 95 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 42 46 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 41 44 46 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 44 46 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 46 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 161 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 159 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 157 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 154 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 152 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 150 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 137 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 135 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 133 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 130 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 128 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 126 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 73 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 73 75 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 73 75 77 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 7 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 73 75 77 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 73 75 77 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 66 69 71 73 75 77 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 66 68 71 73 75 77 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 20 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 18 20 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 18 20 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 20 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 66 68 70 73 75 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 66 68 70 73 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 66 68 70 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 66 68 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 66 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 121 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 121 123 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 7 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 115 117 119 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 114 117 119 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 114 116 119 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 101 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 99 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 97 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 94 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 92 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 90 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 85 86 88 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 85 87 88 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 81 83 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 83 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 29 33 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 31 33 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 31 33 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 33 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 125 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 123 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 121 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 118 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 116 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 114 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 89 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 85 87 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 85 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 82 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 80 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 78 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 73 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 73 75 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 7 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 66 69 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 66 68 71 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 16 20 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 15 18 20 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 18 20 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 20 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 66 68 70 73 75 77 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 66 68 70 73 75 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 66 68 70 73 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 66 68 70 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 66 68 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 66 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 3 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 2 5 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 5 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 7 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+a 1 4 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38 40 43 45 47 49 51 54 55 58 60 62 64 67 69 71 72 74 76 79 81 83 84 86 88 91 93 95 96 98 100 103 105 107 108 110 112 115 117 119 120 122 124 127 129 131 132 134 136 139 141 143 144 146 148 151 153 155 156 158 160 163 165 167 168 170 172 175 177 179 180 182 184
+Reconfiguration time = 19.072492
+	Command being timed: "timeout 600s ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/exp_instance/LGC_exp_instance005.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/exp_instance/LGC_exp_instance005_01.dat --tj --indset"
+	User time (seconds): 20.03
+	System time (seconds): 0.67
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:20.77
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 542864
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 305583
+	Voluntary context switches: 3
+	Involuntary context switches: 26
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 376
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

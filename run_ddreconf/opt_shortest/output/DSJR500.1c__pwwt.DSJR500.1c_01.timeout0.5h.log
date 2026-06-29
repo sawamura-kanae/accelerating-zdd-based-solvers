@@ -1,0 +1,38 @@
+Input graph file parsed. # of vertices = 500, # of edges = 121275
+s 3 234 35 148 284 201 301 382 472 61 83 1 8
+t 3 234 35 284 201 301 382 472 61 83 341 1 8
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 1443.630645
+Solution space ZDD size = 4653
+# of elements in the solution space = 94552
+Start searching a reconfiguration sequence from s to t
+Step 1 time = 0.092780, # ZDD nodes = 13, # elems = 1
+t found
+a YES
+a 1 3 8 35 61 83 148 201 234 284 301 382 472
+a 1 3 8 35 61 83 201 234 284 301 341 382 472
+Reconfiguration time = 0.203034
+	Command being timed: "timeout 0.5h ../ddreconf/ddreconf ../instances_pwwt_col/DSJR500.1c.pwwt.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/DSJR500.1c_01.dat --tj --indset"
+	User time (seconds): 1282.07
+	System time (seconds): 160.51
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 24:08.11
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 137669512
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 77256240
+	Voluntary context switches: 17
+	Involuntary context switches: 1728
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,54 @@
+Input graph file parsed. # of vertices = 64, # of edges = 728
+s 3 14 50 24 25 37 47
+t 4 51 39 24 41 29 62
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 7.834627
+Solution space ZDD size = 16607
+# of elements in the solution space = 118969
+Start searching a reconfiguration sequence from s to t
+Step 1 time = 0.000086, # ZDD nodes = 20, # elems = 9
+Step 2 time = 0.000207, # ZDD nodes = 33, # elems = 9
+Step 3 time = 0.000447, # ZDD nodes = 88, # elems = 21
+Step 4 time = 0.001382, # ZDD nodes = 170, # elems = 46
+Step 5 time = 0.007554, # ZDD nodes = 324, # elems = 100
+Step 6 time = 0.006438, # ZDD nodes = 567, # elems = 218
+Step 7 time = 0.012720, # ZDD nodes = 821, # elems = 300
+Step 8 time = 0.028372, # ZDD nodes = 1047, # elems = 365
+Step 9 time = 0.025441, # ZDD nodes = 1396, # elems = 559
+t found
+a YES
+a 3 14 24 25 37 47 50
+a 3 24 25 37 47 50 62
+a 3 9 24 37 47 50 62
+a 3 9 24 28 47 50 62
+a 3 9 24 28 34 47 62
+a 9 24 28 34 47 51 62
+a 4 9 24 34 47 51 62
+a 4 9 24 29 34 51 62
+a 4 9 24 29 39 51 62
+a 4 24 29 39 41 51 62
+Reconfiguration time = 0.085064
+	Command being timed: "timeout 0.5h ../ddreconf/ddreconf ../instances_pwwt_col/queen008x008.pwwt.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/queen/queen008x008_01_4136.dat --tj --indset"
+	User time (seconds): 7.64
+	System time (seconds): 0.26
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.94
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 556212
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 23572
+	Voluntary context switches: 3
+	Involuntary context switches: 42
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

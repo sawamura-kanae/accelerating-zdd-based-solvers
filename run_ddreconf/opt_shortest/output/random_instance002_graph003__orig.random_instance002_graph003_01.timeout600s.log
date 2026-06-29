@@ -1,0 +1,48 @@
+Input graph file parsed. # of vertices = 26, # of edges = 78
+s 6 9 13 18 16 19 23 24
+t 2 7 8 9 12 19 21 22
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 0.004881
+Solution space ZDD size = 658
+# of elements in the solution space = 14046
+Start searching a reconfiguration sequence from s to t
+Step 1 time = 0.000063, # ZDD nodes = 38, # elems = 8
+Step 2 time = 0.000147, # ZDD nodes = 100, # elems = 44
+Step 3 time = 0.000374, # ZDD nodes = 175, # elems = 122
+Step 4 time = 0.000651, # ZDD nodes = 205, # elems = 149
+Step 5 time = 0.001060, # ZDD nodes = 171, # elems = 80
+Step 6 time = 0.000808, # ZDD nodes = 106, # elems = 32
+t found
+a YES
+a 6 9 13 16 18 19 23 24
+a 6 9 13 16 18 19 21 24
+a 9 12 13 16 18 19 21 24
+a 7 9 12 13 16 18 19 21
+a 7 8 9 12 13 16 19 21
+a 2 7 8 9 12 13 19 21
+a 2 7 8 9 12 19 21 22
+Reconfiguration time = 0.004113
+	Command being timed: "timeout 600s ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance002_graph003.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance002_graph003_01.dat --tj --indset"
+	User time (seconds): 0.00
+	System time (seconds): 0.02
+	Percent of CPU this job got: 93%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 31744
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 7661
+	Voluntary context switches: 3
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

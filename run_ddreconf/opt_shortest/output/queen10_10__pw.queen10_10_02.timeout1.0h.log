@@ -1,0 +1,58 @@
+Input graph file parsed. # of vertices = 100, # of edges = 1470
+s 23 20 6 64 81 52 35 77 98
+t 3 18 71 52 37 49 66 90 95
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 2578.435628
+Solution space ZDD size = 523184
+# of elements in the solution space = 7535369
+Start searching a reconfiguration sequence from s to t
+Step 1 time = 0.000364, # ZDD nodes = 26, # elems = 11
+Step 2 time = 0.000695, # ZDD nodes = 55, # elems = 12
+Step 3 time = 0.001341, # ZDD nodes = 127, # elems = 32
+Step 4 time = 0.003087, # ZDD nodes = 239, # elems = 52
+Step 5 time = 0.005973, # ZDD nodes = 458, # elems = 109
+Step 6 time = 0.012707, # ZDD nodes = 871, # elems = 218
+Step 7 time = 0.025927, # ZDD nodes = 1580, # elems = 391
+Step 8 time = 0.051482, # ZDD nodes = 2712, # elems = 746
+Step 9 time = 0.103720, # ZDD nodes = 4751, # elems = 1425
+Step 10 time = 0.198916, # ZDD nodes = 7627, # elems = 2466
+Step 11 time = 0.386278, # ZDD nodes = 11534, # elems = 4108
+t found
+a YES
+a 6 20 23 35 52 64 77 81 98
+a 6 20 23 35 48 52 64 77 81
+a 6 20 23 35 48 52 64 81 99
+a 6 20 23 35 48 52 64 87 99
+a 6 20 23 48 52 64 71 87 99
+a 6 20 23 48 52 64 71 87 95
+a 6 20 23 49 52 64 71 87 95
+a 6 18 23 49 52 64 71 87 95
+a 6 18 23 49 52 64 71 90 95
+a 6 18 23 37 49 52 71 90 95
+a 18 23 37 49 52 66 71 90 95
+a 3 18 37 49 52 66 71 90 95
+Reconfiguration time = 0.800930
+	Command being timed: "timeout 1.0h ../ddreconf/ddreconf ../instances_pw_col/queen10_10.pw.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/queen10_10_02.dat --tj --indset"
+	User time (seconds): 2499.34
+	System time (seconds): 70.42
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 42:59.95
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 137454780
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1542531
+	Voluntary context switches: 3
+	Involuntary context switches: 1774
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

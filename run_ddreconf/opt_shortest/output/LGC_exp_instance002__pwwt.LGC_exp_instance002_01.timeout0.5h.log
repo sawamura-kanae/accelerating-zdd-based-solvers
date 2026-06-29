@@ -1,0 +1,90 @@
+Input graph file parsed. # of vertices = 38, # of edges = 44
+s 8 10 12 1 4 6 28 30 32 33 35 37 19 25 23 21 14 17
+t 8 10 12 1 4 6 28 30 32 33 35 37 19 25 23 21 15 16
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 0.001469
+Solution space ZDD size = 75
+# of elements in the solution space = 56829420
+Start searching a reconfiguration sequence from s to t
+Step 1 time = 0.000098, # ZDD nodes = 20, # elems = 2
+Step 2 time = 0.000034, # ZDD nodes = 25, # elems = 3
+Step 3 time = 0.000059, # ZDD nodes = 30, # elems = 4
+Step 4 time = 0.000055, # ZDD nodes = 30, # elems = 4
+Step 5 time = 0.000049, # ZDD nodes = 39, # elems = 6
+Step 6 time = 0.000090, # ZDD nodes = 53, # elems = 9
+Step 7 time = 0.000069, # ZDD nodes = 54, # elems = 10
+Step 8 time = 0.000076, # ZDD nodes = 50, # elems = 9
+Step 9 time = 0.000035, # ZDD nodes = 41, # elems = 6
+Step 10 time = 0.000026, # ZDD nodes = 30, # elems = 3
+Step 11 time = 0.000022, # ZDD nodes = 18, # elems = 1
+Step 12 time = 0.000017, # ZDD nodes = 18, # elems = 1
+Step 13 time = 0.000015, # ZDD nodes = 23, # elems = 2
+Step 14 time = 0.000019, # ZDD nodes = 26, # elems = 3
+Step 15 time = 0.000020, # ZDD nodes = 26, # elems = 3
+Step 16 time = 0.000015, # ZDD nodes = 24, # elems = 3
+Step 17 time = 0.000024, # ZDD nodes = 29, # elems = 4
+Step 18 time = 0.000030, # ZDD nodes = 32, # elems = 4
+Step 19 time = 0.000030, # ZDD nodes = 30, # elems = 4
+Step 20 time = 0.000034, # ZDD nodes = 33, # elems = 4
+Step 21 time = 0.000037, # ZDD nodes = 39, # elems = 5
+Step 22 time = 0.000044, # ZDD nodes = 45, # elems = 6
+Step 23 time = 0.000066, # ZDD nodes = 51, # elems = 7
+Step 24 time = 0.000058, # ZDD nodes = 51, # elems = 7
+Step 25 time = 0.000041, # ZDD nodes = 42, # elems = 6
+Step 26 time = 0.000057, # ZDD nodes = 35, # elems = 5
+Step 27 time = 0.000049, # ZDD nodes = 30, # elems = 4
+t found
+a YES
+a 1 4 6 8 10 12 14 17 19 21 23 25 28 30 32 33 35 37
+a 1 4 7 8 10 12 14 17 19 21 23 25 28 30 32 33 35 37
+a 1 5 7 8 10 12 14 17 19 21 23 25 28 30 32 33 35 37
+a 2 5 7 8 10 12 14 17 19 21 23 25 28 30 32 33 35 37
+a 2 5 7 8 10 12 14 17 19 21 23 25 28 30 32 34 35 37
+a 2 5 7 8 10 12 14 17 19 21 23 25 28 30 32 34 36 37
+a 2 5 7 8 10 12 14 17 19 21 23 25 28 30 32 34 36 38
+a 2 3 7 8 10 12 14 17 19 21 23 25 28 30 32 34 36 38
+a 2 3 6 8 10 12 14 17 19 21 23 25 28 30 32 34 36 38
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 30 32 34 36 38
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 29 32 34 36 38
+a 2 3 6 8 10 12 14 17 19 21 23 25 27 29 31 34 36 38
+a 2 3 6 8 10 12 14 17 20 21 23 25 27 29 31 34 36 38
+a 2 3 6 8 10 12 14 18 20 21 23 25 27 29 31 34 36 38
+a 2 3 6 8 10 12 15 18 20 21 23 25 27 29 31 34 36 38
+a 2 3 6 8 10 12 15 16 20 21 23 25 27 29 31 34 36 38
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 29 31 34 36 38
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 29 31 34 36 37
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 29 31 34 35 37
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 29 31 33 35 37
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 29 32 33 35 37
+a 2 3 6 8 10 12 15 16 19 21 23 25 27 30 32 33 35 37
+a 2 3 6 8 10 12 15 16 19 21 23 25 28 30 32 33 35 37
+a 2 3 7 8 10 12 15 16 19 21 23 25 28 30 32 33 35 37
+a 2 5 7 8 10 12 15 16 19 21 23 25 28 30 32 33 35 37
+a 1 5 7 8 10 12 15 16 19 21 23 25 28 30 32 33 35 37
+a 1 4 7 8 10 12 15 16 19 21 23 25 28 30 32 33 35 37
+a 1 4 6 8 10 12 15 16 19 21 23 25 28 30 32 33 35 37
+Reconfiguration time = 0.006937
+	Command being timed: "timeout 0.5h ../ddreconf/ddreconf ../instances_pwwt_col/LGC_exp_instance002.pwwt.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/exp_instance/LGC_exp_instance002_01.dat --tj --indset"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 95%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 33012
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1038
+	Voluntary context switches: 3
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

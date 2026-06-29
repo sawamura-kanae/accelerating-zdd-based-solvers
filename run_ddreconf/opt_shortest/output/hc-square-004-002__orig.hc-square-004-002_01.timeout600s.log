@@ -1,0 +1,216 @@
+Input graph file parsed. # of vertices = 44, # of edges = 63
+s 2 4 6 9 11 14 16 19 21 24 26 29 31 34 36 39 41 44
+t 3 7 1 12 13 17 8 22 23 27 18 32 33 37 38 28 42 43
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 0.002284
+Solution space ZDD size = 104
+# of elements in the solution space = 234866524
+Start searching a reconfiguration sequence from s to t
+Step 1 time = 0.000135, # ZDD nodes = 38, # elems = 5
+Step 2 time = 0.000153, # ZDD nodes = 52, # elems = 10
+Step 3 time = 0.000073, # ZDD nodes = 60, # elems = 11
+Step 4 time = 0.000063, # ZDD nodes = 62, # elems = 9
+Step 5 time = 0.000058, # ZDD nodes = 55, # elems = 7
+Step 6 time = 0.000078, # ZDD nodes = 55, # elems = 5
+Step 7 time = 0.000050, # ZDD nodes = 49, # elems = 4
+Step 8 time = 0.000068, # ZDD nodes = 46, # elems = 4
+Step 9 time = 0.000062, # ZDD nodes = 42, # elems = 4
+Step 10 time = 0.000061, # ZDD nodes = 43, # elems = 5
+Step 11 time = 0.000050, # ZDD nodes = 54, # elems = 8
+Step 12 time = 0.000079, # ZDD nodes = 67, # elems = 11
+Step 13 time = 0.000112, # ZDD nodes = 73, # elems = 13
+Step 14 time = 0.000109, # ZDD nodes = 73, # elems = 13
+Step 15 time = 0.000093, # ZDD nodes = 63, # elems = 10
+Step 16 time = 0.000083, # ZDD nodes = 49, # elems = 6
+Step 17 time = 0.000044, # ZDD nodes = 36, # elems = 3
+Step 18 time = 0.000048, # ZDD nodes = 33, # elems = 2
+Step 19 time = 0.000047, # ZDD nodes = 35, # elems = 3
+Step 20 time = 0.000040, # ZDD nodes = 44, # elems = 5
+Step 21 time = 0.000055, # ZDD nodes = 55, # elems = 8
+Step 22 time = 0.000081, # ZDD nodes = 73, # elems = 13
+Step 23 time = 0.000102, # ZDD nodes = 82, # elems = 17
+Step 24 time = 0.000170, # ZDD nodes = 88, # elems = 19
+Step 25 time = 0.000116, # ZDD nodes = 92, # elems = 19
+Step 26 time = 0.000104, # ZDD nodes = 90, # elems = 17
+Step 27 time = 0.000105, # ZDD nodes = 80, # elems = 13
+Step 28 time = 0.000078, # ZDD nodes = 71, # elems = 11
+Step 29 time = 0.000079, # ZDD nodes = 68, # elems = 11
+Step 30 time = 0.000141, # ZDD nodes = 67, # elems = 12
+Step 31 time = 0.000093, # ZDD nodes = 71, # elems = 13
+Step 32 time = 0.000110, # ZDD nodes = 71, # elems = 13
+Step 33 time = 0.000114, # ZDD nodes = 71, # elems = 11
+Step 34 time = 0.000090, # ZDD nodes = 66, # elems = 9
+Step 35 time = 0.000094, # ZDD nodes = 63, # elems = 9
+Step 36 time = 0.000080, # ZDD nodes = 71, # elems = 11
+Step 37 time = 0.000092, # ZDD nodes = 84, # elems = 16
+Step 38 time = 0.000128, # ZDD nodes = 102, # elems = 23
+Step 39 time = 0.000120, # ZDD nodes = 119, # elems = 30
+Step 40 time = 0.000112, # ZDD nodes = 135, # elems = 36
+Step 41 time = 0.000119, # ZDD nodes = 147, # elems = 40
+Step 42 time = 0.000130, # ZDD nodes = 152, # elems = 39
+Step 43 time = 0.000147, # ZDD nodes = 154, # elems = 35
+Step 44 time = 0.000139, # ZDD nodes = 150, # elems = 31
+Step 45 time = 0.000140, # ZDD nodes = 141, # elems = 28
+Step 46 time = 0.000155, # ZDD nodes = 128, # elems = 27
+Step 47 time = 0.000121, # ZDD nodes = 117, # elems = 30
+Step 48 time = 0.000097, # ZDD nodes = 118, # elems = 34
+Step 49 time = 0.000087, # ZDD nodes = 120, # elems = 36
+Step 50 time = 0.000075, # ZDD nodes = 120, # elems = 36
+Step 51 time = 0.000100, # ZDD nodes = 119, # elems = 34
+Step 52 time = 0.000069, # ZDD nodes = 123, # elems = 30
+Step 53 time = 0.000085, # ZDD nodes = 130, # elems = 27
+Step 54 time = 0.000100, # ZDD nodes = 147, # elems = 29
+Step 55 time = 0.000148, # ZDD nodes = 165, # elems = 35
+Step 56 time = 0.000175, # ZDD nodes = 182, # elems = 43
+Step 57 time = 0.000178, # ZDD nodes = 192, # elems = 51
+Step 58 time = 0.000195, # ZDD nodes = 197, # elems = 55
+Step 59 time = 0.000214, # ZDD nodes = 194, # elems = 51
+Step 60 time = 0.000144, # ZDD nodes = 180, # elems = 43
+Step 61 time = 0.000257, # ZDD nodes = 160, # elems = 35
+Step 62 time = 0.000116, # ZDD nodes = 141, # elems = 29
+Step 63 time = 0.000143, # ZDD nodes = 132, # elems = 27
+Step 64 time = 0.000148, # ZDD nodes = 122, # elems = 30
+Step 65 time = 0.000135, # ZDD nodes = 125, # elems = 34
+Step 66 time = 0.000129, # ZDD nodes = 130, # elems = 36
+Step 67 time = 0.000104, # ZDD nodes = 131, # elems = 36
+Step 68 time = 0.000132, # ZDD nodes = 130, # elems = 34
+Step 69 time = 0.000091, # ZDD nodes = 130, # elems = 30
+Step 70 time = 0.000092, # ZDD nodes = 134, # elems = 27
+Step 71 time = 0.000093, # ZDD nodes = 146, # elems = 28
+Step 72 time = 0.000095, # ZDD nodes = 158, # elems = 31
+Step 73 time = 0.000129, # ZDD nodes = 162, # elems = 33
+Step 74 time = 0.000096, # ZDD nodes = 162, # elems = 34
+Step 75 time = 0.000108, # ZDD nodes = 154, # elems = 32
+Step 76 time = 0.000090, # ZDD nodes = 140, # elems = 26
+Step 77 time = 0.000079, # ZDD nodes = 120, # elems = 20
+Step 78 time = 0.000059, # ZDD nodes = 99, # elems = 17
+Step 79 time = 0.000086, # ZDD nodes = 86, # elems = 15
+Step 80 time = 0.000038, # ZDD nodes = 76, # elems = 14
+Step 81 time = 0.000026, # ZDD nodes = 73, # elems = 15
+Step 82 time = 0.000025, # ZDD nodes = 76, # elems = 16
+Step 83 time = 0.000026, # ZDD nodes = 75, # elems = 15
+Step 84 time = 0.000024, # ZDD nodes = 68, # elems = 13
+Step 85 time = 0.000039, # ZDD nodes = 59, # elems = 11
+Step 86 time = 0.000020, # ZDD nodes = 49, # elems = 8
+Step 87 time = 0.000017, # ZDD nodes = 41, # elems = 5
+Step 88 time = 0.000048, # ZDD nodes = 37, # elems = 5
+Step 89 time = 0.000017, # ZDD nodes = 42, # elems = 7
+Step 90 time = 0.000057, # ZDD nodes = 48, # elems = 8
+t found
+a YES
+a 2 4 6 9 11 14 16 19 21 24 26 29 31 34 36 39 41 44
+a 1 4 6 9 11 14 16 19 21 24 26 29 31 34 36 39 41 44
+a 1 3 6 9 11 14 16 19 21 24 26 29 31 34 36 39 41 44
+a 1 3 5 9 11 14 16 19 21 24 26 29 31 34 36 39 41 44
+a 1 3 5 8 11 14 16 19 21 24 26 29 31 34 36 39 41 44
+a 1 3 7 8 11 14 16 19 21 24 26 29 31 34 36 39 41 44
+a 1 4 7 8 11 14 16 19 21 24 26 29 31 34 36 39 41 44
+a 2 4 7 8 11 14 16 19 21 24 26 29 31 34 36 39 41 44
+a 2 4 7 8 10 14 16 19 21 24 26 29 31 34 36 39 41 44
+a 2 4 7 8 10 13 16 19 21 24 26 29 31 34 36 39 41 44
+a 2 4 7 8 10 13 15 19 21 24 26 29 31 34 36 39 41 44
+a 2 4 7 8 10 13 15 18 21 24 26 29 31 34 36 39 41 44
+a 2 4 7 8 10 13 17 18 21 24 26 29 31 34 36 39 41 44
+a 2 4 7 8 10 14 17 18 21 24 26 29 31 34 36 39 41 44
+a 2 4 7 8 11 14 17 18 21 24 26 29 31 34 36 39 41 44
+a 1 4 7 8 11 14 17 18 21 24 26 29 31 34 36 39 41 44
+a 1 3 7 8 11 14 17 18 21 24 26 29 31 34 36 39 41 44
+a 1 3 5 8 11 14 17 18 21 24 26 29 31 34 36 39 41 44
+a 1 3 5 9 11 14 17 18 21 24 26 29 31 34 36 39 41 44
+a 1 3 5 9 11 14 17 18 20 24 26 29 31 34 36 39 41 44
+a 1 3 5 9 11 14 17 18 20 23 26 29 31 34 36 39 41 44
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 36 39 41 44
+a 1 3 5 9 11 14 17 18 20 23 25 28 31 34 36 39 41 44
+a 1 3 5 9 11 14 17 18 20 23 27 28 31 34 36 39 41 44
+a 1 3 5 9 11 14 17 18 20 24 27 28 31 34 36 39 41 44
+a 1 3 5 9 11 14 17 18 21 24 27 28 31 34 36 39 41 44
+a 1 3 5 8 11 14 17 18 21 24 27 28 31 34 36 39 41 44
+a 1 3 7 8 11 14 17 18 21 24 27 28 31 34 36 39 41 44
+a 1 4 7 8 11 14 17 18 21 24 27 28 31 34 36 39 41 44
+a 2 4 7 8 11 14 17 18 21 24 27 28 31 34 36 39 41 44
+a 2 4 7 8 10 14 17 18 21 24 27 28 31 34 36 39 41 44
+a 2 4 7 8 10 13 17 18 21 24 27 28 31 34 36 39 41 44
+a 2 4 7 8 10 13 15 18 21 24 27 28 31 34 36 39 41 44
+a 2 4 7 8 10 13 15 19 21 24 27 28 31 34 36 39 41 44
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 34 36 39 41 44
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 36 39 41 44
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 39 41 44
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 35 38 41 44
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 37 38 41 44
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 34 37 38 41 44
+a 2 4 7 8 10 13 15 19 21 24 27 28 31 34 37 38 41 44
+a 2 4 7 8 10 13 15 18 21 24 27 28 31 34 37 38 41 44
+a 2 4 7 8 10 13 17 18 21 24 27 28 31 34 37 38 41 44
+a 2 4 7 8 10 14 17 18 21 24 27 28 31 34 37 38 41 44
+a 2 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44
+a 1 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44
+a 1 3 7 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44
+a 1 3 5 8 11 14 17 18 21 24 27 28 31 34 37 38 41 44
+a 1 3 5 9 11 14 17 18 21 24 27 28 31 34 37 38 41 44
+a 1 3 5 9 11 14 17 18 20 24 27 28 31 34 37 38 41 44
+a 1 3 5 9 11 14 17 18 20 23 27 28 31 34 37 38 41 44
+a 1 3 5 9 11 14 17 18 20 23 25 28 31 34 37 38 41 44
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 41 44
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 44
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 40 43
+a 1 3 5 9 11 14 17 18 20 23 25 29 31 34 37 38 42 43
+a 1 3 5 9 11 14 17 18 20 23 25 28 31 34 37 38 42 43
+a 1 3 5 9 11 14 17 18 20 23 27 28 31 34 37 38 42 43
+a 1 3 5 9 11 14 17 18 20 24 27 28 31 34 37 38 42 43
+a 1 3 5 9 11 14 17 18 21 24 27 28 31 34 37 38 42 43
+a 1 3 5 8 11 14 17 18 21 24 27 28 31 34 37 38 42 43
+a 1 3 7 8 11 14 17 18 21 24 27 28 31 34 37 38 42 43
+a 1 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 42 43
+a 2 4 7 8 11 14 17 18 21 24 27 28 31 34 37 38 42 43
+a 2 4 7 8 10 14 17 18 21 24 27 28 31 34 37 38 42 43
+a 2 4 7 8 10 13 17 18 21 24 27 28 31 34 37 38 42 43
+a 2 4 7 8 10 13 15 18 21 24 27 28 31 34 37 38 42 43
+a 2 4 7 8 10 13 15 19 21 24 27 28 31 34 37 38 42 43
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 34 37 38 42 43
+a 2 4 7 8 10 13 15 19 21 24 27 28 30 33 37 38 42 43
+a 2 4 7 8 10 13 15 19 21 24 27 28 32 33 37 38 42 43
+a 2 4 7 8 10 13 15 18 21 24 27 28 32 33 37 38 42 43
+a 2 4 7 8 10 13 17 18 21 24 27 28 32 33 37 38 42 43
+a 2 4 7 8 10 14 17 18 21 24 27 28 32 33 37 38 42 43
+a 2 4 7 8 11 14 17 18 21 24 27 28 32 33 37 38 42 43
+a 1 4 7 8 11 14 17 18 21 24 27 28 32 33 37 38 42 43
+a 1 3 7 8 11 14 17 18 21 24 27 28 32 33 37 38 42 43
+a 1 3 5 8 11 14 17 18 21 24 27 28 32 33 37 38 42 43
+a 1 3 5 9 11 14 17 18 21 24 27 28 32 33 37 38 42 43
+a 1 3 5 9 11 14 17 18 20 24 27 28 32 33 37 38 42 43
+a 1 3 5 9 11 14 17 18 20 23 27 28 32 33 37 38 42 43
+a 1 3 5 9 11 14 17 18 22 23 27 28 32 33 37 38 42 43
+a 1 3 5 8 11 14 17 18 22 23 27 28 32 33 37 38 42 43
+a 1 3 7 8 11 14 17 18 22 23 27 28 32 33 37 38 42 43
+a 1 4 7 8 11 14 17 18 22 23 27 28 32 33 37 38 42 43
+a 2 4 7 8 11 14 17 18 22 23 27 28 32 33 37 38 42 43
+a 2 4 7 8 10 14 17 18 22 23 27 28 32 33 37 38 42 43
+a 2 4 7 8 10 13 17 18 22 23 27 28 32 33 37 38 42 43
+a 2 4 7 8 12 13 17 18 22 23 27 28 32 33 37 38 42 43
+a 1 4 7 8 12 13 17 18 22 23 27 28 32 33 37 38 42 43
+a 1 3 7 8 12 13 17 18 22 23 27 28 32 33 37 38 42 43
+Reconfiguration time = 0.031851
+	Command being timed: "timeout 600s ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/square/hc-square-004-002.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/square/hc-square-004-002_01.dat --tj --indset"
+	User time (seconds): 0.03
+	System time (seconds): 0.01
+	Percent of CPU this job got: 97%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 31988
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2258
+	Voluntary context switches: 3
+	Involuntary context switches: 4
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,46 @@
+Input graph file parsed. # of vertices = 128, # of edges = 3216
+s 14 15 17 22 34 106 119
+t 8 22 48 60 85 119 121
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 36.207096
+Solution space ZDD size = 59247
+# of elements in the solution space = 2500822
+Start searching a reconfiguration sequence from s to t
+Step 1 time = 0.000447, # ZDD nodes = 98, # elems = 55
+Step 2 time = 0.004516, # ZDD nodes = 808, # elems = 979
+Step 3 time = 0.042343, # ZDD nodes = 3542, # elems = 7272
+Step 4 time = 0.278662, # ZDD nodes = 8801, # elems = 24871
+Step 5 time = 0.844365, # ZDD nodes = 13073, # elems = 44603
+t found
+a YES
+a 14 15 17 22 34 106 119
+a 14 15 17 22 106 119 121
+a 14 15 22 85 106 119 121
+a 14 15 22 60 85 119 121
+a 14 22 48 60 85 119 121
+a 8 22 48 60 85 119 121
+Reconfiguration time = 1.178801
+	Command being timed: "timeout 0.5h ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/miles1000.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/miles1000_02.dat --tj --indset"
+	User time (seconds): 35.15
+	System time (seconds): 2.16
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:37.47
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4250420
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 90116
+	Voluntary context switches: 3
+	Involuntary context switches: 49
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

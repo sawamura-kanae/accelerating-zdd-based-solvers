@@ -1,0 +1,52 @@
+Input graph file parsed. # of vertices = 49, # of edges = 476
+s 6 10 15 25 40 44
+t 5 9 18 22 35 45
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 1.737879
+Solution space ZDD size = 4002
+# of elements in the solution space = 16870
+Start searching a reconfiguration sequence from s to t
+Step 1 time = 0.000062, # ZDD nodes = 16, # elems = 8
+Step 2 time = 0.000136, # ZDD nodes = 22, # elems = 7
+Step 3 time = 0.000190, # ZDD nodes = 24, # elems = 4
+Step 4 time = 0.000177, # ZDD nodes = 42, # elems = 10
+Step 5 time = 0.000420, # ZDD nodes = 71, # elems = 22
+Step 6 time = 0.000822, # ZDD nodes = 112, # elems = 37
+Step 7 time = 0.001501, # ZDD nodes = 188, # elems = 73
+Step 8 time = 0.003272, # ZDD nodes = 298, # elems = 124
+t found
+a YES
+a 6 10 15 25 40 44
+a 6 10 15 25 35 40
+a 6 15 25 35 40 45
+a 2 15 25 35 40 45
+a 2 13 15 35 40 45
+a 2 13 22 35 40 45
+a 13 18 22 35 40 45
+a 9 18 22 35 40 45
+a 5 9 18 22 35 45
+Reconfiguration time = 0.007540
+	Command being timed: "timeout 0.5h ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/queen7_7.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/queen7_7_02.dat --tj --indset"
+	User time (seconds): 1.62
+	System time (seconds): 0.13
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.76
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 267580
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 9816
+	Voluntary context switches: 3
+	Involuntary context switches: 3
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

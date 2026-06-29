@@ -1,0 +1,44 @@
+Input graph file parsed. # of vertices = 56, # of edges = 110
+s 45 47 23 25 2 4 49 27 6 51 29 8 10 31 32 28 24 26 30 33 53 55 52 48 46 50 54
+t 45 47 23 25 1 3 49 27 51 29 7 8 11 31 32 28 24 26 30 33 53 55 52 48 46 50 54
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 0.011161
+Solution space ZDD size = 5090
+# of elements in the solution space = 16999974125
+Start searching a reconfiguration sequence from s to t
+Step 1 time = 0.000099, # ZDD nodes = 29, # elems = 2
+Step 2 time = 0.000141, # ZDD nodes = 35, # elems = 2
+Step 3 time = 0.000049, # ZDD nodes = 36, # elems = 2
+Step 4 time = 0.000053, # ZDD nodes = 32, # elems = 2
+t found
+a YES
+a 2 4 6 8 10 23 24 25 26 27 28 29 30 31 32 33 45 46 47 48 49 50 51 52 53 54 55
+a 2 4 6 8 11 23 24 25 26 27 28 29 30 31 32 33 45 46 47 48 49 50 51 52 53 54 55
+a 2 4 7 8 11 23 24 25 26 27 28 29 30 31 32 33 45 46 47 48 49 50 51 52 53 54 55
+a 3 4 7 8 11 23 24 25 26 27 28 29 30 31 32 33 45 46 47 48 49 50 51 52 53 54 55
+a 1 3 7 8 11 23 24 25 26 27 28 29 30 31 32 33 45 46 47 48 49 50 51 52 53 54 55
+Reconfiguration time = 0.001566
+	Command being timed: "timeout 0.5h ../ddreconf/ddreconf ../instances_pwwt_col/3-Insertions_3.pwwt.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/3-Insertions_3_01.dat --tj --indset"
+	User time (seconds): 0.01
+	System time (seconds): 0.01
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 33012
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1080
+	Voluntary context switches: 3
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,54 @@
+Input graph file parsed. # of vertices = 36, # of edges = 290
+s 3 23 12 25 34
+t 5 24 16 8 33
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 0.042559
+Solution space ZDD size = 750
+# of elements in the solution space = 2635
+Start searching a reconfiguration sequence from s to t
+Step 1 time = 0.000084, # ZDD nodes = 11, # elems = 6
+Step 2 time = 0.000055, # ZDD nodes = 24, # elems = 8
+Step 3 time = 0.000131, # ZDD nodes = 30, # elems = 9
+Step 4 time = 0.000568, # ZDD nodes = 54, # elems = 14
+Step 5 time = 0.000290, # ZDD nodes = 83, # elems = 27
+Step 6 time = 0.000456, # ZDD nodes = 104, # elems = 34
+Step 7 time = 0.000662, # ZDD nodes = 110, # elems = 41
+Step 8 time = 0.000964, # ZDD nodes = 88, # elems = 29
+Step 9 time = 0.000746, # ZDD nodes = 65, # elems = 19
+t found
+a YES
+a 3 12 23 25 34
+a 3 14 23 25 34
+a 6 14 23 25 34
+a 6 8 23 25 34
+a 6 8 17 25 34
+a 6 8 17 25 33
+a 4 8 17 25 33
+a 4 8 24 25 33
+a 8 16 24 25 33
+a 5 8 16 24 33
+Reconfiguration time = 0.005288
+	Command being timed: "timeout 0.5h ../ddreconf/ddreconf ../instances_pwwt_col/queen6_6.pwwt.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/queen6_6_02.dat --tj --indset"
+	User time (seconds): 0.05
+	System time (seconds): 0.00
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34036
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1456
+	Voluntary context switches: 3
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

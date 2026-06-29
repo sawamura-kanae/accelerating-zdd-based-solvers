@@ -1,0 +1,102 @@
+Input graph file parsed. # of vertices = 26, # of edges = 150
+s 1 8 14 21
+t 7 13 14 21
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 0.003451
+Solution space ZDD size = 45
+# of elements in the solution space = 523
+Start searching a reconfiguration sequence from s to t
+Step 1 time = 0.000059, # ZDD nodes = 7, # elems = 2
+Step 2 time = 0.000025, # ZDD nodes = 10, # elems = 3
+Step 3 time = 0.000023, # ZDD nodes = 11, # elems = 3
+Step 4 time = 0.000032, # ZDD nodes = 12, # elems = 3
+Step 5 time = 0.000045, # ZDD nodes = 14, # elems = 4
+Step 6 time = 0.000033, # ZDD nodes = 16, # elems = 4
+Step 7 time = 0.000027, # ZDD nodes = 14, # elems = 4
+Step 8 time = 0.000022, # ZDD nodes = 16, # elems = 4
+Step 9 time = 0.000071, # ZDD nodes = 14, # elems = 4
+Step 10 time = 0.000033, # ZDD nodes = 16, # elems = 4
+Step 11 time = 0.000037, # ZDD nodes = 14, # elems = 4
+Step 12 time = 0.000038, # ZDD nodes = 12, # elems = 3
+Step 13 time = 0.000071, # ZDD nodes = 7, # elems = 2
+Step 14 time = 0.000010, # ZDD nodes = 8, # elems = 2
+Step 15 time = 0.000011, # ZDD nodes = 7, # elems = 2
+Step 16 time = 0.000008, # ZDD nodes = 4, # elems = 1
+Step 17 time = 0.000008, # ZDD nodes = 4, # elems = 1
+Step 18 time = 0.000011, # ZDD nodes = 4, # elems = 1
+Step 19 time = 0.000012, # ZDD nodes = 4, # elems = 1
+Step 20 time = 0.000010, # ZDD nodes = 7, # elems = 2
+Step 21 time = 0.000017, # ZDD nodes = 8, # elems = 2
+Step 22 time = 0.000011, # ZDD nodes = 7, # elems = 2
+Step 23 time = 0.000010, # ZDD nodes = 8, # elems = 2
+Step 24 time = 0.000026, # ZDD nodes = 7, # elems = 2
+Step 25 time = 0.000010, # ZDD nodes = 8, # elems = 2
+Step 26 time = 0.000011, # ZDD nodes = 7, # elems = 2
+Step 27 time = 0.000010, # ZDD nodes = 8, # elems = 2
+Step 28 time = 0.000011, # ZDD nodes = 7, # elems = 2
+Step 29 time = 0.000010, # ZDD nodes = 8, # elems = 2
+Step 30 time = 0.000019, # ZDD nodes = 7, # elems = 2
+Step 31 time = 0.000009, # ZDD nodes = 4, # elems = 1
+Step 32 time = 0.000008, # ZDD nodes = 4, # elems = 1
+Step 33 time = 0.000017, # ZDD nodes = 4, # elems = 1
+t found
+a YES
+a 1 8 14 21
+a 2 8 14 21
+a 2 9 14 21
+a 3 9 14 21
+a 3 10 14 21
+a 3 10 15 21
+a 3 10 15 22
+a 3 10 16 22
+a 3 10 16 23
+a 3 10 17 23
+a 3 10 17 24
+a 3 10 18 24
+a 3 10 18 25
+a 3 10 19 25
+a 3 10 19 26
+a 3 10 20 26
+a 4 10 20 26
+a 4 11 20 26
+a 5 11 20 26
+a 5 12 20 26
+a 5 12 19 26
+a 5 12 19 25
+a 5 12 18 25
+a 5 12 18 24
+a 5 12 17 24
+a 5 12 17 23
+a 5 12 16 23
+a 5 12 16 22
+a 5 12 15 22
+a 5 12 15 21
+a 5 12 14 21
+a 6 12 14 21
+a 6 13 14 21
+a 7 13 14 21
+Reconfiguration time = 0.002880
+	Command being timed: "timeout 0.5h ../ddreconf/ddreconf ../instances_pw_col/sp002.pw.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/sp/sp002_01.dat --tj --indset"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 90%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 33012
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1076
+	Voluntary context switches: 4
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

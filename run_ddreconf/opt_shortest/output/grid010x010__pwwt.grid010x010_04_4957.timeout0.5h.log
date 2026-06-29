@@ -1,0 +1,41 @@
+Input graph file parsed. # of vertices = 100, # of edges = 180
+s 1 3 12 21 5 14 23 32 41 7 16 25 34 43 61 9 18 20 27 29 36 38 40 45 47 49 54 56 58 60 63 65 67 69 72 74 76 78 80 81 83 92 85 94 87 89 98 100
+t 2 11 4 13 22 31 6 15 24 33 42 51 8 17 26 35 44 53 62 71 10 19 28 30 37 39 46 48 50 55 57 59 66 68 70 73 75 79 82 91 84 93 86 95 88 97 90 99
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 0.021527
+Solution space ZDD size = 4486
+# of elements in the solution space = 2030049051145980050
+Start searching a reconfiguration sequence from s to t
+Step 1 time = 0.000370, # ZDD nodes = 160, # elems = 96
+Step 2 time = 0.000497, # ZDD nodes = 214, # elems = 1135
+Step 3 time = 0.000514, # ZDD nodes = 248, # elems = 105
+Step 4 time = 0.000962, # ZDD nodes = 164, # elems = 9
+Step 5 time = 0.000189, # ZDD nodes = 114, # elems = 4
+Step 6 time = 0.000108, # ZDD nodes = 82, # elems = 2
+Step 7 time = 0.000042, # ZDD nodes = 0, # elems = 0
+a NO
+Reconfiguration time = 0.003694
+	Command being timed: "timeout 0.5h ../ddreconf/ddreconf ../instances_pwwt_col/grid010x010.pwwt.col --st --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/grid/grid010x010_04_4957.dat --tj --indset"
+	User time (seconds): 0.03
+	System time (seconds): 0.00
+	Percent of CPU this job got: 97%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34036
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1292
+	Voluntary context switches: 3
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
