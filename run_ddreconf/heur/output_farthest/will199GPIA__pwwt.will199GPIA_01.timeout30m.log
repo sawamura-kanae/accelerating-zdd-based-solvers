@@ -1,0 +1,27 @@
+Input graph file parsed. # of vertices = 701, # of edges = 6772
+s 1 100 103 211 215 473 476 335 225 221 656 6 564 471 207 560 557 204 10 115 478 481 566 118 336 233 13 229 658 17 122 484 487 341 404 661 21 238 126 242 23 26 127 491 571 494 349 408 243 130 247 663 30 33 134 411 497 580 500 354 414 137 576 251 255 37 40 141 417 503 588 506 359 420 583 259 144 263 44 47 148 423 509 596 512 364 426 591 267 151 271 51 54 155 158 429 515 604 518 599 369 432 58 275 279 61 162 435 521 612 524 607 374 438 165 283 287 669 674 679 695 688 65 441 615 620 444 169 527 172 530 379 68 291 295 693 72 447 623 628 450 176 533 179 536 384 75 299 303 79 82 183 453 539 631 635 542 389 456 186 307 311 86 89 190 459 545 638 641 548 394 462 323 327 93 96 200 197 193 315 319 399 465 468 551 554 650 653 644 647
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 30m ../ddreconf/ddreconf ../instances_pwwt_from_heur_col/will199GPIA.pwwt.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/will199GPIA_01.dat --tj --indset --longest"
+	User time (seconds): 1759.14
+	System time (seconds): 37.47
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 30:00.23
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 73930540
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 896493
+	Voluntary context switches: 55
+	Involuntary context switches: 1209
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

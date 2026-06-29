@@ -1,0 +1,47 @@
+Input graph file parsed. # of vertices = 91, # of edges = 273
+s 57 74 85 12 27 29 68 55 70 87 25 86 54 21 43 63 81 32 13 39 18 28 20 36 75 72 58 44 62 50
+Solution space ZDD construction start
+Solution space ZDD construction end
+Solution space ZDD construction time = 82.004754
+Solution space ZDD size = 1137201
+# of elements in the solution space = 1574776068008764
+Start searching the longest reconfiguration sequence
+Step 1 time = 0.000247, # ZDD nodes = 140, # elems = 14
+Step 2 time = 0.001474, # ZDD nodes = 526, # elems = 193
+Step 3 time = 0.006876, # ZDD nodes = 1591, # elems = 1853
+Step 4 time = 0.030578, # ZDD nodes = 4093, # elems = 13685
+Step 5 time = 0.099955, # ZDD nodes = 9530, # elems = 82418
+Step 6 time = 0.311289, # ZDD nodes = 20811, # elems = 420558
+Step 7 time = 0.973460, # ZDD nodes = 43191, # elems = 1866212
+Step 8 time = 2.743665, # ZDD nodes = 84586, # elems = 7329813
+Step 9 time = 6.533681, # ZDD nodes = 156882, # elems = 25824748
+Step 10 time = 18.381702, # ZDD nodes = 278036, # elems = 81929011
+Step 11 time = 31.722387, # ZDD nodes = 472803, # elems = 232796594
+Step 12 time = 68.174611, # ZDD nodes = 770787, # elems = 589273304
+Step 13 time = 164.213160, # ZDD nodes = 1202206, # elems = 1330461411
+Step 14 time = 278.999773, # ZDD nodes = 1787651, # elems = 2701107450
+Step 15 time = 526.235145, # ZDD nodes = 2520748, # elems = 4981700997
+Step 16 Command exited with non-zero status 124
+	Command being timed: "timeout 30m ../ddreconf/ddreconf ../instances_pwwt_from_heur_col/random_instance007_graph004.pwwt.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance007_graph004_01.dat --tj --indset --longest"
+	User time (seconds): 1777.82
+	System time (seconds): 18.28
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 30:00.11
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 36602280
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 497751
+	Voluntary context switches: 81
+	Involuntary context switches: 982
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

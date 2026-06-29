@@ -1,0 +1,27 @@
+Input graph file parsed. # of vertices = 3600, # of edges = 352820
+s 1262 725 975 1223 649 2946 2352 1337 1497 3303 2722 804 3073 2839 690 1847 2612 1551 565 2071 933 1199 156 2489 1084 398 2197 1793 340 2294 866 2420 282 3223 224 2547 2026 2650 498 2767 3461 108 1031 50 2888 1972 3021 1714 3136 2255 1916 3285 2139 1678 3361 3595 429 1440 3508
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 30m ../ddreconf/ddreconf ../instances_pwwt_from_heur_col/queen060x060.pwwt.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/queen/queen060x060_04_3799.dat --tj --indset --longest"
+	User time (seconds): 1727.40
+	System time (seconds): 69.49
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 30:00.74
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 137321884
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3515299
+	Voluntary context switches: 67
+	Involuntary context switches: 1981
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

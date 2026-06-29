@@ -1,0 +1,27 @@
+Input graph file parsed. # of vertices = 138, # of edges = 493
+s 1 2 3 4 5 6 9 10 11 14 15 17 23 31 39 87 88 107 113 114 121 132 19 22 24 25 26 27 29 33 48 66 71 80 103 125 37 38 41 43 44 46 47 96 52 55 56 58 59 62 63 90 65 67 69 75 105 76 101 79 82 102 91 93 94 104 124 110 108 111 112 137 117 118 119 128 129 131 134
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 30m ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/anna.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/anna_02.dat --tj --indset --longest"
+	User time (seconds): 1728.28
+	System time (seconds): 68.20
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 30:00.39
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 133834052
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 936828
+	Voluntary context switches: 51
+	Involuntary context switches: 1199
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

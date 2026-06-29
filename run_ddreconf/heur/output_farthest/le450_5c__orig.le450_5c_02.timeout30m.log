@@ -1,0 +1,27 @@
+Input graph file parsed. # of vertices = 450, # of edges = 9803
+s 4 9 14 19 24 29 34 39 44 49 54 59 64 69 74 79 84 89 94 99 104 109 114 119 124 129 134 139 144 149 154 159 164 169 174 179 184 189 194 199 204 209 219 224 229 234 239 244 249 254 259 264 269 274 279 284 289 294 299 304 309 314 319 324 329 334 339 344 349 354 359 364 369 374 379 384 389 394 399 409 404 414 419 424 429 449 434 439 444
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 30m ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/le450_5c.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/le450_5c_02.dat --tj --indset --longest"
+	User time (seconds): 1725.97
+	System time (seconds): 70.37
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 30:00.48
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 143968328
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2040315
+	Voluntary context switches: 73
+	Involuntary context switches: 1596
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

@@ -1,0 +1,27 @@
+Input graph file parsed. # of vertices = 8100, # of edges = 1198830
+s 2357 71 3417 1914 5686 2620 3769 1657 1843 2444 1141 989 7116 7834 519 2523 2820 6242 1744 5602 2965 1225 3107 7479 7303 6949 3683 758 6595 3853 1476 1572 4041 6065 2114 4971 1036 663 4385 568 5358 4642 5889 3585 4872 6804 5093 5240 4127 866 4828 5440 5801 1379 426 5535 158 5971 250 6449 342 3019 6363 4304 5181 3177 3946 7717 6542 4488 6717 6847 4220 6184 7028 4740 3322 7215 7391 8094 2273 2786 7565 1278 2068 7741 2186 4590 7922
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 30m ../ddreconf/ddreconf ../instances_pwwt_from_heur_col/queen090x090.pwwt.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/queen/queen090x090_02_0808.dat --tj --indset --longest"
+	User time (seconds): 1725.53
+	System time (seconds): 71.48
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 30:01.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 136192588
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 5242290
+	Voluntary context switches: 82
+	Involuntary context switches: 2255
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124
