@@ -47,19 +47,23 @@ All graphs and instances are found in:
 
 All log files are found in:
 
-- `./run_pathwidth_opt/output_1h.tar.gz`,
-  `./run_pathwidth_opt/old/output_1h.tar.gz`: log files from opt version of
-  Pathwidth (`./pathwidth_opt/`).
-- `./run_pathwidth_heur/output.tar.gz`: log files from heur version of
-  Pathwidth (`./pathwidth_heur/`).
-- `./run_ddreconf/opt_shortest/output.tar.gz`: log files from ddreconf on
+- `./run_pathwidth_opt/output_1h/`, `./run_pathwidth_opt/old/output_1h/`: log
+  files from opt version of Pathwidth (`./pathwidth_opt/`).
+- `./run_pathwidth_heur/output/`: log files from heur version of Pathwidth
+  (`./pathwidth_heur/`).
+- `./run_ddreconf/opt_shortest/output/`: log files from ddreconf on
   opt-available graphs on the shortest variant.
-- `./run_ddreconf/heur/output_shortest.tar.gz`: log files from ddreconf on heur
-  and orig graphs on the shortest variant.
-- `./run_ddreconf/opt_farthest/output.tar.gz`: log files from ddreconf on
+- `./run_ddreconf/heur/output_shortest/`: log files from ddreconf on heur and
+  orig graphs on the shortest variant.
+- `./run_ddreconf/opt_farthest/output/`: log files from ddreconf on
   opt-available graphs on the farthest variant.
-- `./run_ddreconf/heur/output_farthest.tar.gz`: log files from ddreconf on heur
-  and orig graphs on the farthest variant.
+- `./run_ddreconf/heur/output_farthest/`: log files from ddreconf on heur and
+  orig graphs on the farthest variant.
+
+- Log files larger than 10MiB are gzipped. To unzip: `gunzip
+  <path/to/file.log>.gz`.
+- Gzipped log files larger than 100MiB are split. To unzip: `cat
+  <path/to/file.log>.gz.part.* | gunzip > <path/to/file.log>`.
 
 ## Final results
 

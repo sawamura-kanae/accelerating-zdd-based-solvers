@@ -1,6 +1,6 @@
 `walk_col.py` finds all `.pw.col` files in `pw_col` and runs the shortest
 variant on opt, heur, and orig graphs (opt-available). The log files are in
-`output.tar.gz`.
+`./output/`.
 
 Some log files in the archive were run on different timeout duration not
 exactly configurable by `walk_col.py`, but those runs were tried until they

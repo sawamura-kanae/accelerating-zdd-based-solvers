@@ -3,8 +3,8 @@
 - `run_orig.py` finds all orig graphs whose `.pwwt.col` files are present in
   `pwwt_col` and runs both variants on orig graphs.
 
-The log files are in `output_shortest.tar.gz` for the shortest variant, and
-`output_farthest.tar.gz` for the farthest variant.
+The log files are in `./output_shortest/` for the shortest variant, and
+`./output_farthest/` for the farthest variant.
 
 -----
 

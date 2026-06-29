@@ -3,14 +3,13 @@ collect its log files, which are used for generating opt graphs.
 
 `run.py` finds all `.col` files in `instances` and hands them off to `run.sh`.
 It remembers runs returning nonzero and keeps going until all runs succeed, but
-here we included in `output_1h.tar.gz` log files we used which are ran for 1
-hour.
+here we included in `./output_1h/` log files we used which are ran for 1 hour.
 
-As for log files not in `output_1h.tar.gz`, we also used scripts in the
+As for log files not in `./output_1h/`, we also used scripts in the
 subdirectory `./old/` which basically function the same way as scripts in this
 directory, but execution metrics are counted differently. Log files in
-`./old/output_1h.tar.gz` are ran for 1 hour as well and all timed out. Runs of
-all the graphs are found in `./output_1h.tar.gz` or `./old/output_1h.tar.gz`.
+`./old/output_1h/` are ran for 1 hour as well and all timed out. Runs of all
+the graphs are found in `./output_1h/` or `./old/output_1h/`.
 
 Only `queen200x200.col` was taken by a slightly different script, but it was
 run the same way as other inputs, and it can be obtained by running scripts in

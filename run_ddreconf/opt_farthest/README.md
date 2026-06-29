@@ -1,6 +1,5 @@
 `run.py` finds all `.pw.col` files in `pw_col` and runs the farthest variant on
-opt, heur, and orig graphs (opt-available). The log files are in
-`output.tar.gz`.
+opt, heur, and orig graphs (opt-available). The log files are in `./output/`.
 
 The scripts are almost identical to `../opt_shortest/`. The differences are
 timeout duration and variant selection.
