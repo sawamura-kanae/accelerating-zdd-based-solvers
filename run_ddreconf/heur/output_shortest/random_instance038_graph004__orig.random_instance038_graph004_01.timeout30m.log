@@ -1,0 +1,28 @@
+Input graph file parsed. # of vertices = 494, # of edges = 1482
+s 2 3 4 9 10 15 20 21 24 25 26 27 32 33 34 36 42 46 51 54 57 58 486 67 70 74 77 78 81 83 134 88 89 95 104 107 110 115 116 120 121 126 128 130 132 133 137 142 143 144 151 420 233 155 156 158 159 162 237 401 174 175 178 186 190 195 197 199 202 205 210 212 220 218 266 226 227 285 229 236 238 240 241 242 243 244 245 248 250 479 485 255 259 446 269 272 276 278 455 287 292 293 295 296 298 299 300 304 363 329 316 317 319 322 323 324 325 328 336 337 449 340 344 346 350 355 357 359 360 361 428 382 368 369 372 376 379 391 384 389 393 395 398 407 438 406 415 417 418 421 463 453 436 494 454 448 478 466 471 472 476 493
+t 1 2 3 4 9 11 16 17 21 24 25 28 30 32 36 39 40 41 46 48 49 51 55 57 65 486 69 72 78 80 82 134 88 90 91 92 93 96 99 100 104 105 106 107 109 110 115 119 121 130 136 138 143 144 148 149 151 233 155 160 170 179 180 182 186 187 188 189 190 192 197 198 201 203 206 207 209 211 213 374 474 225 285 229 234 240 241 243 244 251 252 485 254 258 341 280 272 276 455 283 287 288 291 292 295 349 300 303 307 363 309 311 313 459 390 318 322 324 331 332 333 342 348 352 490 356 357 358 464 360 371 428 388 364 416 368 375 376 378 381 488 386 389 393 398 404 411 417 421 422 423 463 439 473 447 475 470 472 476 493 480 492
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 30m ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance038_graph004.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance038_graph004_01.dat --tj --indset --st"
+	User time (seconds): 1728.82
+	System time (seconds): 67.53
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 30:00.44
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 136967368
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1513637
+	Voluntary context switches: 119
+	Involuntary context switches: 1344
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

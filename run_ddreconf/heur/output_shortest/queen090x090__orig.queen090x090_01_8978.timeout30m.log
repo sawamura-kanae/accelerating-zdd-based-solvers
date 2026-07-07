@@ -1,0 +1,28 @@
+Input graph file parsed. # of vertices = 8100, # of edges = 1198830
+s 71 158 250 342 426 519 594 663 775 834 989 1026 1141 1186 1400 1462 1570 1657 1742 1844 1921 2068 2113 2186 2273 2357 2444 2523 2620 2786 2820 2965 3019 3106 3177 3322 3417 3480 3585 3683 3769 3853 3946 4041 4127 4220 4304 4385 4488 4529 4642 4705 4828 4907 4971 5093 5181 5240 5358 5490 5535 5618 5704 5801 5889 5958 6065 6184 6222 6342 6447 6542 6626 6719 6813 6847 6949 7028 7116 7215 7303 7391 7479 7565 7717 7741 7834 7922 8094
+t 71 158 250 342 426 519 572 682 776 822 1036 1102 1225 1288 1412 1476 1548 1660 1744 1843 1915 2068 2112 2186 2273 2357 2444 2523 2620 2786 2820 2965 3019 3107 3181 3322 3417 3470 3585 3683 3769 3853 3946 4041 4127 4220 4304 4385 4488 4590 4619 4740 4828 4904 4971 5093 5181 5240 5358 5424 5535 5618 5686 5801 5889 5977 6065 6153 6271 6327 6454 6537 6629 6714 6813 6847 6949 7028 7116 7215 7303 7391 7479 7565 7717 7741 7834 7922 8094
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 30m ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/queen/queen090x090.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/queen/queen090x090_01_8978.dat --tj --indset --st"
+	User time (seconds): 1659.64
+	System time (seconds): 137.99
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 30:01.68
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 269822780
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 7307362
+	Voluntary context switches: 21
+	Involuntary context switches: 2094
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

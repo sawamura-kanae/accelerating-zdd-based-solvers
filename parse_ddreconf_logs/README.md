@@ -26,8 +26,9 @@ The above command selects log files with longest timeout from
 already filtered.
 
 This step might not be needed, but duplicates are simply dropped in the final
-CSV and Parquet files. For correct analysis, all log files that are run shorter
-than the specified time limit must have succeeded.
+CSV files and indistinguishable in the Parquet files. For correct analysis, all
+log files that are run shorter than the specified time limit must have
+succeeded.
 
 -----
 

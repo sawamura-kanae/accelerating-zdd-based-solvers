@@ -1,0 +1,27 @@
+Input graph file parsed. # of vertices = 130, # of edges = 390
+s 3 8 11 14 15 16 17 18 19 21 23 25 27 30 34 36 38 57 41 44 45 105 52 64 94 68 72 73 83 79 81 82 85 87 91 124 96 130 104 111 125 112 114 120 129 123
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 30m ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance010_graph003.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance010_graph003_01.dat --tj --indset --longest"
+	User time (seconds): 1729.66
+	System time (seconds): 66.80
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 30:00.39
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 131973816
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 948650
+	Voluntary context switches: 63
+	Involuntary context switches: 1171
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

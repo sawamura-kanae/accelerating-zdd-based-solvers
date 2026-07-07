@@ -1,0 +1,28 @@
+Input graph file parsed. # of vertices = 364, # of edges = 1092
+s 1 2 5 7 10 11 13 14 19 26 27 36 38 44 45 48 50 55 56 59 63 65 66 69 75 78 89 97 102 105 106 112 116 119 128 129 130 132 136 138 139 142 145 149 264 151 154 155 159 167 168 169 172 278 274 175 176 177 228 184 186 224 251 277 196 198 200 269 205 343 212 213 239 308 220 255 231 236 237 238 240 243 245 256 260 261 266 270 273 276 279 311 322 351 286 287 289 291 293 301 302 303 305 307 326 315 320 317 324 335 323 332 334 364 339 346 363 352 358
+t 1 3 5 7 10 14 16 17 18 19 25 30 35 36 39 46 47 48 50 54 56 58 59 62 63 65 69 71 77 78 79 85 89 90 92 199 102 104 105 107 113 182 118 119 125 126 130 132 133 134 136 138 139 140 141 143 144 145 148 150 169 215 278 174 175 181 186 188 319 251 277 196 198 201 254 204 210 343 212 214 218 220 225 229 231 234 241 242 246 258 261 263 267 270 273 276 279 354 283 284 298 286 287 290 291 325 303 310 326 315 317 324 335 361 332 330 338 348 352
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 30m ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance028_graph005.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance028_graph005_01.dat --tj --indset --st"
+	User time (seconds): 1761.08
+	System time (seconds): 35.37
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 30:00.24
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 72667776
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1213022
+	Voluntary context switches: 82
+	Involuntary context switches: 1130
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

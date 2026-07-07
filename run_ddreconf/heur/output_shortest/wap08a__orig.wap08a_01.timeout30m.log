@@ -1,0 +1,28 @@
+Input graph file parsed. # of vertices = 1870, # of edges = 104176
+s 33 41 44 66 68 83 84 90 91 109 112 127 129 131 133 134 139 143 145 148 149 154 157 163 165 167 184 185 189 190 197 200 201 215 217 221 223 225 229 230 234 247 251 252 253 255 259 261 262 267 270 273 291 293 299 300 305 307 310 311 318 336 340 341 344 345 350 352 354 355 360 364 366 368 376 382 398 407 414 415 417 443 444 447 449 459 462 468 472 482 486 488 496 504 512 516 518 528 541 543 555 560 586 599 600 606 610 621 626 632 647 653 657 684 693 731 785 811 843 900 1044 1132 1251 1856 1521 1825 1857 1712 1848 1832 1826 1836 1828 1811 1829 1846 1845 1812 1820 1822 1824 1837 1838 1843 1844 1868 1867 1862 1865 1870
+t 33 41 44 66 68 83 84 90 95 112 127 129 131 133 134 137 143 145 148 149 157 163 165 167 184 185 189 190 197 200 201 215 217 221 223 225 229 230 234 247 251 252 254 259 261 262 267 269 273 291 293 295 299 300 305 307 310 311 318 336 340 341 344 345 350 352 354 355 360 363 364 366 368 376 382 398 404 407 415 417 443 444 447 449 459 462 468 472 482 486 488 496 504 512 516 518 528 541 543 555 560 586 599 606 610 621 626 632 647 653 657 684 693 739 785 811 817 829 843 845 900 1004 1044 1132 1251 1856 1521 1825 1857 1712 1848 1832 1826 1836 1828 1811 1829 1846 1845 1812 1820 1822 1824 1835 1838 1843 1844 1867 1862 1865
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 30m ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/wap08a.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/wap08a_01.dat --tj --indset --st"
+	User time (seconds): 1725.06
+	System time (seconds): 71.83
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 30:00.70
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 148895164
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3289928
+	Voluntary context switches: 58
+	Involuntary context switches: 1935
+	Swaps: 0
+	File system inputs: 2280
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

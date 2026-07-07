@@ -1,0 +1,28 @@
+Input graph file parsed. # of vertices = 364, # of edges = 1092
+s 3 7 8 9 12 13 14 20 25 26 29 30 32 33 36 42 46 48 176 51 360 65 66 68 208 73 77 78 85 86 87 88 95 96 99 102 104 106 107 108 111 114 189 117 118 119 121 122 123 128 131 132 133 205 137 143 145 150 153 162 165 168 170 175 185 183 336 186 192 195 201 295 215 216 255 249 223 224 225 230 231 240 241 244 245 246 354 298 259 260 319 270 297 274 317 282 281 283 311 305 289 290 293 296 359 316 327 309 310 338 337 356 352 333 334 345
+t 3 6 8 9 10 12 13 21 23 24 26 27 30 31 32 36 38 40 45 50 61 360 66 208 76 78 86 87 89 92 96 100 103 105 106 107 108 111 115 116 117 121 122 125 126 177 131 132 133 205 135 137 141 145 153 163 164 165 170 173 175 179 185 182 262 190 191 193 195 199 206 211 212 285 328 221 223 224 225 230 232 236 239 242 244 245 248 354 298 259 314 261 268 270 271 272 292 277 281 286 289 290 342 296 301 303 307 309 310 322 338 352 333 363 357 351
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 30m ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance028_graph003.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance028_graph003_01.dat --tj --indset --st"
+	User time (seconds): 1729.99
+	System time (seconds): 66.22
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 30:00.41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 132975728
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1272760
+	Voluntary context switches: 144
+	Involuntary context switches: 1225
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

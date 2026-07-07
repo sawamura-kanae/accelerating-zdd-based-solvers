@@ -1,0 +1,28 @@
+Input graph file parsed. # of vertices = 455, # of edges = 1365
+s 1 3 4 5 6 9 15 17 19 21 25 34 35 38 40 43 45 48 50 59 60 62 69 75 76 85 87 95 102 105 107 255 110 121 123 125 128 258 134 435 137 139 140 444 151 155 157 162 165 166 167 168 170 171 172 174 179 180 181 182 189 190 192 194 199 203 209 211 286 292 216 217 332 229 233 234 236 240 242 243 250 251 358 253 387 259 261 264 266 267 396 269 270 271 275 280 282 285 335 414 318 294 296 436 307 333 328 313 314 316 322 327 329 331 334 349 354 355 356 408 361 447 370 404 375 381 402 385 437 390 395 400 452 409 429 419 438 415 449
+t 1 5 6 9 14 19 30 36 40 44 57 59 100 66 68 71 77 82 85 86 88 92 94 95 104 255 110 113 117 125 126 131 258 134 435 140 142 143 146 444 152 153 154 160 163 164 165 167 169 173 177 180 181 183 184 187 192 195 198 199 200 201 202 205 206 207 212 213 215 298 222 227 228 234 236 238 239 336 249 251 358 253 256 261 266 269 276 277 279 282 394 335 289 290 318 337 436 325 300 302 305 306 307 308 313 315 316 317 322 324 406 334 341 343 344 345 416 355 397 373 363 447 399 371 380 402 384 389 395 401 403 409 429 419 432 415 428 418 449
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 30m ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance035_graph003.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance035_graph003_01.dat --tj --indset --st"
+	User time (seconds): 1729.21
+	System time (seconds): 67.10
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 30:00.44
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 135775276
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1596022
+	Voluntary context switches: 98
+	Involuntary context switches: 1287
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

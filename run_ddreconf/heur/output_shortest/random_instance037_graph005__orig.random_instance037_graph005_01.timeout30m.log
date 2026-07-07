@@ -1,0 +1,28 @@
+Input graph file parsed. # of vertices = 481, # of edges = 1443
+s 1 9 10 11 13 18 21 24 26 28 29 33 36 38 39 42 44 47 48 52 53 56 57 64 71 72 73 75 81 84 85 86 87 88 92 93 292 100 101 106 109 110 118 123 124 127 128 129 131 134 136 140 143 145 147 148 151 153 156 165 172 173 177 180 181 183 189 192 196 197 199 201 208 218 220 298 232 236 239 428 245 246 247 248 254 255 256 260 263 266 272 276 277 281 283 287 288 381 303 365 430 310 312 314 317 318 319 322 323 325 326 327 328 330 393 423 340 343 398 348 350 352 355 358 387 364 459 370 369 371 426 380 382 384 386 389 432 414 468 461 476 422 424 427 441 436 445 448 451 463 472 465 469 471
+t 3 4 8 185 11 13 14 19 21 23 25 26 27 28 29 30 35 39 47 51 52 53 55 56 58 59 60 64 73 74 75 78 79 80 81 85 86 88 89 91 92 94 99 101 105 106 108 110 118 119 122 124 131 132 134 138 142 294 147 148 154 155 157 161 162 163 164 470 166 172 173 178 179 187 188 189 460 195 199 200 201 203 216 218 220 222 298 227 229 236 240 242 244 246 249 345 262 263 264 267 274 277 280 466 284 285 439 304 305 306 307 308 309 316 319 320 442 325 326 329 332 338 418 383 348 349 351 352 361 363 370 435 426 473 379 464 390 403 395 396 399 468 447 405 407 413 429 433 434 446 452 454 472 465
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 30m ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance037_graph005.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/random_instance/random_instance037_graph005_01.dat --tj --indset --st"
+	User time (seconds): 1728.34
+	System time (seconds): 67.89
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 30:00.45
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 137304512
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1788398
+	Voluntary context switches: 114
+	Involuntary context switches: 1371
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124

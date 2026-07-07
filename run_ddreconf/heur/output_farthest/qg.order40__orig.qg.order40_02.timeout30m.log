@@ -1,0 +1,27 @@
+Input graph file parsed. # of vertices = 1600, # of edges = 62400
+s 15 73 120 144 186 205 270 311 329 387 422 451 490 527 583 638 676 698 748 780 834 857 893 939 981 1039 1069 1092 1121 1164 1208 1272 1326 1362 1435 1443 1517 1534 1576
+Solution space ZDD construction start
+Command exited with non-zero status 124
+	Command being timed: "timeout 30m ../ddreconf/ddreconf ../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/qg.order40.col --stfile=../benchmark_instances/2023result/docs/solver/benchmark/2022benchmark/benchmark/color04/qg.order40_02.dat --tj --indset --longest"
+	User time (seconds): 1664.67
+	System time (seconds): 132.23
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 30:01.11
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 265540540
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3859508
+	Voluntary context switches: 53
+	Involuntary context switches: 1994
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 124
