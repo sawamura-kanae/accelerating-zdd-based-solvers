@@ -6,6 +6,9 @@ intermediate CSV file and a Parquet for each variant.
 - Parquet files contain the node count and time taken for each reconfiguration
   step.
 
+The Go program requires Go 1.25.0, but recent versions of Go can download a
+newer version of itself.
+
 -----
 
 To run:

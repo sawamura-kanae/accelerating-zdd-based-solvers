@@ -2,12 +2,34 @@
 
 This repository contains code used for the paper.
 
+-----
+
 Each directory contains a short `README.md` describing how to run the programs.
 To run all programs in this repository, Java, C++, Go, Racket, and Python are
 needed.
 
-## Note on naming: heur vs. gree
-Throughout this repository, the greedy path decomposition is referred to as heur (in file names, column headers, code, etc.). In the paper, the same decomposition is called the greedy decomposition and denoted gree. These are two names for one and the same thing: please read every heur in this repository as gree in the paper. The name was changed only in the paper, after this artifact had been prepared; the repository is intentionally left unchanged to avoid error-prone bulk renaming.
+Versions used that are not managed:
+
+- Racket >= 8.18
+- javac 11.0.25
+- Python 3.9 (scripts that are not managed by uv)
+- C++17
+
+Other versions may be fine. Other programs are managed by version managers.
+Please refer to `README.md` in each direcotry.
+
+## Paper and code differences
+
+Some terms (file names, column headers, code, etc.) in this repository are
+named differently from the paper. These names were changed only in the paper,
+after this artifact had been prepared; the most part of the repository is
+intentionally left unchanged to avoid error-prone bulk renaming.
+
+| paper    | code       | description                     |
+| :------- | :--------- | :------------------------------ |
+| opt      | pw         | decompotision, input graph name |
+| gree     | heur, pwwt | decompotision, input graph name |
+| farthest | longest    | variant of ISR                  |
 
 ## Programs
 
