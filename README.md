@@ -6,6 +6,9 @@ Each directory contains a short `README.md` describing how to run the programs.
 To run all programs in this repository, Java, C++, Go, Racket, and Python are
 needed.
 
+## Note on naming: heur vs. gree
+Throughout this repository, the greedy path decomposition is referred to as heur (in file names, column headers, code, etc.). In the paper, the same decomposition is called the greedy decomposition and denoted gree. These are two names for one and the same thing: please read every heur in this repository as gree in the paper. The name was changed only in the paper, after this artifact had been prepared; the repository is intentionally left unchanged to avoid error-prone bulk renaming.
+
 ## Programs
 
 All programs used are found in:
