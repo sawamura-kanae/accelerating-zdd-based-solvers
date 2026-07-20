@@ -27,8 +27,8 @@ intentionally left unchanged to avoid error-prone bulk renaming.
 
 | paper    | code       | description                     |
 | :------- | :--------- | :------------------------------ |
-| opt      | pw         | decompotision, input graph name |
-| gree     | heur, pwwt | decompotision, input graph name |
+| opt      | pw         | decomposition, input graph name |
+| gree     | heur, pwwt | decomposition, input graph name |
 | farthest | longest    | variant of ISR                  |
 
 ## Programs
