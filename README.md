@@ -94,7 +94,7 @@ All log files are found in:
 
 ## Final results
 
-The final serialized data and plotting scripts are in `./plot/`.
+The final serialization and scripts for plots and stats are in `./plot/`.
 
 ## Directory layout
 
@@ -116,5 +116,5 @@ The final serialized data and plotting scripts are in `./plot/`.
 |-- make_masterdb/             # CoRe Challenge 2023 instance list generation
 |-- make_associated_pathwidth/ # associated pathwidth computation
 |-- util/                      # shared Racket utilities
-`-- plot/                      # final serialization and plotting scripts, if included
+`-- plot/                      # final serialization and plotting scripts
 ```
