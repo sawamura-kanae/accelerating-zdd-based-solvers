@@ -25,9 +25,9 @@ pw_cmap = clrs.ListedColormap(
     mpl.colormaps["viridis_r"](np.linspace(0.06, 1, int(256 * 0.94)))
 )
 styles = {
-    "orig": {"color": "gray", "marker": "o"},
-    "heur": {"color": "MediumSeaGreen", "marker": "s"},
-    "opt": {"color": "DarkOrange", "marker": "^"},
+    "orig": {"color": "gray", "marker": "o", "linestyle": (0, (4, 1, 1, 1, 1, 1))},
+    "heur": {"color": "MediumSeaGreen", "marker": "s", "linestyle": "solid"},
+    "opt": {"color": "DarkOrange", "marker": "^", "linestyle": "dashdot"},
 }
 grid_kws = {
     "color": "0.8",
@@ -396,12 +396,79 @@ def fig_secondphase_scatter(outname="fig_secondphase_scatter.pdf"):
     savefig(fig, path.join(OUTPUT, outname))
 
 
+def cactus_all693(outname="cactus_all693.pdf"):
+    shortest = pd.read_csv(util.SHORTEST_WIDE, dtype=util.DTYPE)
+    shortest = util.add_ref(shortest)
+
+    fig, ax = plt.subplots(
+        figsize=aspect_ratio(1.5, height / 1.25), layout="constrained"
+    )
+
+    for v, q, typ, type_name in [
+        (
+            "total_wallclock_time_orig",
+            "`solved?_orig` == 1 and \
+                    total_wallclock_time_orig <= 30 * 60",
+            "orig",
+            "orig",
+        ),
+        (
+            "total_wallclock_time_heurref",
+            "`solved?_heurref` == 1 and \
+                    total_wallclock_time_heurref <= 30 * 60",
+            "heur",
+            "gree",
+        ),
+        (
+            "total_wallclock_time_opt",
+            "`solved?_opt` == 1 and \
+                    total_wallclock_time_opt <= 30 * 60",
+            "opt",
+            "opt",
+        ),
+    ]:
+        solved = shortest.query(q)
+        num_solved = len(solved)
+
+        vals = solved[v].mask(lambda x: x > 30 * 60).dropna()
+        vals = vals.sort_values(ignore_index=True)
+
+        if vals.iloc[-1] < 30 * 60:
+            vals = pd.concat([vals, pd.Series([30 * 60])], ignore_index=True)
+
+        ax.step(
+            vals,
+            vals.index + 1,  # no zero in log scale
+            label=f"{type_name} ({num_solved})",
+            c=styles[typ]["color"],
+            ls=styles[typ]["linestyle"],
+            alpha=alpha,
+            zorder=3,
+            linewidth=1.3,  # too thin?
+        )
+
+    ax.set_xscale("log")
+    ax.set_ylabel("instances solved")
+    ax.set_xlabel("time allowed per instance (s)")
+
+    ax.legend(loc="upper left", frameon=False)
+
+    ax.axvline(30 * 60, ls="--", c="0.7", lw=1)
+
+    ax.grid(which="major", axis="both", **grid_kws)
+    ax.set_xmargin(0.014)  # multiplicative
+    ax.set_ylim(ymin=0)
+
+    savefig(fig, path.join(OUTPUT, outname))
+
+
 def main() -> None:
     graph_scale_overview()
     pw_three_orders()
     fig_secondphase_trajectory()
     reconf_length_time()
     fig_secondphase_scatter()
+    cactus_all693()
 
 
 if __name__ == "__main__":
