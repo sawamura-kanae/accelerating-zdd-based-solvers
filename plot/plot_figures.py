@@ -8,6 +8,9 @@ import matplotlib.ticker as ticker
 import matplotlib as mpl
 import matplotlib.colors as clrs
 
+mpl.rcParams["pdf.fonttype"] = 42
+mpl.rcParams["ps.fonttype"] = 42
+
 OUTPUT = "./figs"
 
 height = 3
@@ -43,9 +46,9 @@ plt.rcParams["axes.spines.top"] = False
 import util
 
 
-def savefig(fig, p):
+def savefig(fig, p, **a):
     print(p)
-    fig.savefig(p)
+    fig.savefig(p, **a)
     plt.close(fig)
 
 
@@ -112,7 +115,7 @@ def graph_scale_overview(outname="graph_scale_overview.pdf"):
 
     make_square_axes(ax)
 
-    savefig(fig, path.join(OUTPUT, outname))
+    savefig(fig, path.join(OUTPUT, outname), dpi=300)
 
 
 def pw_three_orders(outname="pw_three_orders.pdf"):
@@ -300,7 +303,7 @@ def reconf_length_time(outname="reconf_length_time.pdf"):
 
     fig.colorbar(c)
 
-    savefig(fig, path.join(OUTPUT, outname))
+    savefig(fig, path.join(OUTPUT, outname), dpi=300)
 
 
 def fig_secondphase_scatter(outname="fig_secondphase_scatter.pdf"):
