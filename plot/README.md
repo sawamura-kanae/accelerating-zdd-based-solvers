@@ -41,7 +41,7 @@ To run scripts in this directory:
 - This project uses uv to manage dependencies. To prepare the environment:
 
 ```bash
-uv sync
+uv sync --no-dev --frozen
 ```
 
 -----
