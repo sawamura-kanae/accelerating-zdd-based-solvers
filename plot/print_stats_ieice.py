@@ -232,7 +232,9 @@ def main() -> None:
                 f"{time_ref}_gree_preprocess": ["median", "max"],
                 f"{time_ref}_opt_preprocess": ["median", "max"],
             }
-        ).to_markdown()
+        )
+        .round(1)
+        .to_markdown()
     )
 
     num_opt_available_within_10sec = (
@@ -240,7 +242,7 @@ def main() -> None:
     ).sum()
     print()
     print(
-        f"{num_opt_available_within_10sec / len(opt_available_shortest_graphs):.1%}",
+        f"{num_opt_available_within_10sec / len(opt_available_shortest_graphs):.0%}",
         "finish within 10 sec",
     )
 
@@ -278,7 +280,7 @@ def main() -> None:
         opt_available_shortest_graphs.filter(like="pw_")
         .drop(columns="pw_gree")
         .quantile([0.5, 0.25, 0.75])[["pw_orig", "pw_greefb", "pw_opt"]]
-        .round(1)
+        .round()
         .transpose()
         .to_markdown()
     )
@@ -289,7 +291,7 @@ def main() -> None:
         opt_missing_shortest_graphs.filter(like="pw_")
         .drop(columns="pw_gree")
         .quantile([0.5, 0.25, 0.75])[["pw_orig", "pw_greefb", "pw_opt"]]
-        .round(1)
+        .round()
         .transpose()
         .to_markdown()
     )
@@ -736,7 +738,7 @@ def main() -> None:
     assert table6["zdd_nodes"].isna().sum() == 0
 
     table6["zdd_nodes_peak"] = table6["zdd_nodes"].map(max)
-    table6["zdd_nodes_average"] = table6["zdd_nodes"].map(lambda x: x.mean().round())
+    table6["zdd_nodes_average"] = table6["zdd_nodes"].map(lambda x: x.mean())
 
     table6["type"] = table6["type"].astype(decom_cat_dtype)
     table6["variant"] = table6["variant"].astype(variant_cat_dtype)
@@ -760,7 +762,17 @@ def main() -> None:
     print("**table 6**:")
     print()
     print("```")
-    print(table6.round(1).to_string())
+    print(
+        table6.round(
+            {
+                ("width", "geometric_mean"): 1,
+                ("|Zsol|", "geometric_mean"): 0,
+                ("peak |Zi|", "geometric_mean"): 0,
+                ("average |Zi|", "geometric_mean"): 0,
+                ("average |Zi|", "max"): 0,
+            }
+        ).to_string()
+    )
     print("```")
 
     stubs = ["zdd_time", time_ref, "max_memory"]
@@ -781,10 +793,24 @@ def main() -> None:
     all_long["max_memory"] /= 1024
     all_long = all_long.groupby(["variant", "type"])[stubs].agg([geometric_mean, "max"])
 
+    print()
     print("**table 7**:")
     print()
     print("```")
-    print(all_long.astype(np.float64).round(3).to_string())
+    print(
+        all_long.astype(np.float64)
+        .round(
+            {
+                ("zdd_time", "geometric_mean"): 3,
+                ("zdd_time", "max"): 1,
+                ("wallclock_time", "geometric_mean"): 2,
+                ("wallclock_time", "max"): 1,
+                ("max_memory", "geometric_mean"): 0,
+                ("max_memory", "max"): 0,
+            }
+        )
+        .to_string()
+    )
     print("```")
 
     shortest_all_solved = all_wide[table6_mask].query("variant == 'shortest'")
@@ -801,11 +827,12 @@ def main() -> None:
             ),
         ],
         columns=["Spearman correlation", "p-value"],
+        index=["orig", "greefb", "opt"],
     )
     print()
     print("Spearman correlation between (width, size):")
     print()
-    print(corrs.to_markdown())
+    print(corrs.round({"Spearman correlation": 2}).to_markdown())
 
     print()
     print("opt ZDD size > orig:")
@@ -860,13 +887,14 @@ def main() -> None:
     print()
     print("Spearman correlation between shrink (Zsol, peak Zi):")
     print()
-    print(corrs.to_markdown())
+    print(corrs.round({"Spearman correlation": 2}).to_markdown())
 
     print()
     print(
         shrink_factors[lambda x: x["variant"] == "shortest"][["Zsol", "peak Zi"]]
         .astype(np.float64)
         .agg([geometric_mean])
+        .round(1)
         .to_markdown()
     )
     a = (
@@ -901,7 +929,7 @@ def main() -> None:
             shrink_factors[lambda x: x["variant"] == "shortest"]["average Zi"].astype(
                 np.float64
             ),
-        ).statistic.round(3),
+        ).statistic.round(2),
     )
     print(
         "farthest:",
@@ -912,7 +940,7 @@ def main() -> None:
             shrink_factors[lambda x: x["variant"] == "farthest"]["average Zi"].astype(
                 np.float64
             ),
-        ).statistic.round(3),
+        ).statistic.round(2),
     )
 
     print()
@@ -956,7 +984,7 @@ def main() -> None:
     table8_long = table8_long.merge(shortest_zdd, on=["dat_file", "type"], how="left")
     table8_long["peak Zi"] = table8_long["zdd_nodes"].map(max, na_action="ignore")
     table8_long["average Zi"] = table8_long["zdd_nodes"].map(
-        lambda x: x.mean().round(), na_action="ignore"
+        lambda x: x.mean(), na_action="ignore"
     )
 
     table8 = table8_long[
@@ -988,8 +1016,9 @@ def main() -> None:
     print()
     print("```")
     print(
-        table8.groupby(["dat_file", "vertices", "edges", "type"])
-        .agg("first")
+        (table8.groupby(["dat_file", "vertices", "edges", "type"]).agg("first"))
+        .astype(np.float64)
+        .round({"zdd_time": 3, "average Zi": 0, "wallclock_time": 2, "max_memory": 0})
         .to_string()
     )
     print("```")
@@ -1035,15 +1064,26 @@ def main() -> None:
         shortest_wide["pw_greefb"] <= 20, "width≤20", "width>20"
     )
     shortest_gree = shortest_wide.reset_index()
-    shortest_gree["solved?_greefb"] = shortest_gree[f"solved{solve_time_min}_greefb"] > 0
+    shortest_gree["solved?_greefb"] = (
+        shortest_gree[f"solved{solve_time_min}_greefb"] > 0
+    )
     shortest_gree["|V|"] = pd.cut(
         shortest_gree["vertices"],
         [-1, 100, 200, 500, np.inf],
         labels=["≤100", "101–200", "201–500", ">500"],
     )
-    shortest_gree = shortest_gree.groupby(["|V|", "width20"], observed=False)["solved?_greefb"].agg(["sum", len])
+    shortest_gree = shortest_gree.groupby(["|V|", "width20"], observed=False)[
+        "solved?_greefb"
+    ].agg(["sum", len])
 
-    shortest_gree = shortest_gree.unstack()[[("sum", "width≤20"), ("len", "width≤20"), ("sum", "width>20"), ("len", "width>20")]]
+    shortest_gree = shortest_gree.unstack()[
+        [
+            ("sum", "width≤20"),
+            ("len", "width≤20"),
+            ("sum", "width>20"),
+            ("len", "width>20"),
+        ]
+    ]
 
     print()
     print("shortest:")
@@ -1056,22 +1096,38 @@ def main() -> None:
     print("percentages:")
     print()
     print("```")
-    print((shortest_gree["sum"] / shortest_gree["len"] * 100).round(0).astype(int).to_string())
+    print(
+        (shortest_gree["sum"] / shortest_gree["len"] * 100)
+        .round(0)
+        .astype(int)
+        .to_string()
+    )
     print("```")
 
     farthest_wide["width20"] = np.where(
         farthest_wide["pw_greefb"] <= 20, "width≤20", "width>20"
     )
     farthest_gree = farthest_wide.reset_index()
-    farthest_gree["solved?_greefb"] = farthest_gree[f"solved{solve_time_min}_greefb"] > 0
+    farthest_gree["solved?_greefb"] = (
+        farthest_gree[f"solved{solve_time_min}_greefb"] > 0
+    )
     farthest_gree["|V|"] = pd.cut(
         farthest_gree["vertices"],
         [-1, 100, 200, 500, np.inf],
         labels=["≤100", "101–200", "201–500", ">500"],
     )
-    farthest_gree = farthest_gree.groupby(["|V|", "width20"], observed=False)["solved?_greefb"].agg(["sum", len])
+    farthest_gree = farthest_gree.groupby(["|V|", "width20"], observed=False)[
+        "solved?_greefb"
+    ].agg(["sum", len])
 
-    farthest_gree = farthest_gree.unstack()[[("sum", "width≤20"), ("len", "width≤20"), ("sum", "width>20"), ("len", "width>20")]]
+    farthest_gree = farthest_gree.unstack()[
+        [
+            ("sum", "width≤20"),
+            ("len", "width≤20"),
+            ("sum", "width>20"),
+            ("len", "width>20"),
+        ]
+    ]
 
     print()
     print("farthest is similar to shortest:")

@@ -75,10 +75,10 @@ on opt-available graphs:
 
 |        |   wallclock_time_gree_preprocess |   wallclock_time_opt_preprocess |
 |:-------|---------------------------------:|--------------------------------:|
-| median |                             1.86 |                           2.415 |
-| max    |                            12.67 |                        1541.13  |
+| median |                              1.9 |                             2.4 |
+| max    |                             12.7 |                          1541.1 |
 
-84.1% finish within 10 sec
+84% finish within 10 sec
 
 opt not computed: 293 graphs, 414 instances
 
@@ -88,16 +88,16 @@ opt-available:
 
 |           |   0.5 |   0.25 |   0.75 |
 |:----------|------:|-------:|-------:|
-| pw_orig   |    32 |     11 |  233.8 |
-| pw_greefb |    11 |      9 |   17   |
-| pw_opt    |    10 |      6 |   17   |
+| pw_orig   |    32 |     11 |    234 |
+| pw_greefb |    11 |      9 |     17 |
+| pw_opt    |    10 |      6 |     17 |
 
 opt-missing:
 
 |           | 0.5   | 0.25   | 0.75   |
 |:----------|:------|:-------|:-------|
 | pw_orig   | 198.0 | 118.0  | 292.0  |
-| pw_greefb | 108.0 | 63.8   | 156.5  |
+| pw_greefb | 108.0 | 64.0   | 156.0  |
 | pw_opt    | <NA>  | <NA>   | <NA>   |
 
 - on opt-available graphs, gree width ≤ 20: 191 graphs
@@ -219,34 +219,34 @@ the range of the size of solution-space ZDD under orig is wide:
                          width              |Zsol|                 peak |Zi|            average |Zi|          
                 geometric_mean  max geometric_mean        max geometric_mean      max geometric_mean       max
 variant  type                                                                                                 
-shortest orig             34.5  611         3011.3  142539591         1078.6  1647244          599.1  612349.0
-         greefb           12.5  485         1190.8     793894          798.6   391494          457.4  110594.0
-         opt              11.7  485          971.0     395153          749.1   278233          433.1   74750.0
-farthest orig             34.3  611         2804.8  142539591         1142.0  1658221          570.6  521892.0
-         greefb           12.4  485         1156.6     793894          857.2   398418          437.6  146359.0
-         opt              11.6  485          947.7     395153          794.7   236594          408.5   73874.0
+shortest orig             34.5  611         3011.0  142539591         1079.0  1647244          599.0  612349.0
+         greefb           12.5  485         1191.0     793894          799.0   391494          457.0  110594.0
+         opt              11.7  485          971.0     395153          749.0   278233          433.0   74750.0
+farthest orig             34.3  611         2805.0  142539591         1142.0  1658221          571.0  521892.0
+         greefb           12.4  485         1157.0     793894          857.0   398418          438.0  146359.0
+         opt              11.6  485          948.0     395153          795.0   236594          409.0   73874.0
 ```
 **table 7**:
 
 ```
-                      zdd_time           wallclock_time              max_memory            
-                geometric_mean       max geometric_mean      max geometric_mean         max
-variant  type                                                                              
-shortest orig            0.183  1497.244          3.043  1711.67        281.948  137248.004
-         greefb          0.078  1482.447          1.444  1715.01        170.374  134664.621
-         opt             0.072  1459.247          1.283  1706.79        157.658  134662.566
-farthest orig            0.159  1475.896          2.937  1629.46        300.098  137247.398
-         greefb          0.074  1231.452          1.661  1687.62        183.604  134664.777
-         opt             0.069  1229.303          1.457  1683.67        165.270  134663.160
+                      zdd_time         wallclock_time             max_memory          
+                geometric_mean     max geometric_mean     max geometric_mean       max
+variant  type                                                                         
+shortest orig            0.183  1497.2           3.04  1711.7          282.0  137248.0
+         greefb          0.078  1482.4           1.44  1715.0          170.0  134665.0
+         opt             0.072  1459.2           1.28  1706.8          158.0  134663.0
+farthest orig            0.159  1475.9           2.94  1629.5          300.0  137247.0
+         greefb          0.074  1231.5           1.66  1687.6          184.0  134665.0
+         opt             0.069  1229.3           1.46  1683.7          165.0  134663.0
 ```
 
 Spearman correlation between (width, size):
 
-|    |   Spearman correlation |     p-value |
-|---:|-----------------------:|------------:|
-|  0 |               0.475391 | 3.07433e-13 |
-|  1 |               0.719298 | 9.49679e-35 |
-|  2 |               0.699345 | 3.66449e-32 |
+|        |   Spearman correlation |     p-value |
+|:-------|-----------------------:|------------:|
+| orig   |                   0.48 | 3.07433e-13 |
+| greefb |                   0.72 | 9.49679e-35 |
+| opt    |                   0.7  | 3.66449e-32 |
 
 opt ZDD size > orig:
 
@@ -268,36 +268,36 @@ Spearman correlation between shrink (Zsol, peak Zi):
 
 |    |   Spearman correlation |     p-value |
 |---:|-----------------------:|------------:|
-|  0 |               0.640642 | 1.17261e-25 |
+|  0 |                   0.64 | 1.17261e-25 |
 
 |                |   ('Zsol', '') |   ('peak Zi', '') |
 |:---------------|---------------:|------------------:|
-| geometric_mean |        3.10113 |           1.43988 |
+| geometric_mean |            3.1 |               1.4 |
 
 second-phase factor ≤ first-phase factor on 80% of the instances
 
 on shrink factor of Zsol ≥ 10, median of shrink factor of max |Zi| is 5.0
 
 Spearman correlation between shrink (peak, average)
-shortest: 0.964
-farthest: 0.948
+shortest: 0.97
+farthest: 0.95
 
 ### Pronounced examples.
 
 **table 8**:
 
 ```
-                                              width       Zsol     zdd_time    peak Zi  average Zi  wallclock_time     max_memory
-dat_file               vertices edges type                                                                                       
-mug88_1_02             88       146   orig       31     893642    14.826937  1412408.0    612349.0     1088.910034   33236.367188
-                                      greefb     11       4932     0.016256    36998.0     19022.0           21.77       287.8125
-                                      opt         5        455     0.009965     5021.0      3317.0            0.38      36.238281
-LGC_exp_instance007_01 343      399   orig       86   11862645    97.035866   274572.0     80709.0      951.710022   33054.800781
-                                      greefb     13     172186      3.84457    82003.0     47825.0      568.900024    8534.363281
-                                      opt      <NA>       <NA>         <NA>        NaN         NaN            <NA>           <NA>
-anna_02                138      493   orig       61  240778360  2839.226318  1419984.0    539484.0     3119.659912  147854.199219
-                                      greefb     21      11785     2.398439     2427.0      1683.0            2.64     269.289062
-                                      opt      <NA>       <NA>         <NA>        NaN         NaN            <NA>           <NA>
+                                              width         Zsol  zdd_time    peak Zi  average Zi  wallclock_time  max_memory
+dat_file               vertices edges type                                                                                   
+mug88_1_02             88       146   orig     31.0     893642.0    14.827  1412408.0    612349.0         1088.91     33236.0
+                                      greefb   11.0       4932.0     0.016    36998.0     19022.0           21.77       288.0
+                                      opt       5.0        455.0     0.010     5021.0      3317.0            0.38        36.0
+LGC_exp_instance007_01 343      399   orig     86.0   11862645.0    97.036   274572.0     80709.0          951.71     33055.0
+                                      greefb   13.0     172186.0     3.845    82003.0     47825.0          568.90      8534.0
+                                      opt       NaN          NaN       NaN        NaN         NaN             NaN         NaN
+anna_02                138      493   orig     61.0  240778360.0  2839.226  1419984.0    539484.0         3119.66    147854.0
+                                      greefb   21.0      11785.0     2.398     2427.0      1683.0            2.64       269.0
+                                      opt       NaN          NaN       NaN        NaN         NaN             NaN         NaN
 ```
 
 ## 5.3 Reconfiguration Length
