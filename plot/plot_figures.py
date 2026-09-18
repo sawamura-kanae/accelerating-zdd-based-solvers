@@ -406,21 +406,21 @@ def cactus_all693(outname="cactus_all693.pdf"):
 
     for v, q, typ, type_name in [
         (
-            "total_wallclock_time_orig",
+            "wallclock_time_orig",
             "`solved?_orig` == 1 and \
                     total_wallclock_time_orig <= 30 * 60",
             "orig",
             "orig",
         ),
         (
-            "total_wallclock_time_heurref",
+            "wallclock_time_heurref",
             "`solved?_heurref` == 1 and \
                     total_wallclock_time_heurref <= 30 * 60",
             "heur",
             "gree",
         ),
         (
-            "total_wallclock_time_opt",
+            "wallclock_time_opt",
             "`solved?_opt` == 1 and \
                     total_wallclock_time_opt <= 30 * 60",
             "opt",
