@@ -24,11 +24,14 @@ alpha = 0.8
 pw_cmap = clrs.ListedColormap(
     mpl.colormaps["viridis_r"](np.linspace(0.06, 1, int(256 * 0.94)))
 )
+
+# Okabe-Ito Palette with gray
 styles = {
-    "orig": {"color": "gray", "marker": "o", "linestyle": (0, (4, 1, 1, 1, 1, 1))},
-    "heur": {"color": "MediumSeaGreen", "marker": "s", "linestyle": "solid"},
-    "opt": {"color": "DarkOrange", "marker": "^", "linestyle": "dashdot"},
+    "orig": {"color": "#666666", "marker": "o", "linestyle": (0, (4, 1, 1, 1, 1, 1))},
+    "heur": {"color": "#009E73", "marker": "s", "linestyle": "solid"},
+    "opt": {"color": "#E69F00", "marker": "^", "linestyle": "dashdot"},
 }
+
 grid_kws = {
     "color": "0.8",
     "alpha": 0.6,
