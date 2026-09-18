@@ -1,6 +1,6 @@
 (greefb means gree with fallback)
 
-## 4.1 Experiemtal Setup
+## 4.1 Experimental Setup
 
 ### Benchmarks.
 
@@ -226,6 +226,7 @@ farthest orig             34.3  611         2805.0  142539591         1142.0  16
          greefb           12.4  485         1157.0     793894          857.0   398418          438.0  146359.0
          opt              11.6  485          948.0     395153          795.0   236594          409.0   73874.0
 ```
+
 **table 7**:
 
 ```

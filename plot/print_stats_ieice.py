@@ -74,7 +74,7 @@ def main() -> None:
     ]
     tm.assert_frame_equal(shortest_wide[common], farthest_wide[common])
 
-    print("## 4.1 Experiemtal Setup")
+    print("## 4.1 Experimental Setup")
     print()
     print("### Benchmarks.")
     print()

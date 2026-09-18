@@ -16,7 +16,7 @@ Versions used that are not managed:
 - C++17
 
 Other versions may be fine. Other programs are managed by version managers.
-Please refer to `README.md` in each direcotry.
+Please refer to `README.md` in each directory.
 
 ## Paper and code differences
 
