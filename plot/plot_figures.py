@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 import matplotlib as mpl
 import matplotlib.colors as clrs
+import itertools
 
 mpl.rcParams["pdf.fonttype"] = 42
 mpl.rcParams["ps.fonttype"] = 42
@@ -465,6 +466,71 @@ def cactus_all693(outname="cactus_all693.pdf"):
     savefig(fig, path.join(OUTPUT, outname))
 
 
+def pw_three_box(outname="pw_three_box.pdf"):
+    shortest = pd.read_csv(util.SHORTEST_WIDE, dtype=util.DTYPE)
+    shortest = shortest.drop_duplicates("graph_name")
+    shortest = util.add_ref(shortest)
+    shortest = shortest.drop(columns="pw_heur")
+
+    fig, ax = plt.subplots(
+        figsize=aspect_ratio(1.3, height / 1.5), layout="constrained"
+    )
+
+    opt_available = shortest.drop_duplicates("graph_name").query(
+        "`solved?_opt_preprocess` == 1 and wallclock_time_opt_preprocess <= 60 * 60"
+    )
+
+    # black median & text to avoid confusion
+    bp = ax.boxplot(
+        opt_available[["pw_orig", "pw_heurref", "pw_opt"]],
+        tick_labels=["orig", "gree", "opt"],
+        whis=(0, 100),  # no fliers
+        patch_artist=True,
+        medianprops={"linewidth": 1.2, "color": "black", "zorder": 100},
+        boxprops={"facecolor": (0, 0, 0, 0)},
+        widths=0.4,
+    )
+
+    # https://matplotlib.org/stable/gallery/statistics/boxplot_color.html
+    for box, (cap1, cap2), (whisker1, whisker2), median, typ in zip(
+        bp["boxes"],
+        itertools.batched(bp["caps"], 2),
+        itertools.batched(bp["whiskers"], 2),
+        bp["medians"],
+        ["orig", "heur", "opt"],
+    ):
+        clr = (styles[typ]["color"], alpha)
+
+        box.set_facecolor((styles[typ]["color"], 0.3))
+
+        box.set_edgecolor(clr)
+        cap1.set_color(clr)
+        cap2.set_color(clr)
+        whisker1.set_color(clr)
+        whisker2.set_color(clr)
+
+        x, y = median.get_data(orig=True)
+        x, y = max(x), y[0]
+        ax.annotate(
+            f"{y:.0f}",
+            xy=(x, y),
+            xycoords="data",
+            xytext=(0.4, -0.1),  # nudge down a bit?
+            textcoords="offset fontsize",
+            va="center",
+            ha="left",
+            color="black",
+        )
+
+    ax.set_yscale("log")
+    ax.tick_params("x", labelsize=plt.rcParams["axes.labelsize"])
+
+    ax.set_ylabel("decomposition width")
+    ax.grid(which="major", axis="y", **grid_kws)
+
+    savefig(fig, path.join(OUTPUT, outname))
+
+
 def main() -> None:
     graph_scale_overview()
     pw_three_orders()
@@ -472,6 +538,7 @@ def main() -> None:
     reconf_length_time()
     fig_secondphase_scatter()
     cactus_all693()
+    pw_three_box()
 
 
 if __name__ == "__main__":
