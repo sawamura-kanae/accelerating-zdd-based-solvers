@@ -52,7 +52,7 @@ def long_to_wide_with_pw(
     data = data.reset_index()
 
     # rows from master-db
-    data = master[indices].merge(data, how="left", on=indices)
+    data = master[indices + ["dat_file_s_id"]].merge(data, how="left", on=indices)
 
     # only solved instances fill these columns
     common_columns = [
@@ -134,6 +134,7 @@ def long_to_wide_with_pw(
             "vertices",
             "edges",
             "dat_file",
+            "dat_file_s_id",
             "tokens",
             "independent_sets",
             "reconfiguration_sequence_length",

@@ -7,13 +7,19 @@ reproduce numbers from the paper text.
 decomposition gree is called heur in the CSV files. The columns in the CSV are
 described below.
 
-Columns from ddreconf log files:
+Columns that describe instances:
 
 - `graph_name`: `<graph_name>.col`
 - `vertices`: number of nodes
 - `edges`: number of edges
 - `dat_file`: `<dat_file>.dat`
+- `dat_file_s_id`: unique ids for each `s`
+  - This is the `dat_file` equivalent for the farthest variant where ddreconf
+    ignores `t` in dat files.
 - `tokens`: number of tokens
+
+Columns from ddreconf log files:
+
 - `independent_sets`: number of elements in the solution space
 - `reconfiguration_sequence_length`: reconfiguration sequence length (for
   shortest variant, NO is -1, which is $\infty$ in the paper)

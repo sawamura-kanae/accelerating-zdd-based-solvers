@@ -6,8 +6,9 @@ This directory contains a script to generate `master-db.csv` which lists all
 
 To run:
 
-- Edit `input-index` at the top of the file.
+- Edit `input-index` at the top of `run.rkt`.
 
 ```bash
 racket run.rkt
+racket classify_dat.rkt
 ```
