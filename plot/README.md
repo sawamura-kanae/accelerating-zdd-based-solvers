@@ -76,7 +76,8 @@ The above command writes pdf files to `./figs/`.
 To print stats in the paper text:
 
 ```bash
+uv run print_stats_ictai.py
 uv run print_stats_ieice.py
 ```
 
-The above command writes to `print_stats_ieice.py.md`.
+The above command writes to `<filename>.md`.
