@@ -48,6 +48,8 @@ queen200x200:
 - the number of instances is 14 + 4 (queen200x200)
   - out of these graphs, opt is available for 3 graphs, 6 instances
 
+(Figure 2 is pw_three_box)
+
 quartiles of widths on opt-available:
 
 |                |   pw_orig |   pw_greefb |   pw_opt |

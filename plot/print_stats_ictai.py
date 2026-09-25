@@ -199,6 +199,9 @@ def main() -> None:
     )
 
     print()
+    print("(Figure 2 is pw_three_box)")
+
+    print()
     print("quartiles of widths on opt-available:")
     print()
     opt_available_shortest_graphs = opt_available_shortest.drop_duplicates("graph_name")
